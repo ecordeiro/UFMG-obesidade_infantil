@@ -1,0 +1,1825 @@
+"tabela","categoria","idade_cat","sexo","region_cadunico","med_altura","med_peso","med_imc","n_dist"
+"geral","qt_criancas","0 - 5m","Feminino","Rural",-0.5,-0.12,0.24,25908
+"geral","qt_criancas","0 - 5m","Feminino","Urbana",-0.6,-0.24,0.13,85696
+"geral","qt_criancas","0 - 5m","Masculino","Rural",-0.67,-0.18,0.28,26580
+"geral","qt_criancas","0 - 5m","Masculino","Urbana",-0.74,-0.3,0.16,87958
+"geral","qt_criancas","06 - 11m","Feminino","Rural",-0.35,0.29,0.69,97069
+"geral","qt_criancas","06 - 11m","Feminino","Urbana",-0.3,0.25,0.59,238963
+"geral","qt_criancas","06 - 11m","Masculino","Rural",-0.56,0.21,0.72,96916
+"geral","qt_criancas","06 - 11m","Masculino","Urbana",-0.48,0.18,0.62,234290
+"geral","qt_criancas","12 - 17m","Feminino","Rural",-0.49,0.29,0.81,158254
+"geral","qt_criancas","12 - 17m","Feminino","Urbana",-0.41,0.3,0.76,378464
+"geral","qt_criancas","12 - 17m","Masculino","Rural",-0.7,0.16,0.79,158294
+"geral","qt_criancas","12 - 17m","Masculino","Urbana",-0.6,0.21,0.77,366791
+"geral","qt_criancas","18 - 23m","Feminino","Rural",-0.49,0.19,0.69,209274
+"geral","qt_criancas","18 - 23m","Feminino","Urbana",-0.41,0.25,0.71,492718
+"geral","qt_criancas","18 - 23m","Masculino","Rural",-0.65,0.08,0.69,208468
+"geral","qt_criancas","18 - 23m","Masculino","Urbana",-0.56,0.16,0.72,477958
+"geral","qt_criancas","2a","Feminino","Rural",-0.32,0.04,0.33,394116
+"geral","qt_criancas","2a","Feminino","Urbana",-0.24,0.15,0.41,942369
+"geral","qt_criancas","2a","Masculino","Rural",-0.43,-0.01,0.37,394744
+"geral","qt_criancas","2a","Masculino","Urbana",-0.33,0.11,0.45,917752
+"geral","qt_criancas","3a","Feminino","Rural",-0.3,-0.08,0.16,456221
+"geral","qt_criancas","3a","Feminino","Urbana",-0.2,0.06,0.28,1066794
+"geral","qt_criancas","3a","Masculino","Rural",-0.31,-0.02,0.28,456616
+"geral","qt_criancas","3a","Masculino","Urbana",-0.2,0.12,0.37,1041224
+"geral","qt_criancas","4a","Feminino","Rural",-0.28,-0.16,0.03,466458
+"geral","qt_criancas","4a","Feminino","Urbana",-0.16,0.01,0.18,1088635
+"geral","qt_criancas","4a","Masculino","Rural",-0.26,-0.03,0.21,461069
+"geral","qt_criancas","4a","Masculino","Urbana",-0.12,0.13,0.33,1043965
+"geral","qt_criancas","5a","Feminino","Rural",-0.22,-0.14,-0.02,439307
+"geral","qt_criancas","5a","Feminino","Urbana",-0.08,0.06,0.15,1017024
+"geral","qt_criancas","5a","Masculino","Rural",-0.26,-0.05,0.14,432286
+"geral","qt_criancas","5a","Masculino","Urbana",-0.1,0.15,0.29,961543
+"geral","qt_criancas","6a","Feminino","Rural",-0.16,-0.07,0,375980
+"geral","qt_criancas","6a","Feminino","Urbana",-0.01,0.14,0.16,847029
+"geral","qt_criancas","6a","Masculino","Rural",-0.24,-0.07,0.09,365591
+"geral","qt_criancas","6a","Masculino","Urbana",-0.07,0.15,0.25,783921
+"geral","qt_criancas","7a","Feminino","Rural",-0.07,0.04,0.06,186330
+"geral","qt_criancas","7a","Feminino","Urbana",0.08,0.24,0.22,417014
+"geral","qt_criancas","7a","Masculino","Rural",-0.16,-0.02,0.09,125326
+"geral","qt_criancas","7a","Masculino","Urbana",0.01,0.21,0.26,266682
+"geral","qt_criancas","8a","Feminino","Rural",-0.08,0.07,0.12,139725
+"geral","qt_criancas","8a","Feminino","Urbana",0.08,0.27,0.27,283294
+"geral","qt_criancas","8a","Masculino","Rural",-0.1,0.08,0.16,33605
+"geral","qt_criancas","8a","Masculino","Urbana",0.07,0.32,0.34,78109
+"geral","qt_criancas","9a","Feminino","Rural",-0.17,0.02,0.12,135817
+"geral","qt_criancas","9a","Feminino","Urbana",0.01,0.23,0.27,255957
+"geral","qt_criancas","9a","Masculino","Rural",-0.13,0.1,0.21,28422
+"geral","qt_criancas","9a","Masculino","Urbana",0.06,0.35,0.4,62753
+"regiao","centro_oeste","0 - 5m","Feminino","Rural",-0.49,-0.14,0.22,465
+"regiao","centro_oeste","0 - 5m","Feminino","Urbana",-0.49,-0.2,0.11,6045
+"regiao","nordeste","0 - 5m","Feminino","Rural",-0.32,0.09,0.4,12107
+"regiao","nordeste","0 - 5m","Feminino","Urbana",-0.31,0.11,0.41,19105
+"regiao","norte","0 - 5m","Feminino","Rural",-0.45,0,0.37,1439
+"regiao","norte","0 - 5m","Feminino","Urbana",-0.32,0.1,0.4,3930
+"regiao","sudeste","0 - 5m","Feminino","Rural",-0.63,-0.3,0.08,7309
+"regiao","sudeste","0 - 5m","Feminino","Urbana",-0.69,-0.37,0.02,33085
+"regiao","sul","0 - 5m","Feminino","Rural",-0.8,-0.41,0.06,4588
+"regiao","sul","0 - 5m","Feminino","Urbana",-0.79,-0.42,0.02,23531
+"regiao","centro_oeste","0 - 5m","Masculino","Rural",-0.57,-0.08,0.35,496
+"regiao","centro_oeste","0 - 5m","Masculino","Urbana",-0.66,-0.23,0.2,6207
+"regiao","nordeste","0 - 5m","Masculino","Rural",-0.56,0.01,0.46,12384
+"regiao","nordeste","0 - 5m","Masculino","Urbana",-0.49,0.04,0.45,19082
+"regiao","norte","0 - 5m","Masculino","Rural",-0.63,0.02,0.53,1459
+"regiao","norte","0 - 5m","Masculino","Urbana",-0.46,0.06,0.46,4111
+"regiao","sudeste","0 - 5m","Masculino","Rural",-0.78,-0.36,0.1,7511
+"regiao","sudeste","0 - 5m","Masculino","Urbana",-0.82,-0.42,0.05,34136
+"regiao","sul","0 - 5m","Masculino","Rural",-0.83,-0.45,0.02,4730
+"regiao","sul","0 - 5m","Masculino","Urbana",-0.9,-0.47,0.03,24422
+"regiao","centro_oeste","06 - 11m","Feminino","Rural",-0.32,0.1,0.41,2059
+"regiao","centro_oeste","06 - 11m","Feminino","Urbana",-0.31,0.14,0.45,15860
+"regiao","nordeste","06 - 11m","Feminino","Rural",-0.35,0.36,0.78,60246
+"regiao","nordeste","06 - 11m","Feminino","Urbana",-0.28,0.39,0.77,86215
+"regiao","norte","06 - 11m","Feminino","Rural",-0.61,0.21,0.79,9682
+"regiao","norte","06 - 11m","Feminino","Urbana",-0.41,0.29,0.74,20704
+"regiao","sudeste","06 - 11m","Feminino","Rural",-0.23,0.18,0.44,16092
+"regiao","sudeste","06 - 11m","Feminino","Urbana",-0.29,0.14,0.44,73779
+"regiao","sul","06 - 11m","Feminino","Rural",-0.31,0.17,0.48,8990
+"regiao","sul","06 - 11m","Feminino","Urbana",-0.29,0.17,0.48,42405
+"regiao","centro_oeste","06 - 11m","Masculino","Rural",-0.61,0.02,0.52,2042
+"regiao","centro_oeste","06 - 11m","Masculino","Urbana",-0.48,0.06,0.47,15330
+"regiao","nordeste","06 - 11m","Masculino","Rural",-0.58,0.26,0.81,59827
+"regiao","nordeste","06 - 11m","Masculino","Urbana",-0.48,0.31,0.79,82514
+"regiao","norte","06 - 11m","Masculino","Rural",-0.87,0.11,0.83,9674
+"regiao","norte","06 - 11m","Masculino","Urbana",-0.64,0.2,0.78,20135
+"regiao","sudeste","06 - 11m","Masculino","Rural",-0.41,0.11,0.48,16315
+"regiao","sudeste","06 - 11m","Masculino","Urbana",-0.45,0.09,0.48,73053
+"regiao","sul","06 - 11m","Masculino","Rural",-0.44,0.13,0.52,9058
+"regiao","sul","06 - 11m","Masculino","Urbana",-0.45,0.13,0.53,43258
+"regiao","centro_oeste","12 - 17m","Feminino","Rural",-0.49,0.11,0.57,3635
+"regiao","centro_oeste","12 - 17m","Feminino","Urbana",-0.42,0.18,0.6,24899
+"regiao","nordeste","12 - 17m","Feminino","Rural",-0.47,0.34,0.87,99137
+"regiao","nordeste","12 - 17m","Feminino","Urbana",-0.38,0.38,0.85,143031
+"regiao","norte","12 - 17m","Feminino","Rural",-0.89,0.04,0.79,19120
+"regiao","norte","12 - 17m","Feminino","Urbana",-0.65,0.19,0.8,39038
+"regiao","sudeste","12 - 17m","Feminino","Rural",-0.3,0.27,0.63,23666
+"regiao","sudeste","12 - 17m","Feminino","Urbana",-0.38,0.26,0.68,114375
+"regiao","sul","12 - 17m","Feminino","Rural",-0.34,0.33,0.74,12696
+"regiao","sul","12 - 17m","Feminino","Urbana",-0.35,0.33,0.75,57121
+"regiao","centro_oeste","12 - 17m","Masculino","Rural",-0.73,-0.02,0.58,3632
+"regiao","centro_oeste","12 - 17m","Masculino","Urbana",-0.61,0.08,0.61,24233
+"regiao","nordeste","12 - 17m","Masculino","Rural",-0.69,0.21,0.85,98616
+"regiao","nordeste","12 - 17m","Masculino","Urbana",-0.59,0.27,0.85,136002
+"regiao","norte","12 - 17m","Masculino","Rural",-1.12,-0.1,0.78,19363
+"regiao","norte","12 - 17m","Masculino","Urbana",-0.9,0.06,0.82,37257
+"regiao","sudeste","12 - 17m","Masculino","Rural",-0.49,0.18,0.64,24010
+"regiao","sudeste","12 - 17m","Masculino","Urbana",-0.55,0.17,0.68,111991
+"regiao","sul","12 - 17m","Masculino","Rural",-0.49,0.24,0.73,12673
+"regiao","sul","12 - 17m","Masculino","Urbana",-0.51,0.27,0.78,57308
+"regiao","centro_oeste","18 - 23m","Feminino","Rural",-0.53,0.08,0.57,5080
+"regiao","centro_oeste","18 - 23m","Feminino","Urbana",-0.41,0.17,0.6,32271
+"regiao","nordeste","18 - 23m","Feminino","Rural",-0.45,0.23,0.72,130647
+"regiao","nordeste","18 - 23m","Feminino","Urbana",-0.37,0.3,0.74,189187
+"regiao","norte","18 - 23m","Feminino","Rural",-0.99,-0.15,0.66,27829
+"regiao","norte","18 - 23m","Feminino","Urbana",-0.73,0.05,0.69,54833
+"regiao","sudeste","18 - 23m","Feminino","Rural",-0.27,0.25,0.59,30396
+"regiao","sudeste","18 - 23m","Feminino","Urbana",-0.37,0.25,0.68,149133
+"regiao","sul","18 - 23m","Feminino","Rural",-0.32,0.33,0.74,15322
+"regiao","sul","18 - 23m","Feminino","Urbana",-0.33,0.35,0.77,67294
+"regiao","centro_oeste","18 - 23m","Masculino","Rural",-0.67,-0.03,0.56,5046
+"regiao","centro_oeste","18 - 23m","Masculino","Urbana",-0.56,0.08,0.61,31723
+"regiao","nordeste","18 - 23m","Masculino","Rural",-0.62,0.12,0.71,129533
+"regiao","nordeste","18 - 23m","Masculino","Urbana",-0.54,0.19,0.74,181247
+"regiao","norte","18 - 23m","Masculino","Rural",-1.18,-0.26,0.66,28218
+"regiao","norte","18 - 23m","Masculino","Urbana",-0.9,-0.06,0.71,52768
+"regiao","sudeste","18 - 23m","Masculino","Rural",-0.42,0.16,0.6,30530
+"regiao","sudeste","18 - 23m","Masculino","Urbana",-0.51,0.17,0.69,144842
+"regiao","sul","18 - 23m","Masculino","Rural",-0.46,0.26,0.76,15141
+"regiao","sul","18 - 23m","Masculino","Urbana",-0.45,0.29,0.8,67378
+"regiao","centro_oeste","2a","Feminino","Rural",-0.31,0.02,0.3,10251
+"regiao","centro_oeste","2a","Feminino","Urbana",-0.2,0.12,0.33,63883
+"regiao","nordeste","2a","Feminino","Rural",-0.27,0.07,0.33,243967
+"regiao","nordeste","2a","Feminino","Urbana",-0.2,0.16,0.39,364698
+"regiao","norte","2a","Feminino","Rural",-0.87,-0.36,0.26,58439
+"regiao","norte","2a","Feminino","Urbana",-0.6,-0.15,0.31,112398
+"regiao","sudeste","2a","Feminino","Rural",-0.07,0.17,0.29,55115
+"regiao","sudeste","2a","Feminino","Urbana",-0.18,0.2,0.44,287180
+"regiao","sul","2a","Feminino","Rural",-0.13,0.28,0.5,26344
+"regiao","sul","2a","Feminino","Urbana",-0.15,0.3,0.55,114210
+"regiao","centro_oeste","2a","Masculino","Rural",-0.41,0.01,0.37,10142
+"regiao","centro_oeste","2a","Masculino","Urbana",-0.29,0.08,0.36,63126
+"regiao","nordeste","2a","Masculino","Rural",-0.38,0.03,0.37,243357
+"regiao","nordeste","2a","Masculino","Urbana",-0.3,0.12,0.43,352338
+"regiao","norte","2a","Masculino","Rural",-0.99,-0.4,0.32,59179
+"regiao","norte","2a","Masculino","Urbana",-0.71,-0.18,0.36,109810
+"regiao","sudeste","2a","Masculino","Rural",-0.16,0.14,0.33,55455
+"regiao","sudeste","2a","Masculino","Urbana",-0.27,0.16,0.46,278508
+"regiao","sul","2a","Masculino","Rural",-0.2,0.26,0.54,26611
+"regiao","sul","2a","Masculino","Urbana",-0.21,0.28,0.58,113970
+"regiao","centro_oeste","3a","Feminino","Rural",-0.25,-0.01,0.22,12313
+"regiao","centro_oeste","3a","Feminino","Urbana",-0.12,0.07,0.21,73118
+"regiao","nordeste","3a","Feminino","Rural",-0.24,-0.05,0.15,281270
+"regiao","nordeste","3a","Feminino","Urbana",-0.17,0.05,0.23,418594
+"regiao","norte","3a","Feminino","Rural",-0.86,-0.5,0.07,70593
+"regiao","norte","3a","Feminino","Urbana",-0.6,-0.29,0.12,133895
+"regiao","sudeste","3a","Feminino","Rural",-0.02,0.11,0.19,63197
+"regiao","sudeste","3a","Feminino","Urbana",-0.11,0.16,0.34,327711
+"regiao","sul","3a","Feminino","Rural",-0.12,0.22,0.44,28848
+"regiao","sul","3a","Feminino","Urbana",-0.12,0.24,0.47,113476
+"regiao","centro_oeste","3a","Masculino","Rural",-0.24,0.09,0.36,12237
+"regiao","centro_oeste","3a","Masculino","Urbana",-0.12,0.13,0.31,72458
+"regiao","nordeste","3a","Masculino","Rural",-0.25,0.01,0.25,280620
+"regiao","nordeste","3a","Masculino","Urbana",-0.17,0.11,0.33,406647
+"regiao","norte","3a","Masculino","Rural",-0.9,-0.43,0.24,71445
+"regiao","norte","3a","Masculino","Urbana",-0.61,-0.22,0.26,130987
+"regiao","sudeste","3a","Masculino","Rural",-0.04,0.17,0.29,63554
+"regiao","sudeste","3a","Masculino","Urbana",-0.11,0.21,0.42,319125
+"regiao","sul","3a","Masculino","Rural",-0.11,0.3,0.54,28760
+"regiao","sul","3a","Masculino","Urbana",-0.1,0.32,0.56,112007
+"regiao","centro_oeste","4a","Feminino","Rural",-0.2,-0.04,0.13,12504
+"regiao","centro_oeste","4a","Feminino","Urbana",-0.06,0.04,0.12,73552
+"regiao","nordeste","4a","Feminino","Rural",-0.23,-0.14,0,287056
+"regiao","nordeste","4a","Feminino","Urbana",-0.15,-0.02,0.12,431317
+"regiao","norte","4a","Feminino","Rural",-0.82,-0.58,-0.1,72166
+"regiao","norte","4a","Feminino","Urbana",-0.58,-0.37,-0.01,139110
+"regiao","sudeste","4a","Feminino","Rural",-0.02,0.04,0.09,64739
+"regiao","sudeste","4a","Feminino","Urbana",-0.06,0.14,0.26,333043
+"regiao","sul","4a","Feminino","Rural",-0.1,0.19,0.38,29993
+"regiao","sul","4a","Feminino","Urbana",-0.09,0.21,0.41,111613
+"regiao","centro_oeste","4a","Masculino","Rural",-0.15,0.1,0.31,12231
+"regiao","centro_oeste","4a","Masculino","Urbana",-0.03,0.15,0.27,71897
+"regiao","nordeste","4a","Masculino","Rural",-0.2,-0.02,0.17,282220
+"regiao","nordeste","4a","Masculino","Urbana",-0.11,0.1,0.27,409340
+"regiao","norte","4a","Masculino","Rural",-0.81,-0.45,0.13,72007
+"regiao","norte","4a","Masculino","Urbana",-0.54,-0.24,0.18,133232
+"regiao","sudeste","4a","Masculino","Rural",0.02,0.18,0.25,64862
+"regiao","sudeste","4a","Masculino","Urbana",-0.02,0.24,0.4,320595
+"regiao","sul","4a","Masculino","Rural",-0.06,0.32,0.56,29749
+"regiao","sul","4a","Masculino","Urbana",-0.03,0.34,0.55,108901
+"regiao","centro_oeste","5a","Feminino","Rural",-0.1,0.01,0.09,11579
+"regiao","centro_oeste","5a","Feminino","Urbana",0.03,0.08,0.08,68519
+"regiao","nordeste","5a","Feminino","Rural",-0.18,-0.13,-0.04,270884
+"regiao","nordeste","5a","Feminino","Urbana",-0.08,0.02,0.09,405125
+"regiao","norte","5a","Feminino","Rural",-0.73,-0.56,-0.16,67137
+"regiao","norte","5a","Feminino","Urbana",-0.49,-0.33,-0.05,130395
+"regiao","sudeste","5a","Feminino","Rural",0.02,0.07,0.07,60526
+"regiao","sudeste","5a","Feminino","Urbana",0.03,0.2,0.25,308849
+"regiao","sul","5a","Feminino","Rural",-0.03,0.21,0.32,29181
+"regiao","sul","5a","Feminino","Urbana",0.01,0.27,0.37,104136
+"regiao","centro_oeste","5a","Masculino","Rural",-0.12,0.12,0.26,11444
+"regiao","centro_oeste","5a","Masculino","Urbana",0.01,0.18,0.22,66641
+"regiao","nordeste","5a","Masculino","Rural",-0.21,-0.04,0.11,265382
+"regiao","nordeste","5a","Masculino","Urbana",-0.1,0.12,0.24,379506
+"regiao","norte","5a","Masculino","Rural",-0.8,-0.47,0.04,66775
+"regiao","norte","5a","Masculino","Urbana",-0.53,-0.24,0.11,122199
+"regiao","sudeste","5a","Masculino","Rural",0.02,0.18,0.22,59621
+"regiao","sudeste","5a","Masculino","Urbana",0.02,0.28,0.37,292930
+"regiao","sul","5a","Masculino","Rural",-0.04,0.32,0.5,29064
+"regiao","sul","5a","Masculino","Urbana",-0.01,0.36,0.53,100267
+"regiao","centro_oeste","6a","Feminino","Rural",-0.03,0.1,0.13,9678
+"regiao","centro_oeste","6a","Feminino","Urbana",0.11,0.17,0.11,56993
+"regiao","nordeste","6a","Feminino","Rural",-0.13,-0.07,-0.03,231883
+"regiao","nordeste","6a","Feminino","Urbana",-0.02,0.09,0.11,338714
+"regiao","norte","6a","Feminino","Rural",-0.65,-0.47,-0.14,56364
+"regiao","norte","6a","Feminino","Urbana",-0.4,-0.24,-0.03,109264
+"regiao","sudeste","6a","Feminino","Rural",0.07,0.14,0.09,51939
+"regiao","sudeste","6a","Feminino","Urbana",0.12,0.28,0.26,253945
+"regiao","sul","6a","Feminino","Rural",0.03,0.24,0.29,26116
+"regiao","sul","6a","Feminino","Urbana",0.08,0.33,0.37,88113
+"regiao","centro_oeste","6a","Masculino","Rural",-0.05,0.16,0.26,9454
+"regiao","centro_oeste","6a","Masculino","Urbana",0.05,0.19,0.2,54308
+"regiao","nordeste","6a","Masculino","Rural",-0.21,-0.07,0.06,224662
+"regiao","nordeste","6a","Masculino","Urbana",-0.08,0.11,0.2,310239
+"regiao","norte","6a","Masculino","Rural",-0.75,-0.47,-0.01,54126
+"regiao","norte","6a","Masculino","Urbana",-0.49,-0.25,0.06,98687
+"regiao","sudeste","6a","Masculino","Rural",0.02,0.15,0.17,51342
+"regiao","sudeste","6a","Masculino","Urbana",0.06,0.28,0.33,236351
+"regiao","sul","6a","Masculino","Rural",-0.01,0.31,0.44,26007
+"regiao","sul","6a","Masculino","Urbana",0.02,0.36,0.48,84336
+"regiao","centro_oeste","7a","Feminino","Rural",0.05,0.21,0.21,5235
+"regiao","centro_oeste","7a","Feminino","Urbana",0.21,0.3,0.21,29926
+"regiao","nordeste","7a","Feminino","Rural",-0.02,0.05,0.05,111111
+"regiao","nordeste","7a","Feminino","Urbana",0.06,0.19,0.17,161787
+"regiao","norte","7a","Feminino","Rural",-0.53,-0.35,-0.09,30005
+"regiao","norte","7a","Feminino","Urbana",-0.28,-0.12,0.02,57358
+"regiao","sudeste","7a","Feminino","Rural",0.14,0.21,0.13,26267
+"regiao","sudeste","7a","Feminino","Urbana",0.21,0.38,0.32,123032
+"regiao","sul","7a","Feminino","Rural",0.09,0.32,0.34,13712
+"regiao","sul","7a","Feminino","Urbana",0.14,0.41,0.42,44911
+"regiao","centro_oeste","7a","Masculino","Rural",0.04,0.22,0.25,3322
+"regiao","centro_oeste","7a","Masculino","Urbana",0.14,0.25,0.2,19208
+"regiao","nordeste","7a","Masculino","Rural",-0.14,-0.03,0.04,72606
+"regiao","nordeste","7a","Masculino","Urbana",-0.03,0.14,0.19,98127
+"regiao","norte","7a","Masculino","Rural",-0.65,-0.43,-0.04,17843
+"regiao","norte","7a","Masculino","Urbana",-0.37,-0.17,0.07,31828
+"regiao","sudeste","7a","Masculino","Rural",0.08,0.18,0.16,19850
+"regiao","sudeste","7a","Masculino","Urbana",0.14,0.33,0.33,82476
+"regiao","sul","7a","Masculino","Rural",0.01,0.32,0.43,11705
+"regiao","sul","7a","Masculino","Urbana",0.08,0.4,0.48,35043
+"regiao","centro_oeste","8a","Feminino","Rural",0.06,0.25,0.27,4106
+"regiao","centro_oeste","8a","Feminino","Urbana",0.22,0.36,0.28,21722
+"regiao","nordeste","8a","Feminino","Rural",-0.03,0.09,0.11,83065
+"regiao","nordeste","8a","Feminino","Urbana",0.06,0.23,0.23,106036
+"regiao","norte","8a","Feminino","Rural",-0.53,-0.33,-0.06,23237
+"regiao","norte","8a","Feminino","Urbana",-0.24,-0.07,0.06,41896
+"regiao","sudeste","8a","Feminino","Rural",0.13,0.24,0.2,19674
+"regiao","sudeste","8a","Feminino","Urbana",0.21,0.4,0.36,83446
+"regiao","sul","8a","Feminino","Rural",0.08,0.36,0.4,9643
+"regiao","sul","8a","Feminino","Urbana",0.13,0.45,0.48,30194
+"regiao","centro_oeste","8a","Masculino","Rural",0.18,0.33,0.28,897
+"regiao","centro_oeste","8a","Masculino","Urbana",0.17,0.36,0.32,5869
+"regiao","nordeste","8a","Masculino","Rural",-0.14,0,0.07,14910
+"regiao","nordeste","8a","Masculino","Urbana",-0.02,0.18,0.22,19161
+"regiao","norte","8a","Masculino","Rural",-0.56,-0.35,-0.03,3554
+"regiao","norte","8a","Masculino","Urbana",-0.26,-0.07,0.07,7385
+"regiao","sudeste","8a","Masculino","Rural",0.05,0.18,0.18,8386
+"regiao","sudeste","8a","Masculino","Urbana",0.2,0.41,0.37,28788
+"regiao","sul","8a","Masculino","Rural",0.02,0.35,0.45,5858
+"regiao","sul","8a","Masculino","Urbana",0.09,0.47,0.56,16906
+"regiao","centro_oeste","9a","Feminino","Rural",0.03,0.26,0.3,3862
+"regiao","centro_oeste","9a","Feminino","Urbana",0.15,0.32,0.29,19579
+"regiao","nordeste","9a","Feminino","Rural",-0.13,0.04,0.11,82161
+"regiao","nordeste","9a","Feminino","Urbana",-0.02,0.18,0.22,97243
+"regiao","norte","9a","Feminino","Rural",-0.58,-0.35,-0.06,22368
+"regiao","norte","9a","Feminino","Urbana",-0.29,-0.09,0.07,37780
+"regiao","sudeste","9a","Feminino","Rural",0.04,0.2,0.21,18642
+"regiao","sudeste","9a","Feminino","Urbana",0.16,0.37,0.35,74883
+"regiao","sul","9a","Feminino","Rural",0.02,0.35,0.42,8784
+"regiao","sul","9a","Feminino","Urbana",0.07,0.42,0.48,26472
+"regiao","centro_oeste","9a","Masculino","Rural",0.2,0.34,0.28,843
+"regiao","centro_oeste","9a","Masculino","Urbana",0.16,0.37,0.36,4606
+"regiao","nordeste","9a","Masculino","Rural",-0.19,0,0.11,12466
+"regiao","nordeste","9a","Masculino","Urbana",-0.05,0.21,0.29,15040
+"regiao","norte","9a","Masculino","Rural",-0.58,-0.31,0.03,3121
+"regiao","norte","9a","Masculino","Urbana",-0.3,-0.05,0.12,6095
+"regiao","sudeste","9a","Masculino","Rural",0.03,0.22,0.24,7187
+"regiao","sudeste","9a","Masculino","Urbana",0.19,0.43,0.42,23205
+"regiao","sul","9a","Masculino","Rural",0.03,0.41,0.52,4805
+"regiao","sul","9a","Masculino","Urbana",0.09,0.52,0.63,13807
+"estados","Acre","0 - 5m","Feminino","Rural",-0.32,0.01,0.28,98
+"estados","Acre","0 - 5m","Feminino","Urbana",-0.54,0.05,0.51,217
+"estados","Alagoas","0 - 5m","Feminino","Rural",-0.46,0.1,0.54,863
+"estados","Alagoas","0 - 5m","Feminino","Urbana",-0.42,0.09,0.48,1086
+"estados","Amapa","0 - 5m","Feminino","Rural",-0.72,-0.18,0.34,5
+"estados","Amapa","0 - 5m","Feminino","Urbana",0.13,0.17,0.15,49
+"estados","Amazonas","0 - 5m","Feminino","Rural",-0.45,-0.01,0.36,207
+"estados","Amazonas","0 - 5m","Feminino","Urbana",-0.19,0.22,0.47,756
+"estados","Bahia","0 - 5m","Feminino","Rural",-0.11,0.01,0.12,3366
+"estados","Bahia","0 - 5m","Feminino","Urbana",-0.1,0.07,0.2,4677
+"estados","Ceara","0 - 5m","Feminino","Rural",-0.41,0.15,0.55,1405
+"estados","Ceara","0 - 5m","Feminino","Urbana",-0.32,0.21,0.55,2188
+"estados","Distrito Federal","0 - 5m","Feminino","Rural",-0.32,-0.43,-0.35,64
+"estados","Distrito Federal","0 - 5m","Feminino","Urbana",-0.37,-0.26,-0.08,378
+"estados","Espirito Santo","0 - 5m","Feminino","Rural",-0.38,-0.1,0.16,875
+"estados","Espirito Santo","0 - 5m","Feminino","Urbana",-0.41,-0.13,0.14,1994
+"estados","Goias","0 - 5m","Feminino","Rural",-0.57,-0.17,0.25,124
+"estados","Goias","0 - 5m","Feminino","Urbana",-0.36,-0.17,0.08,1148
+"estados","Maranhao","0 - 5m","Feminino","Rural",-0.34,0.2,0.57,608
+"estados","Maranhao","0 - 5m","Feminino","Urbana",-0.27,0.22,0.54,1189
+"estados","Mato Grosso","0 - 5m","Feminino","Rural",-0.19,0.08,0.31,98
+"estados","Mato Grosso","0 - 5m","Feminino","Urbana",-0.33,-0.13,0.1,734
+"estados","Mato Grosso do Sul","0 - 5m","Feminino","Rural",-0.67,-0.13,0.35,179
+"estados","Mato Grosso do Sul","0 - 5m","Feminino","Urbana",-0.57,-0.22,0.15,3785
+"estados","Minas Gerais","0 - 5m","Feminino","Rural",-0.61,-0.3,0.07,4713
+"estados","Minas Gerais","0 - 5m","Feminino","Urbana",-0.7,-0.41,-0.02,16419
+"estados","Para","0 - 5m","Feminino","Rural",-0.49,-0.04,0.35,841
+"estados","Para","0 - 5m","Feminino","Urbana",-0.31,0.06,0.34,1955
+"estados","Paraiba","0 - 5m","Feminino","Rural",-0.49,0.09,0.53,2404
+"estados","Paraiba","0 - 5m","Feminino","Urbana",-0.44,0.09,0.48,4058
+"estados","Parana","0 - 5m","Feminino","Rural",-0.75,-0.4,0.02,2308
+"estados","Parana","0 - 5m","Feminino","Urbana",-0.75,-0.41,0,12541
+"estados","Pernambuco","0 - 5m","Feminino","Rural",-0.45,0.05,0.44,1688
+"estados","Pernambuco","0 - 5m","Feminino","Urbana",-0.45,0.01,0.39,3101
+"estados","Piaui","0 - 5m","Feminino","Rural",-0.13,0.18,0.37,665
+"estados","Piaui","0 - 5m","Feminino","Urbana",-0.03,0.19,0.31,762
+"estados","Rio Grande do Norte","0 - 5m","Feminino","Rural",-0.29,0.1,0.39,728
+"estados","Rio Grande do Norte","0 - 5m","Feminino","Urbana",-0.33,0.12,0.42,1436
+"estados","Rio Grande do Sul","0 - 5m","Feminino","Rural",-0.86,-0.37,0.17,972
+"estados","Rio Grande do Sul","0 - 5m","Feminino","Urbana",-0.88,-0.43,0.08,5835
+"estados","Rio de Janeiro","0 - 5m","Feminino","Rural",-0.9,-0.41,0.13,346
+"estados","Rio de Janeiro","0 - 5m","Feminino","Urbana",-0.7,-0.28,0.16,2307
+"estados","Rondonia","0 - 5m","Feminino","Rural",-0.32,-0.06,0.18,137
+"estados","Rondonia","0 - 5m","Feminino","Urbana",-0.54,0.11,0.6,190
+"estados","Roraima","0 - 5m","Feminino","Rural",-0.56,0.1,0.57,11
+"estados","Roraima","0 - 5m","Feminino","Urbana",-0.42,0.49,1.02,49
+"estados","Santa Catarina","0 - 5m","Feminino","Rural",-0.84,-0.44,0.05,1308
+"estados","Santa Catarina","0 - 5m","Feminino","Urbana",-0.76,-0.43,-0.02,5155
+"estados","Sao Paulo","0 - 5m","Feminino","Rural",-0.76,-0.39,0.04,1375
+"estados","Sao Paulo","0 - 5m","Feminino","Urbana",-0.72,-0.38,0.03,12365
+"estados","Sergipe","0 - 5m","Feminino","Rural",-0.33,0.3,0.71,380
+"estados","Sergipe","0 - 5m","Feminino","Urbana",-0.35,0.36,0.8,608
+"estados","Tocantins","0 - 5m","Feminino","Rural",-0.43,0.27,0.75,140
+"estados","Tocantins","0 - 5m","Feminino","Urbana",-0.4,0.04,0.39,714
+"estados","Acre","0 - 5m","Masculino","Rural",-0.98,-0.27,0.39,118
+"estados","Acre","0 - 5m","Masculino","Urbana",-0.31,0.23,0.55,208
+"estados","Alagoas","0 - 5m","Masculino","Rural",-0.81,-0.08,0.54,915
+"estados","Alagoas","0 - 5m","Masculino","Urbana",-0.7,-0.09,0.44,1131
+"estados","Amapa","0 - 5m","Masculino","Rural",-1.74,-0.41,0.96,5
+"estados","Amapa","0 - 5m","Masculino","Urbana",-0.43,-0.07,0.23,49
+"estados","Amazonas","0 - 5m","Masculino","Rural",-0.63,0.08,0.62,190
+"estados","Amazonas","0 - 5m","Masculino","Urbana",-0.32,0.14,0.46,800
+"estados","Bahia","0 - 5m","Masculino","Rural",-0.36,-0.04,0.23,3324
+"estados","Bahia","0 - 5m","Masculino","Urbana",-0.26,0,0.21,4596
+"estados","Ceara","0 - 5m","Masculino","Rural",-0.66,0.05,0.59,1351
+"estados","Ceara","0 - 5m","Masculino","Urbana",-0.46,0.18,0.62,2154
+"estados","Distrito Federal","0 - 5m","Masculino","Rural",-0.54,0.04,0.48,54
+"estados","Distrito Federal","0 - 5m","Masculino","Urbana",-0.39,-0.2,0.02,464
+"estados","Espirito Santo","0 - 5m","Masculino","Rural",-0.51,-0.13,0.22,896
+"estados","Espirito Santo","0 - 5m","Masculino","Urbana",-0.55,-0.17,0.18,2042
+"estados","Goias","0 - 5m","Masculino","Rural",-0.46,-0.13,0.17,113
+"estados","Goias","0 - 5m","Masculino","Urbana",-0.52,-0.2,0.13,1145
+"estados","Maranhao","0 - 5m","Masculino","Rural",-0.52,0.1,0.57,666
+"estados","Maranhao","0 - 5m","Masculino","Urbana",-0.42,0.1,0.49,1221
+"estados","Mato Grosso","0 - 5m","Masculino","Rural",-0.55,-0.18,0.18,124
+"estados","Mato Grosso","0 - 5m","Masculino","Urbana",-0.61,-0.15,0.27,790
+"estados","Mato Grosso do Sul","0 - 5m","Masculino","Rural",-0.65,-0.02,0.52,205
+"estados","Mato Grosso do Sul","0 - 5m","Masculino","Urbana",-0.75,-0.26,0.23,3808
+"estados","Minas Gerais","0 - 5m","Masculino","Rural",-0.78,-0.39,0.08,4855
+"estados","Minas Gerais","0 - 5m","Masculino","Urbana",-0.84,-0.47,-0.01,16994
+"estados","Para","0 - 5m","Masculino","Rural",-0.67,-0.01,0.52,859
+"estados","Para","0 - 5m","Masculino","Urbana",-0.43,0.05,0.42,2005
+"estados","Paraiba","0 - 5m","Masculino","Rural",-0.64,0.05,0.59,2526
+"estados","Paraiba","0 - 5m","Masculino","Urbana",-0.6,0.03,0.52,4074
+"estados","Parana","0 - 5m","Masculino","Rural",-0.82,-0.46,0.01,2480
+"estados","Parana","0 - 5m","Masculino","Urbana",-0.86,-0.47,0,13252
+"estados","Pernambuco","0 - 5m","Masculino","Rural",-0.71,-0.09,0.45,1909
+"estados","Pernambuco","0 - 5m","Masculino","Urbana",-0.69,-0.07,0.45,3064
+"estados","Piaui","0 - 5m","Masculino","Rural",-0.42,0.15,0.54,625
+"estados","Piaui","0 - 5m","Masculino","Urbana",-0.37,0.12,0.46,775
+"estados","Rio Grande do Norte","0 - 5m","Masculino","Rural",-0.37,0.08,0.42,667
+"estados","Rio Grande do Norte","0 - 5m","Masculino","Urbana",-0.52,0.1,0.55,1455
+"estados","Rio Grande do Sul","0 - 5m","Masculino","Rural",-0.9,-0.44,0.1,914
+"estados","Rio Grande do Sul","0 - 5m","Masculino","Urbana",-0.99,-0.47,0.11,5858
+"estados","Rio de Janeiro","0 - 5m","Masculino","Rural",-1.03,-0.37,0.29,350
+"estados","Rio de Janeiro","0 - 5m","Masculino","Urbana",-0.83,-0.32,0.18,2444
+"estados","Rondonia","0 - 5m","Masculino","Rural",-0.12,0.24,0.45,110
+"estados","Rondonia","0 - 5m","Masculino","Urbana",-0.63,0.11,0.66,218
+"estados","Roraima","0 - 5m","Masculino","Rural",-0.48,0.45,0.99,8
+"estados","Roraima","0 - 5m","Masculino","Urbana",-1.13,-0.01,0.92,57
+"estados","Santa Catarina","0 - 5m","Masculino","Rural",-0.81,-0.45,0,1336
+"estados","Santa Catarina","0 - 5m","Masculino","Urbana",-0.89,-0.48,0.01,5312
+"estados","Sao Paulo","0 - 5m","Masculino","Rural",-0.86,-0.43,0.06,1410
+"estados","Sao Paulo","0 - 5m","Masculino","Urbana",-0.84,-0.41,0.08,12656
+"estados","Sergipe","0 - 5m","Masculino","Rural",-0.65,0.21,0.82,401
+"estados","Sergipe","0 - 5m","Masculino","Urbana",-0.58,0.19,0.74,612
+"estados","Tocantins","0 - 5m","Masculino","Rural",-0.54,0.13,0.62,169
+"estados","Tocantins","0 - 5m","Masculino","Urbana",-0.64,-0.04,0.46,774
+"estados","Acre","06 - 11m","Feminino","Rural",-0.74,0.18,0.85,801
+"estados","Acre","06 - 11m","Feminino","Urbana",-0.41,0.3,0.75,994
+"estados","Alagoas","06 - 11m","Feminino","Rural",-0.42,0.4,0.89,3528
+"estados","Alagoas","06 - 11m","Feminino","Urbana",-0.36,0.42,0.87,4623
+"estados","Amapa","06 - 11m","Feminino","Rural",-0.8,0.33,1.1,115
+"estados","Amapa","06 - 11m","Feminino","Urbana",-0.57,0.31,0.88,481
+"estados","Amazonas","06 - 11m","Feminino","Rural",-0.6,0.07,0.59,1750
+"estados","Amazonas","06 - 11m","Feminino","Urbana",-0.46,0.26,0.73,5515
+"estados","Bahia","06 - 11m","Feminino","Rural",-0.24,0.29,0.59,16739
+"estados","Bahia","06 - 11m","Feminino","Urbana",-0.2,0.29,0.58,22300
+"estados","Ceara","06 - 11m","Feminino","Rural",-0.37,0.45,0.93,11108
+"estados","Ceara","06 - 11m","Feminino","Urbana",-0.3,0.49,0.93,13029
+"estados","Distrito Federal","06 - 11m","Feminino","Rural",-0.37,0.01,0.32,158
+"estados","Distrito Federal","06 - 11m","Feminino","Urbana",-0.33,0,0.28,913
+"estados","Espirito Santo","06 - 11m","Feminino","Rural",0.05,0.35,0.46,1796
+"estados","Espirito Santo","06 - 11m","Feminino","Urbana",-0.07,0.36,0.56,4828
+"estados","Goias","06 - 11m","Feminino","Rural",-0.25,0.09,0.35,691
+"estados","Goias","06 - 11m","Feminino","Urbana",-0.32,0.13,0.45,6418
+"estados","Maranhao","06 - 11m","Feminino","Rural",-0.61,0.27,0.88,6353
+"estados","Maranhao","06 - 11m","Feminino","Urbana",-0.49,0.31,0.83,9922
+"estados","Mato Grosso","06 - 11m","Feminino","Rural",-0.35,0.12,0.46,643
+"estados","Mato Grosso","06 - 11m","Feminino","Urbana",-0.37,0.12,0.47,3420
+"estados","Mato Grosso do Sul","06 - 11m","Feminino","Rural",-0.34,0.11,0.44,567
+"estados","Mato Grosso do Sul","06 - 11m","Feminino","Urbana",-0.24,0.19,0.47,5109
+"estados","Minas Gerais","06 - 11m","Feminino","Rural",-0.24,0.16,0.42,10496
+"estados","Minas Gerais","06 - 11m","Feminino","Urbana",-0.29,0.1,0.38,32912
+"estados","Para","06 - 11m","Feminino","Rural",-0.64,0.25,0.87,5268
+"estados","Para","06 - 11m","Feminino","Urbana",-0.41,0.33,0.79,9014
+"estados","Paraiba","06 - 11m","Feminino","Rural",-0.33,0.43,0.86,6338
+"estados","Paraiba","06 - 11m","Feminino","Urbana",-0.24,0.44,0.8,11318
+"estados","Parana","06 - 11m","Feminino","Rural",-0.28,0.16,0.45,4923
+"estados","Parana","06 - 11m","Feminino","Urbana",-0.26,0.17,0.44,25604
+"estados","Pernambuco","06 - 11m","Feminino","Rural",-0.36,0.34,0.77,7193
+"estados","Pernambuco","06 - 11m","Feminino","Urbana",-0.28,0.4,0.78,12239
+"estados","Piaui","06 - 11m","Feminino","Rural",-0.43,0.28,0.74,3989
+"estados","Piaui","06 - 11m","Feminino","Urbana",-0.27,0.36,0.73,4841
+"estados","Rio Grande do Norte","06 - 11m","Feminino","Rural",-0.25,0.43,0.8,2659
+"estados","Rio Grande do Norte","06 - 11m","Feminino","Urbana",-0.24,0.48,0.86,4814
+"estados","Rio Grande do Sul","06 - 11m","Feminino","Rural",-0.4,0.25,0.66,2333
+"estados","Rio Grande do Sul","06 - 11m","Feminino","Urbana",-0.35,0.23,0.6,10948
+"estados","Rio de Janeiro","06 - 11m","Feminino","Rural",-0.31,0.25,0.61,1125
+"estados","Rio de Janeiro","06 - 11m","Feminino","Urbana",-0.33,0.2,0.55,8739
+"estados","Rondonia","06 - 11m","Feminino","Rural",-0.35,0.26,0.64,753
+"estados","Rondonia","06 - 11m","Feminino","Urbana",-0.39,0.22,0.63,1085
+"estados","Roraima","06 - 11m","Feminino","Rural",-0.51,0.08,0.53,139
+"estados","Roraima","06 - 11m","Feminino","Urbana",-0.44,0.28,0.73,526
+"estados","Santa Catarina","06 - 11m","Feminino","Rural",-0.29,0.08,0.35,1734
+"estados","Santa Catarina","06 - 11m","Feminino","Urbana",-0.32,0.09,0.38,5853
+"estados","Sao Paulo","06 - 11m","Feminino","Rural",-0.34,0.14,0.46,2675
+"estados","Sao Paulo","06 - 11m","Feminino","Urbana",-0.33,0.13,0.44,27300
+"estados","Sergipe","06 - 11m","Feminino","Rural",-0.37,0.5,1,2339
+"estados","Sergipe","06 - 11m","Feminino","Urbana",-0.19,0.58,0.97,3129
+"estados","Tocantins","06 - 11m","Feminino","Rural",-0.51,0.27,0.78,856
+"estados","Tocantins","06 - 11m","Feminino","Urbana",-0.34,0.25,0.63,3089
+"estados","Acre","06 - 11m","Masculino","Rural",-0.9,0.09,0.83,844
+"estados","Acre","06 - 11m","Masculino","Urbana",-0.46,0.28,0.74,1055
+"estados","Alagoas","06 - 11m","Masculino","Rural",-0.66,0.28,0.9,3503
+"estados","Alagoas","06 - 11m","Masculino","Urbana",-0.55,0.32,0.87,4329
+"estados","Amapa","06 - 11m","Masculino","Rural",-0.77,0.14,0.79,125
+"estados","Amapa","06 - 11m","Masculino","Urbana",-0.96,0.08,0.87,517
+"estados","Amazonas","06 - 11m","Masculino","Rural",-1.01,-0.07,0.7,1677
+"estados","Amazonas","06 - 11m","Masculino","Urbana",-0.64,0.18,0.75,5120
+"estados","Bahia","06 - 11m","Masculino","Rural",-0.44,0.17,0.58,16414
+"estados","Bahia","06 - 11m","Masculino","Urbana",-0.36,0.23,0.6,21224
+"estados","Ceara","06 - 11m","Masculino","Rural",-0.66,0.35,0.99,10531
+"estados","Ceara","06 - 11m","Masculino","Urbana",-0.52,0.42,0.97,12586
+"estados","Distrito Federal","06 - 11m","Masculino","Rural",-0.59,0.01,0.47,156
+"estados","Distrito Federal","06 - 11m","Masculino","Urbana",-0.42,-0.05,0.26,934
+"estados","Espirito Santo","06 - 11m","Masculino","Rural",-0.16,0.32,0.55,1909
+"estados","Espirito Santo","06 - 11m","Masculino","Urbana",-0.22,0.34,0.63,4647
+"estados","Goias","06 - 11m","Masculino","Rural",-0.6,0.09,0.6,651
+"estados","Goias","06 - 11m","Masculino","Urbana",-0.52,0.04,0.47,6158
+"estados","Maranhao","06 - 11m","Masculino","Rural",-0.9,0.12,0.87,6395
+"estados","Maranhao","06 - 11m","Masculino","Urbana",-0.75,0.19,0.85,9693
+"estados","Mato Grosso","06 - 11m","Masculino","Rural",-0.6,0.01,0.49,655
+"estados","Mato Grosso","06 - 11m","Masculino","Urbana",-0.47,0.05,0.45,3273
+"estados","Mato Grosso do Sul","06 - 11m","Masculino","Rural",-0.62,-0.02,0.47,580
+"estados","Mato Grosso do Sul","06 - 11m","Masculino","Urbana",-0.45,0.12,0.52,4965
+"estados","Minas Gerais","06 - 11m","Masculino","Rural",-0.41,0.08,0.44,10582
+"estados","Minas Gerais","06 - 11m","Masculino","Urbana",-0.44,0.06,0.43,33182
+"estados","Para","06 - 11m","Masculino","Rural",-0.9,0.15,0.91,5349
+"estados","Para","06 - 11m","Masculino","Urbana",-0.66,0.24,0.84,8828
+"estados","Paraiba","06 - 11m","Masculino","Rural",-0.47,0.4,0.9,6502
+"estados","Paraiba","06 - 11m","Masculino","Urbana",-0.45,0.36,0.84,10959
+"estados","Parana","06 - 11m","Masculino","Rural",-0.42,0.13,0.51,5116
+"estados","Parana","06 - 11m","Masculino","Urbana",-0.43,0.12,0.5,26780
+"estados","Pernambuco","06 - 11m","Masculino","Rural",-0.6,0.25,0.82,7367
+"estados","Pernambuco","06 - 11m","Masculino","Urbana",-0.48,0.32,0.82,11623
+"estados","Piaui","06 - 11m","Masculino","Rural",-0.57,0.22,0.75,4075
+"estados","Piaui","06 - 11m","Masculino","Urbana",-0.44,0.28,0.73,4478
+"estados","Rio Grande do Norte","06 - 11m","Masculino","Rural",-0.38,0.43,0.88,2601
+"estados","Rio Grande do Norte","06 - 11m","Masculino","Urbana",-0.41,0.37,0.82,4583
+"estados","Rio Grande do Sul","06 - 11m","Masculino","Rural",-0.53,0.18,0.66,2268
+"estados","Rio Grande do Sul","06 - 11m","Masculino","Urbana",-0.49,0.21,0.66,10554
+"estados","Rio de Janeiro","06 - 11m","Masculino","Rural",-0.48,0.17,0.62,1122
+"estados","Rio de Janeiro","06 - 11m","Masculino","Urbana",-0.55,0.11,0.59,8444
+"estados","Rondonia","06 - 11m","Masculino","Rural",-0.4,0.16,0.54,729
+"estados","Rondonia","06 - 11m","Masculino","Urbana",-0.52,0.21,0.7,1066
+"estados","Roraima","06 - 11m","Masculino","Rural",-0.95,0.06,0.84,141
+"estados","Roraima","06 - 11m","Masculino","Urbana",-0.75,0.09,0.72,512
+"estados","Santa Catarina","06 - 11m","Masculino","Rural",-0.37,0.06,0.38,1674
+"estados","Santa Catarina","06 - 11m","Masculino","Urbana",-0.48,0.02,0.41,5924
+"estados","Sao Paulo","06 - 11m","Masculino","Rural",-0.51,0.08,0.51,2702
+"estados","Sao Paulo","06 - 11m","Masculino","Urbana",-0.47,0.08,0.49,26780
+"estados","Sergipe","06 - 11m","Masculino","Rural",-0.59,0.45,1.07,2439
+"estados","Sergipe","06 - 11m","Masculino","Urbana",-0.46,0.41,0.93,3039
+"estados","Tocantins","06 - 11m","Masculino","Rural",-0.81,0.2,0.92,809
+"estados","Tocantins","06 - 11m","Masculino","Urbana",-0.62,0.15,0.7,3037
+"estados","Acre","12 - 17m","Feminino","Rural",-0.85,0.02,0.73,1442
+"estados","Acre","12 - 17m","Feminino","Urbana",-0.58,0.23,0.8,1934
+"estados","Alagoas","12 - 17m","Feminino","Rural",-0.5,0.41,0.99,5787
+"estados","Alagoas","12 - 17m","Feminino","Urbana",-0.41,0.44,0.96,8083
+"estados","Amapa","12 - 17m","Feminino","Rural",-0.95,0.05,0.87,238
+"estados","Amapa","12 - 17m","Feminino","Urbana",-0.92,0.13,0.94,1036
+"estados","Amazonas","12 - 17m","Feminino","Rural",-1.03,-0.11,0.71,3606
+"estados","Amazonas","12 - 17m","Feminino","Urbana",-0.7,0.16,0.8,10777
+"estados","Bahia","12 - 17m","Feminino","Rural",-0.38,0.26,0.69,27180
+"estados","Bahia","12 - 17m","Feminino","Urbana",-0.32,0.31,0.71,36082
+"estados","Ceara","12 - 17m","Feminino","Rural",-0.46,0.45,1.01,18398
+"estados","Ceara","12 - 17m","Feminino","Urbana",-0.42,0.49,1.04,22431
+"estados","Distrito Federal","12 - 17m","Feminino","Rural",-0.41,0.04,0.38,270
+"estados","Distrito Federal","12 - 17m","Feminino","Urbana",-0.5,0.07,0.52,1536
+"estados","Espirito Santo","12 - 17m","Feminino","Rural",-0.1,0.43,0.69,2619
+"estados","Espirito Santo","12 - 17m","Feminino","Urbana",-0.19,0.4,0.72,7141
+"estados","Goias","12 - 17m","Feminino","Rural",-0.35,0.21,0.59,1182
+"estados","Goias","12 - 17m","Feminino","Urbana",-0.4,0.18,0.59,11168
+"estados","Maranhao","12 - 17m","Feminino","Rural",-0.83,0.13,0.87,12176
+"estados","Maranhao","12 - 17m","Feminino","Urbana",-0.67,0.19,0.82,18485
+"estados","Mato Grosso","12 - 17m","Feminino","Rural",-0.49,0.07,0.52,1161
+"estados","Mato Grosso","12 - 17m","Feminino","Urbana",-0.41,0.18,0.59,5779
+"estados","Mato Grosso do Sul","12 - 17m","Feminino","Rural",-0.65,0.07,0.65,1022
+"estados","Mato Grosso do Sul","12 - 17m","Feminino","Urbana",-0.45,0.19,0.64,6416
+"estados","Minas Gerais","12 - 17m","Feminino","Rural",-0.31,0.24,0.6,14944
+"estados","Minas Gerais","12 - 17m","Feminino","Urbana",-0.33,0.25,0.62,46632
+"estados","Para","12 - 17m","Feminino","Rural",-0.93,0.05,0.84,10719
+"estados","Para","12 - 17m","Feminino","Urbana",-0.67,0.21,0.86,17060
+"estados","Paraiba","12 - 17m","Feminino","Rural",-0.34,0.48,0.95,9024
+"estados","Paraiba","12 - 17m","Feminino","Urbana",-0.29,0.45,0.87,16394
+"estados","Parana","12 - 17m","Feminino","Rural",-0.32,0.31,0.7,6910
+"estados","Parana","12 - 17m","Feminino","Urbana",-0.31,0.33,0.71,34048
+"estados","Pernambuco","12 - 17m","Feminino","Rural",-0.46,0.4,0.95,11366
+"estados","Pernambuco","12 - 17m","Feminino","Urbana",-0.29,0.44,0.87,19501
+"estados","Piaui","12 - 17m","Feminino","Rural",-0.56,0.22,0.78,6971
+"estados","Piaui","12 - 17m","Feminino","Urbana",-0.42,0.28,0.74,8607
+"estados","Rio Grande do Norte","12 - 17m","Feminino","Rural",-0.36,0.47,0.95,4307
+"estados","Rio Grande do Norte","12 - 17m","Feminino","Urbana",-0.36,0.44,0.92,7911
+"estados","Rio Grande do Sul","12 - 17m","Feminino","Rural",-0.39,0.39,0.87,3644
+"estados","Rio Grande do Sul","12 - 17m","Feminino","Urbana",-0.42,0.38,0.88,16084
+"estados","Rio de Janeiro","12 - 17m","Feminino","Rural",-0.3,0.32,0.71,1962
+"estados","Rio de Janeiro","12 - 17m","Feminino","Urbana",-0.44,0.26,0.73,16825
+"estados","Rondonia","12 - 17m","Feminino","Rural",-0.36,0.31,0.74,1300
+"estados","Rondonia","12 - 17m","Feminino","Urbana",-0.44,0.19,0.64,1973
+"estados","Roraima","12 - 17m","Feminino","Rural",-0.95,-0.04,0.74,356
+"estados","Roraima","12 - 17m","Feminino","Urbana",-0.55,0.23,0.77,1160
+"estados","Santa Catarina","12 - 17m","Feminino","Rural",-0.33,0.27,0.66,2142
+"estados","Santa Catarina","12 - 17m","Feminino","Urbana",-0.4,0.23,0.66,6989
+"estados","Sao Paulo","12 - 17m","Feminino","Rural",-0.39,0.27,0.69,4141
+"estados","Sao Paulo","12 - 17m","Feminino","Urbana",-0.44,0.25,0.71,43777
+"estados","Sergipe","12 - 17m","Feminino","Rural",-0.37,0.47,0.97,3928
+"estados","Sergipe","12 - 17m","Feminino","Urbana",-0.27,0.55,1,5537
+"estados","Tocantins","12 - 17m","Feminino","Rural",-0.69,0.11,0.72,1459
+"estados","Tocantins","12 - 17m","Feminino","Urbana",-0.53,0.17,0.68,5098
+"estados","Acre","12 - 17m","Masculino","Rural",-1.05,-0.03,0.82,1448
+"estados","Acre","12 - 17m","Masculino","Urbana",-0.8,0.13,0.83,1829
+"estados","Alagoas","12 - 17m","Masculino","Rural",-0.76,0.29,1.02,5806
+"estados","Alagoas","12 - 17m","Masculino","Urbana",-0.67,0.29,0.95,7540
+"estados","Amapa","12 - 17m","Masculino","Rural",-1.36,-0.05,1.06,218
+"estados","Amapa","12 - 17m","Masculino","Urbana",-1.15,0.02,0.97,1026
+"estados","Amazonas","12 - 17m","Masculino","Rural",-1.32,-0.29,0.69,3713
+"estados","Amazonas","12 - 17m","Masculino","Urbana",-0.95,0.05,0.84,10260
+"estados","Bahia","12 - 17m","Masculino","Rural",-0.58,0.11,0.63,26589
+"estados","Bahia","12 - 17m","Masculino","Urbana",-0.51,0.19,0.68,34114
+"estados","Ceara","12 - 17m","Masculino","Rural",-0.7,0.35,1.05,18074
+"estados","Ceara","12 - 17m","Masculino","Urbana",-0.61,0.4,1.05,21762
+"estados","Distrito Federal","12 - 17m","Masculino","Rural",-0.71,-0.05,0.51,281
+"estados","Distrito Federal","12 - 17m","Masculino","Urbana",-0.63,-0.04,0.46,1547
+"estados","Espirito Santo","12 - 17m","Masculino","Rural",-0.29,0.35,0.72,2700
+"estados","Espirito Santo","12 - 17m","Masculino","Urbana",-0.37,0.31,0.74,6726
+"estados","Goias","12 - 17m","Masculino","Rural",-0.63,0.09,0.64,1151
+"estados","Goias","12 - 17m","Masculino","Urbana",-0.61,0.08,0.61,10710
+"estados","Maranhao","12 - 17m","Masculino","Rural",-1.1,-0.06,0.83,12650
+"estados","Maranhao","12 - 17m","Masculino","Urbana",-0.91,0.03,0.79,17685
+"estados","Mato Grosso","12 - 17m","Masculino","Rural",-0.68,-0.04,0.51,1152
+"estados","Mato Grosso","12 - 17m","Masculino","Urbana",-0.59,0.07,0.58,5676
+"estados","Mato Grosso do Sul","12 - 17m","Masculino","Rural",-0.91,-0.1,0.61,1048
+"estados","Mato Grosso do Sul","12 - 17m","Masculino","Urbana",-0.61,0.11,0.65,6300
+"estados","Minas Gerais","12 - 17m","Masculino","Rural",-0.49,0.14,0.6,15280
+"estados","Minas Gerais","12 - 17m","Masculino","Urbana",-0.48,0.16,0.61,46831
+"estados","Para","12 - 17m","Masculino","Rural",-1.15,-0.08,0.83,10975
+"estados","Para","12 - 17m","Masculino","Urbana",-0.94,0.05,0.84,16294
+"estados","Paraiba","12 - 17m","Masculino","Rural",-0.5,0.39,0.93,9077
+"estados","Paraiba","12 - 17m","Masculino","Urbana",-0.47,0.39,0.91,15850
+"estados","Parana","12 - 17m","Masculino","Rural",-0.45,0.24,0.7,7110
+"estados","Parana","12 - 17m","Masculino","Urbana",-0.46,0.27,0.74,35221
+"estados","Pernambuco","12 - 17m","Masculino","Rural",-0.67,0.28,0.92,11423
+"estados","Pernambuco","12 - 17m","Masculino","Urbana",-0.49,0.35,0.88,18559
+"estados","Piaui","12 - 17m","Masculino","Rural",-0.74,0.1,0.74,7022
+"estados","Piaui","12 - 17m","Masculino","Urbana",-0.58,0.18,0.72,8015
+"estados","Rio Grande do Norte","12 - 17m","Masculino","Rural",-0.57,0.36,0.96,4088
+"estados","Rio Grande do Norte","12 - 17m","Masculino","Urbana",-0.57,0.36,0.96,7443
+"estados","Rio Grande do Sul","12 - 17m","Masculino","Rural",-0.53,0.3,0.83,3484
+"estados","Rio Grande do Sul","12 - 17m","Masculino","Urbana",-0.58,0.31,0.9,15143
+"estados","Rio de Janeiro","12 - 17m","Masculino","Rural",-0.59,0.22,0.79,1943
+"estados","Rio de Janeiro","12 - 17m","Masculino","Urbana",-0.68,0.15,0.77,16183
+"estados","Rondonia","12 - 17m","Masculino","Rural",-0.48,0.15,0.6,1232
+"estados","Rondonia","12 - 17m","Masculino","Urbana",-0.56,0.18,0.7,1947
+"estados","Roraima","12 - 17m","Masculino","Rural",-1.01,-0.23,0.52,338
+"estados","Roraima","12 - 17m","Masculino","Urbana",-0.88,-0.01,0.7,1023
+"estados","Santa Catarina","12 - 17m","Masculino","Rural",-0.54,0.18,0.69,2079
+"estados","Santa Catarina","12 - 17m","Masculino","Urbana",-0.58,0.16,0.69,6944
+"estados","Sao Paulo","12 - 17m","Masculino","Rural",-0.59,0.16,0.7,4087
+"estados","Sao Paulo","12 - 17m","Masculino","Urbana",-0.6,0.17,0.72,42251
+"estados","Sergipe","12 - 17m","Masculino","Rural",-0.57,0.35,0.94,3887
+"estados","Sergipe","12 - 17m","Masculino","Urbana",-0.48,0.4,0.95,5034
+"estados","Tocantins","12 - 17m","Masculino","Rural",-0.94,-0.05,0.71,1439
+"estados","Tocantins","12 - 17m","Masculino","Urbana",-0.78,0.06,0.71,4878
+"estados","Acre","18 - 23m","Feminino","Rural",-0.99,-0.1,0.72,1874
+"estados","Acre","18 - 23m","Feminino","Urbana",-0.62,0.1,0.68,2526
+"estados","Alagoas","18 - 23m","Feminino","Rural",-0.5,0.29,0.84,7776
+"estados","Alagoas","18 - 23m","Feminino","Urbana",-0.38,0.34,0.82,11062
+"estados","Amapa","18 - 23m","Feminino","Rural",-1.07,-0.12,0.76,390
+"estados","Amapa","18 - 23m","Feminino","Urbana",-1.05,0,0.9,1589
+"estados","Amazonas","18 - 23m","Feminino","Rural",-1.18,-0.28,0.63,5377
+"estados","Amazonas","18 - 23m","Feminino","Urbana",-0.81,0,0.71,15488
+"estados","Bahia","18 - 23m","Feminino","Rural",-0.34,0.17,0.54,34868
+"estados","Bahia","18 - 23m","Feminino","Urbana",-0.3,0.24,0.6,46590
+"estados","Ceara","18 - 23m","Feminino","Rural",-0.42,0.36,0.88,24052
+"estados","Ceara","18 - 23m","Feminino","Urbana",-0.38,0.42,0.92,30307
+"estados","Distrito Federal","18 - 23m","Feminino","Rural",-0.54,0.04,0.52,393
+"estados","Distrito Federal","18 - 23m","Feminino","Urbana",-0.52,0.05,0.52,2115
+"estados","Espirito Santo","18 - 23m","Feminino","Rural",-0.11,0.36,0.61,3307
+"estados","Espirito Santo","18 - 23m","Feminino","Urbana",-0.2,0.34,0.67,9004
+"estados","Goias","18 - 23m","Feminino","Rural",-0.33,0.18,0.54,1659
+"estados","Goias","18 - 23m","Feminino","Urbana",-0.38,0.17,0.58,14599
+"estados","Maranhao","18 - 23m","Feminino","Rural",-0.88,-0.06,0.67,17571
+"estados","Maranhao","18 - 23m","Feminino","Urbana",-0.7,0.03,0.65,25263
+"estados","Mato Grosso","18 - 23m","Feminino","Rural",-0.55,0.06,0.56,1627
+"estados","Mato Grosso","18 - 23m","Feminino","Urbana",-0.43,0.16,0.6,7888
+"estados","Mato Grosso do Sul","18 - 23m","Feminino","Rural",-0.74,-0.02,0.62,1401
+"estados","Mato Grosso do Sul","18 - 23m","Feminino","Urbana",-0.43,0.21,0.67,7669
+"estados","Minas Gerais","18 - 23m","Feminino","Rural",-0.26,0.23,0.55,18939
+"estados","Minas Gerais","18 - 23m","Feminino","Urbana",-0.25,0.27,0.61,58284
+"estados","Para","18 - 23m","Feminino","Rural",-1.04,-0.16,0.67,15819
+"estados","Para","18 - 23m","Feminino","Urbana",-0.75,0.05,0.72,24281
+"estados","Paraiba","18 - 23m","Feminino","Rural",-0.26,0.4,0.79,11323
+"estados","Paraiba","18 - 23m","Feminino","Urbana",-0.25,0.4,0.79,20475
+"estados","Parana","18 - 23m","Feminino","Rural",-0.29,0.31,0.69,8265
+"estados","Parana","18 - 23m","Feminino","Urbana",-0.26,0.36,0.73,39245
+"estados","Pernambuco","18 - 23m","Feminino","Rural",-0.4,0.34,0.82,14943
+"estados","Pernambuco","18 - 23m","Feminino","Urbana",-0.27,0.41,0.82,26032
+"estados","Piaui","18 - 23m","Feminino","Rural",-0.54,0.1,0.61,9125
+"estados","Piaui","18 - 23m","Feminino","Urbana",-0.41,0.16,0.59,11514
+"estados","Rio Grande do Norte","18 - 23m","Feminino","Rural",-0.35,0.35,0.81,5595
+"estados","Rio Grande do Norte","18 - 23m","Feminino","Urbana",-0.36,0.34,0.79,10416
+"estados","Rio Grande do Sul","18 - 23m","Feminino","Rural",-0.36,0.38,0.86,4635
+"estados","Rio Grande do Sul","18 - 23m","Feminino","Urbana",-0.43,0.37,0.89,20038
+"estados","Rio de Janeiro","18 - 23m","Feminino","Rural",-0.28,0.32,0.7,2645
+"estados","Rio de Janeiro","18 - 23m","Feminino","Urbana",-0.5,0.2,0.72,23475
+"estados","Rondonia","18 - 23m","Feminino","Rural",-0.33,0.19,0.56,1806
+"estados","Rondonia","18 - 23m","Feminino","Urbana",-0.45,0.16,0.61,2729
+"estados","Roraima","18 - 23m","Feminino","Rural",-1.07,-0.18,0.67,589
+"estados","Roraima","18 - 23m","Feminino","Urbana",-0.71,0.05,0.68,1614
+"estados","Santa Catarina","18 - 23m","Feminino","Rural",-0.32,0.3,0.71,2422
+"estados","Santa Catarina","18 - 23m","Feminino","Urbana",-0.39,0.25,0.7,8011
+"estados","Sao Paulo","18 - 23m","Feminino","Rural",-0.38,0.25,0.68,5505
+"estados","Sao Paulo","18 - 23m","Feminino","Urbana",-0.46,0.24,0.74,58370
+"estados","Sergipe","18 - 23m","Feminino","Rural",-0.32,0.39,0.83,5394
+"estados","Sergipe","18 - 23m","Feminino","Urbana",-0.16,0.49,0.84,7528
+"estados","Tocantins","18 - 23m","Feminino","Rural",-0.72,0.01,0.63,1974
+"estados","Tocantins","18 - 23m","Feminino","Urbana",-0.54,0.07,0.56,6606
+"estados","Acre","18 - 23m","Masculino","Rural",-1.17,-0.21,0.74,1953
+"estados","Acre","18 - 23m","Masculino","Urbana",-0.74,0.05,0.71,2521
+"estados","Alagoas","18 - 23m","Masculino","Rural",-0.62,0.21,0.84,7580
+"estados","Alagoas","18 - 23m","Masculino","Urbana",-0.62,0.2,0.83,10288
+"estados","Amapa","18 - 23m","Masculino","Rural",-1.43,-0.29,0.85,413
+"estados","Amapa","18 - 23m","Masculino","Urbana",-1.22,-0.1,0.92,1529
+"estados","Amazonas","18 - 23m","Masculino","Rural",-1.4,-0.43,0.62,5472
+"estados","Amazonas","18 - 23m","Masculino","Urbana",-0.98,-0.1,0.72,14827
+"estados","Bahia","18 - 23m","Masculino","Rural",-0.52,0.04,0.51,34302
+"estados","Bahia","18 - 23m","Masculino","Urbana",-0.47,0.12,0.58,44935
+"estados","Ceara","18 - 23m","Masculino","Rural",-0.58,0.26,0.88,23552
+"estados","Ceara","18 - 23m","Masculino","Urbana",-0.53,0.33,0.94,29248
+"estados","Distrito Federal","18 - 23m","Masculino","Rural",-0.63,-0.04,0.49,413
+"estados","Distrito Federal","18 - 23m","Masculino","Urbana",-0.66,-0.04,0.53,2186
+"estados","Espirito Santo","18 - 23m","Masculino","Rural",-0.24,0.3,0.63,3415
+"estados","Espirito Santo","18 - 23m","Masculino","Urbana",-0.36,0.26,0.68,8637
+"estados","Goias","18 - 23m","Masculino","Rural",-0.46,0.05,0.49,1559
+"estados","Goias","18 - 23m","Masculino","Urbana",-0.53,0.09,0.59,14371
+"estados","Maranhao","18 - 23m","Masculino","Rural",-1.06,-0.21,0.64,17811
+"estados","Maranhao","18 - 23m","Masculino","Urbana",-0.9,-0.13,0.61,24441
+"estados","Mato Grosso","18 - 23m","Masculino","Rural",-0.7,-0.05,0.55,1647
+"estados","Mato Grosso","18 - 23m","Masculino","Urbana",-0.56,0.06,0.58,7541
+"estados","Mato Grosso do Sul","18 - 23m","Masculino","Rural",-0.89,-0.08,0.68,1427
+"estados","Mato Grosso do Sul","18 - 23m","Masculino","Urbana",-0.59,0.13,0.7,7625
+"estados","Minas Gerais","18 - 23m","Masculino","Rural",-0.41,0.13,0.55,19209
+"estados","Minas Gerais","18 - 23m","Masculino","Urbana",-0.4,0.18,0.61,57808
+"estados","Para","18 - 23m","Masculino","Rural",-1.2,-0.27,0.67,16148
+"estados","Para","18 - 23m","Masculino","Urbana",-0.95,-0.08,0.72,23302
+"estados","Paraiba","18 - 23m","Masculino","Rural",-0.43,0.32,0.83,11252
+"estados","Paraiba","18 - 23m","Masculino","Urbana",-0.4,0.34,0.83,20056
+"estados","Parana","18 - 23m","Masculino","Rural",-0.41,0.25,0.71,8402
+"estados","Parana","18 - 23m","Masculino","Urbana",-0.38,0.3,0.75,40602
+"estados","Pernambuco","18 - 23m","Masculino","Rural",-0.56,0.24,0.83,15091
+"estados","Pernambuco","18 - 23m","Masculino","Urbana",-0.42,0.32,0.82,24773
+"estados","Piaui","18 - 23m","Masculino","Rural",-0.66,-0.03,0.54,9215
+"estados","Piaui","18 - 23m","Masculino","Urbana",-0.54,0.06,0.56,10873
+"estados","Rio Grande do Norte","18 - 23m","Masculino","Rural",-0.5,0.29,0.84,5473
+"estados","Rio Grande do Norte","18 - 23m","Masculino","Urbana",-0.53,0.27,0.84,9791
+"estados","Rio Grande do Sul","18 - 23m","Masculino","Rural",-0.51,0.33,0.91,4337
+"estados","Rio Grande do Sul","18 - 23m","Masculino","Urbana",-0.54,0.32,0.93,18991
+"estados","Rio de Janeiro","18 - 23m","Masculino","Rural",-0.48,0.21,0.72,2599
+"estados","Rio de Janeiro","18 - 23m","Masculino","Urbana",-0.68,0.12,0.77,22294
+"estados","Rondonia","18 - 23m","Masculino","Rural",-0.37,0.13,0.5,1675
+"estados","Rondonia","18 - 23m","Masculino","Urbana",-0.56,0.12,0.66,2567
+"estados","Roraima","18 - 23m","Masculino","Rural",-1.4,-0.4,0.67,600
+"estados","Roraima","18 - 23m","Masculino","Urbana",-0.92,-0.08,0.7,1592
+"estados","Santa Catarina","18 - 23m","Masculino","Rural",-0.52,0.15,0.68,2402
+"estados","Santa Catarina","18 - 23m","Masculino","Urbana",-0.55,0.17,0.71,7785
+"estados","Sao Paulo","18 - 23m","Masculino","Rural",-0.56,0.17,0.73,5307
+"estados","Sao Paulo","18 - 23m","Masculino","Urbana",-0.59,0.15,0.74,56103
+"estados","Sergipe","18 - 23m","Masculino","Rural",-0.46,0.29,0.81,5257
+"estados","Sergipe","18 - 23m","Masculino","Urbana",-0.36,0.33,0.79,6842
+"estados","Tocantins","18 - 23m","Masculino","Rural",-0.97,-0.12,0.67,1957
+"estados","Tocantins","18 - 23m","Masculino","Urbana",-0.71,-0.01,0.6,6430
+"estados","Acre","2a","Feminino","Rural",-0.87,-0.28,0.36,3723
+"estados","Acre","2a","Feminino","Urbana",-0.48,-0.06,0.32,4914
+"estados","Alagoas","2a","Feminino","Rural",-0.27,0.16,0.46,14038
+"estados","Alagoas","2a","Feminino","Urbana",-0.21,0.21,0.47,21778
+"estados","Amapa","2a","Feminino","Rural",-1,-0.4,0.32,973
+"estados","Amapa","2a","Feminino","Urbana",-0.97,-0.32,0.39,3502
+"estados","Amazonas","2a","Feminino","Rural",-1.08,-0.45,0.32,11569
+"estados","Amazonas","2a","Feminino","Urbana",-0.71,-0.2,0.34,32141
+"estados","Bahia","2a","Feminino","Rural",-0.16,0.04,0.18,64531
+"estados","Bahia","2a","Feminino","Urbana",-0.11,0.14,0.27,89474
+"estados","Ceara","2a","Feminino","Rural",-0.23,0.22,0.5,45160
+"estados","Ceara","2a","Feminino","Urbana",-0.24,0.28,0.61,59479
+"estados","Distrito Federal","2a","Feminino","Rural",-0.26,-0.01,0.19,762
+"estados","Distrito Federal","2a","Feminino","Urbana",-0.33,0,0.27,4552
+"estados","Espirito Santo","2a","Feminino","Rural",0.04,0.23,0.28,5876
+"estados","Espirito Santo","2a","Feminino","Urbana",-0.07,0.22,0.35,16539
+"estados","Goias","2a","Feminino","Rural",-0.12,0.07,0.2,3217
+"estados","Goias","2a","Feminino","Urbana",-0.13,0.12,0.28,29089
+"estados","Maranhao","2a","Feminino","Rural",-0.7,-0.29,0.2,35849
+"estados","Maranhao","2a","Feminino","Urbana",-0.54,-0.18,0.2,51512
+"estados","Mato Grosso","2a","Feminino","Rural",-0.33,0.02,0.3,3329
+"estados","Mato Grosso","2a","Feminino","Urbana",-0.23,0.12,0.36,15653
+"estados","Mato Grosso do Sul","2a","Feminino","Rural",-0.52,-0.01,0.44,2943
+"estados","Mato Grosso do Sul","2a","Feminino","Urbana",-0.28,0.14,0.43,14589
+"estados","Minas Gerais","2a","Feminino","Rural",-0.04,0.15,0.23,33210
+"estados","Minas Gerais","2a","Feminino","Urbana",-0.05,0.22,0.34,105570
+"estados","Para","2a","Feminino","Rural",-0.92,-0.42,0.22,33494
+"estados","Para","2a","Feminino","Urbana",-0.63,-0.16,0.32,50028
+"estados","Paraiba","2a","Feminino","Rural",-0.09,0.27,0.46,18310
+"estados","Paraiba","2a","Feminino","Urbana",-0.07,0.29,0.47,35434
+"estados","Parana","2a","Feminino","Rural",-0.11,0.27,0.47,13385
+"estados","Parana","2a","Feminino","Urbana",-0.06,0.32,0.49,61881
+"estados","Pernambuco","2a","Feminino","Rural",-0.18,0.23,0.49,28191
+"estados","Pernambuco","2a","Feminino","Urbana",-0.06,0.31,0.5,50206
+"estados","Piaui","2a","Feminino","Rural",-0.39,-0.11,0.17,17462
+"estados","Piaui","2a","Feminino","Urbana",-0.28,0,0.23,22238
+"estados","Rio Grande do Norte","2a","Feminino","Rural",-0.21,0.21,0.47,10456
+"estados","Rio Grande do Norte","2a","Feminino","Urbana",-0.24,0.21,0.51,19772
+"estados","Rio Grande do Sul","2a","Feminino","Rural",-0.16,0.32,0.6,8618
+"estados","Rio Grande do Sul","2a","Feminino","Urbana",-0.25,0.33,0.68,38209
+"estados","Rio de Janeiro","2a","Feminino","Rural",-0.13,0.19,0.37,5413
+"estados","Rio de Janeiro","2a","Feminino","Urbana",-0.35,0.12,0.48,50517
+"estados","Rondonia","2a","Feminino","Rural",-0.03,0.14,0.22,3477
+"estados","Rondonia","2a","Feminino","Urbana",-0.22,0.07,0.28,5567
+"estados","Roraima","2a","Feminino","Rural",-1,-0.35,0.38,1347
+"estados","Roraima","2a","Feminino","Urbana",-0.65,-0.16,0.32,3756
+"estados","Santa Catarina","2a","Feminino","Rural",-0.15,0.21,0.43,4341
+"estados","Santa Catarina","2a","Feminino","Urbana",-0.23,0.18,0.45,14120
+"estados","Sao Paulo","2a","Feminino","Rural",-0.18,0.22,0.46,10616
+"estados","Sao Paulo","2a","Feminino","Urbana",-0.24,0.23,0.53,114554
+"estados","Sergipe","2a","Feminino","Rural",-0.1,0.23,0.4,9970
+"estados","Sergipe","2a","Feminino","Urbana",-0.02,0.28,0.4,14805
+"estados","Tocantins","2a","Feminino","Rural",-0.51,-0.13,0.26,3856
+"estados","Tocantins","2a","Feminino","Urbana",-0.32,-0.05,0.19,12490
+"estados","Acre","2a","Masculino","Rural",-1.02,-0.3,0.5,3909
+"estados","Acre","2a","Masculino","Urbana",-0.62,-0.07,0.45,4979
+"estados","Alagoas","2a","Masculino","Rural",-0.35,0.12,0.48,14127
+"estados","Alagoas","2a","Masculino","Urbana",-0.3,0.18,0.52,20670
+"estados","Amapa","2a","Masculino","Rural",-1.2,-0.51,0.37,971
+"estados","Amapa","2a","Masculino","Urbana",-1.03,-0.31,0.49,3459
+"estados","Amazonas","2a","Masculino","Rural",-1.2,-0.52,0.35,11685
+"estados","Amazonas","2a","Masculino","Urbana",-0.79,-0.22,0.39,31251
+"estados","Bahia","2a","Masculino","Rural",-0.27,-0.02,0.19,63848
+"estados","Bahia","2a","Masculino","Urbana",-0.22,0.08,0.3,86694
+"estados","Ceara","2a","Masculino","Rural",-0.35,0.18,0.55,44375
+"estados","Ceara","2a","Masculino","Urbana",-0.32,0.26,0.66,57699
+"estados","Distrito Federal","2a","Masculino","Rural",-0.35,-0.05,0.22,814
+"estados","Distrito Federal","2a","Masculino","Urbana",-0.39,-0.05,0.27,4703
+"estados","Espirito Santo","2a","Masculino","Rural",-0.01,0.23,0.33,6061
+"estados","Espirito Santo","2a","Masculino","Urbana",-0.15,0.2,0.4,16199
+"estados","Goias","2a","Masculino","Rural",-0.2,0.04,0.22,3124
+"estados","Goias","2a","Masculino","Urbana",-0.23,0.09,0.32,28841
+"estados","Maranhao","2a","Masculino","Rural",-0.83,-0.36,0.23,36499
+"estados","Maranhao","2a","Masculino","Urbana",-0.68,-0.25,0.24,50060
+"estados","Mato Grosso","2a","Masculino","Rural",-0.45,0,0.41,3324
+"estados","Mato Grosso","2a","Masculino","Urbana",-0.31,0.09,0.39,15196
+"estados","Mato Grosso do Sul","2a","Masculino","Rural",-0.61,-0.01,0.53,2880
+"estados","Mato Grosso do Sul","2a","Masculino","Urbana",-0.35,0.1,0.45,14386
+"estados","Minas Gerais","2a","Masculino","Rural",-0.14,0.11,0.27,33871
+"estados","Minas Gerais","2a","Masculino","Urbana",-0.14,0.17,0.36,104834
+"estados","Para","2a","Masculino","Rural",-1.03,-0.44,0.29,34129
+"estados","Para","2a","Masculino","Urbana",-0.75,-0.21,0.36,48927
+"estados","Paraiba","2a","Masculino","Rural",-0.15,0.26,0.5,18389
+"estados","Paraiba","2a","Masculino","Urbana",-0.16,0.28,0.52,34775
+"estados","Parana","2a","Masculino","Rural",-0.17,0.24,0.48,14017
+"estados","Parana","2a","Masculino","Urbana",-0.13,0.3,0.53,63405
+"estados","Pernambuco","2a","Masculino","Rural",-0.29,0.18,0.51,28614
+"estados","Pernambuco","2a","Masculino","Urbana",-0.16,0.26,0.5,48449
+"estados","Piaui","2a","Masculino","Rural",-0.47,-0.13,0.22,17461
+"estados","Piaui","2a","Masculino","Urbana",-0.37,-0.04,0.26,21187
+"estados","Rio Grande do Norte","2a","Masculino","Rural",-0.3,0.2,0.55,10106
+"estados","Rio Grande do Norte","2a","Masculino","Urbana",-0.31,0.2,0.56,18930
+"estados","Rio Grande do Sul","2a","Masculino","Rural",-0.24,0.31,0.66,8200
+"estados","Rio Grande do Sul","2a","Masculino","Urbana",-0.3,0.31,0.71,36553
+"estados","Rio de Janeiro","2a","Masculino","Rural",-0.24,0.16,0.43,5252
+"estados","Rio de Janeiro","2a","Masculino","Urbana",-0.46,0.08,0.52,47550
+"estados","Rondonia","2a","Masculino","Rural",-0.16,0.11,0.28,3316
+"estados","Rondonia","2a","Masculino","Urbana",-0.29,0.07,0.35,5501
+"estados","Roraima","2a","Masculino","Rural",-1.16,-0.43,0.44,1371
+"estados","Roraima","2a","Masculino","Urbana",-0.79,-0.23,0.37,3566
+"estados","Santa Catarina","2a","Masculino","Rural",-0.25,0.19,0.49,4394
+"estados","Santa Catarina","2a","Masculino","Urbana",-0.32,0.15,0.49,14012
+"estados","Sao Paulo","2a","Masculino","Rural",-0.26,0.18,0.48,10271
+"estados","Sao Paulo","2a","Masculino","Urbana",-0.33,0.18,0.55,109925
+"estados","Sergipe","2a","Masculino","Rural",-0.2,0.18,0.42,9938
+"estados","Sergipe","2a","Masculino","Urbana",-0.12,0.24,0.45,13874
+"estados","Tocantins","2a","Masculino","Rural",-0.64,-0.17,0.32,3798
+"estados","Tocantins","2a","Masculino","Urbana",-0.43,-0.09,0.23,12127
+"estados","Acre","3a","Feminino","Rural",-0.83,-0.39,0.19,4331
+"estados","Acre","3a","Feminino","Urbana",-0.5,-0.21,0.15,5772
+"estados","Alagoas","3a","Feminino","Rural",-0.22,0.03,0.25,16146
+"estados","Alagoas","3a","Feminino","Urbana",-0.17,0.1,0.31,24960
+"estados","Amapa","3a","Feminino","Rural",-1.02,-0.51,0.19,1241
+"estados","Amapa","3a","Feminino","Urbana",-0.96,-0.46,0.21,4424
+"estados","Amazonas","3a","Feminino","Rural",-1.09,-0.6,0.14,14120
+"estados","Amazonas","3a","Feminino","Urbana",-0.75,-0.36,0.17,38354
+"estados","Bahia","3a","Feminino","Rural",-0.11,-0.07,0,73814
+"estados","Bahia","3a","Feminino","Urbana",-0.06,0.04,0.11,101663
+"estados","Ceara","3a","Feminino","Rural",-0.22,0.09,0.34,51159
+"estados","Ceara","3a","Feminino","Urbana",-0.2,0.18,0.46,68127
+"estados","Distrito Federal","3a","Feminino","Rural",-0.25,-0.13,0.03,929
+"estados","Distrito Federal","3a","Feminino","Urbana",-0.24,-0.07,0.12,5425
+"estados","Espirito Santo","3a","Feminino","Rural",0.09,0.16,0.15,6943
+"estados","Espirito Santo","3a","Feminino","Urbana",-0.05,0.13,0.23,18559
+"estados","Goias","3a","Feminino","Rural",0,0.05,0.07,3858
+"estados","Goias","3a","Feminino","Urbana",-0.04,0.07,0.15,33735
+"estados","Maranhao","3a","Feminino","Rural",-0.68,-0.44,-0.02,43636
+"estados","Maranhao","3a","Feminino","Urbana",-0.5,-0.33,-0.03,61048
+"estados","Mato Grosso","3a","Feminino","Rural",-0.22,0.02,0.24,4087
+"estados","Mato Grosso","3a","Feminino","Urbana",-0.14,0.08,0.25,17943
+"estados","Mato Grosso do Sul","3a","Feminino","Rural",-0.54,-0.07,0.4,3439
+"estados","Mato Grosso do Sul","3a","Feminino","Urbana",-0.2,0.1,0.33,16015
+"estados","Minas Gerais","3a","Feminino","Rural",0,0.07,0.1,37377
+"estados","Minas Gerais","3a","Feminino","Urbana",0.01,0.16,0.23,116844
+"estados","Para","3a","Feminino","Rural",-0.91,-0.57,0.01,40533
+"estados","Para","3a","Feminino","Urbana",-0.62,-0.31,0.11,59706
+"estados","Paraiba","3a","Feminino","Rural",-0.05,0.16,0.28,20286
+"estados","Paraiba","3a","Feminino","Urbana",-0.05,0.19,0.34,38891
+"estados","Parana","3a","Feminino","Rural",-0.08,0.22,0.39,13747
+"estados","Parana","3a","Feminino","Urbana",-0.03,0.24,0.38,54034
+"estados","Pernambuco","3a","Feminino","Rural",-0.1,0.13,0.29,32699
+"estados","Pernambuco","3a","Feminino","Urbana",-0.02,0.22,0.35,57973
+"estados","Piaui","3a","Feminino","Rural",-0.36,-0.24,-0.02,19963
+"estados","Piaui","3a","Feminino","Urbana",-0.24,-0.12,0.05,25508
+"estados","Rio Grande do Norte","3a","Feminino","Rural",-0.18,0.11,0.34,11997
+"estados","Rio Grande do Norte","3a","Feminino","Urbana",-0.24,0.12,0.41,23125
+"estados","Rio Grande do Sul","3a","Feminino","Rural",-0.16,0.27,0.54,10116
+"estados","Rio Grande do Sul","3a","Feminino","Urbana",-0.19,0.29,0.61,43892
+"estados","Rio de Janeiro","3a","Feminino","Rural",-0.07,0.15,0.28,6597
+"estados","Rio de Janeiro","3a","Feminino","Urbana",-0.29,0.06,0.36,60210
+"estados","Rondonia","3a","Feminino","Rural",0.01,0.09,0.12,4220
+"estados","Rondonia","3a","Feminino","Urbana",-0.18,-0.04,0.11,6731
+"estados","Roraima","3a","Feminino","Rural",-1.01,-0.49,0.22,1687
+"estados","Roraima","3a","Feminino","Urbana",-0.63,-0.28,0.16,4644
+"estados","Santa Catarina","3a","Feminino","Rural",-0.18,0.15,0.38,4985
+"estados","Santa Catarina","3a","Feminino","Urbana",-0.22,0.12,0.39,15550
+"estados","Sao Paulo","3a","Feminino","Rural",-0.13,0.19,0.4,12280
+"estados","Sao Paulo","3a","Feminino","Urbana",-0.15,0.21,0.45,132098
+"estados","Sergipe","3a","Feminino","Rural",-0.04,0.08,0.16,11570
+"estados","Sergipe","3a","Feminino","Urbana",0.02,0.14,0.2,17299
+"estados","Tocantins","3a","Feminino","Rural",-0.45,-0.22,0.08,4461
+"estados","Tocantins","3a","Feminino","Urbana",-0.26,-0.15,0.01,14264
+"estados","Acre","3a","Masculino","Rural",-0.88,-0.35,0.33,4494
+"estados","Acre","3a","Masculino","Urbana",-0.52,-0.1,0.35,5808
+"estados","Alagoas","3a","Masculino","Rural",-0.21,0.11,0.37,16068
+"estados","Alagoas","3a","Masculino","Urbana",-0.16,0.17,0.41,24095
+"estados","Amapa","3a","Masculino","Rural",-1.04,-0.49,0.3,1344
+"estados","Amapa","3a","Masculino","Urbana",-0.96,-0.37,0.38,4493
+"estados","Amazonas","3a","Masculino","Rural",-1.13,-0.54,0.3,14282
+"estados","Amazonas","3a","Masculino","Urbana",-0.72,-0.24,0.33,37533
+"estados","Bahia","3a","Masculino","Rural",-0.13,-0.02,0.09,72713
+"estados","Bahia","3a","Masculino","Urbana",-0.08,0.09,0.2,98902
+"estados","Ceara","3a","Masculino","Rural",-0.22,0.16,0.46,50576
+"estados","Ceara","3a","Masculino","Urbana",-0.19,0.26,0.57,66661
+"estados","Distrito Federal","3a","Masculino","Rural",-0.24,-0.08,0.11,999
+"estados","Distrito Federal","3a","Masculino","Urbana",-0.25,0.01,0.26,5525
+"estados","Espirito Santo","3a","Masculino","Rural",0.07,0.23,0.26,6988
+"estados","Espirito Santo","3a","Masculino","Urbana",-0.05,0.2,0.33,18336
+"estados","Goias","3a","Masculino","Rural",0.01,0.13,0.19,3737
+"estados","Goias","3a","Masculino","Urbana",-0.04,0.14,0.24,33558
+"estados","Maranhao","3a","Masculino","Rural",-0.72,-0.4,0.1,44431
+"estados","Maranhao","3a","Masculino","Urbana",-0.54,-0.29,0.09,59572
+"estados","Mato Grosso","3a","Masculino","Rural",-0.21,0.11,0.37,4071
+"estados","Mato Grosso","3a","Masculino","Urbana",-0.15,0.13,0.34,17564
+"estados","Mato Grosso do Sul","3a","Masculino","Rural",-0.53,0.06,0.61,3430
+"estados","Mato Grosso do Sul","3a","Masculino","Urbana",-0.2,0.16,0.43,15811
+"estados","Minas Gerais","3a","Masculino","Rural",-0.02,0.13,0.21,38124
+"estados","Minas Gerais","3a","Masculino","Urbana",0,0.21,0.31,116604
+"estados","Para","3a","Masculino","Rural",-0.94,-0.47,0.2,41286
+"estados","Para","3a","Masculino","Urbana",-0.65,-0.26,0.24,58303
+"estados","Paraiba","3a","Masculino","Rural",-0.02,0.24,0.38,20469
+"estados","Paraiba","3a","Masculino","Urbana",-0.03,0.27,0.43,38672
+"estados","Parana","3a","Masculino","Rural",-0.09,0.27,0.49,13969
+"estados","Parana","3a","Masculino","Urbana",-0.02,0.31,0.47,54781
+"estados","Pernambuco","3a","Masculino","Rural",-0.12,0.19,0.39,32835
+"estados","Pernambuco","3a","Masculino","Urbana",-0.01,0.27,0.41,55601
+"estados","Piaui","3a","Masculino","Rural",-0.36,-0.16,0.09,20267
+"estados","Piaui","3a","Masculino","Urbana",-0.26,-0.06,0.16,25044
+"estados","Rio Grande do Norte","3a","Masculino","Rural",-0.18,0.19,0.46,11824
+"estados","Rio Grande do Norte","3a","Masculino","Urbana",-0.23,0.19,0.51,21934
+"estados","Rio Grande do Sul","3a","Masculino","Rural",-0.09,0.39,0.66,9758
+"estados","Rio Grande do Sul","3a","Masculino","Urbana",-0.15,0.38,0.71,41966
+"estados","Rio de Janeiro","3a","Masculino","Rural",-0.08,0.24,0.43,6445
+"estados","Rio de Janeiro","3a","Masculino","Urbana",-0.28,0.13,0.46,57106
+"estados","Rondonia","3a","Masculino","Rural",-0.02,0.15,0.23,3929
+"estados","Rondonia","3a","Masculino","Urbana",-0.15,0.07,0.24,6571
+"estados","Roraima","3a","Masculino","Rural",-1.08,-0.4,0.45,1753
+"estados","Roraima","3a","Masculino","Urbana",-0.7,-0.24,0.3,4463
+"estados","Santa Catarina","3a","Masculino","Rural",-0.2,0.2,0.48,5033
+"estados","Santa Catarina","3a","Masculino","Urbana",-0.21,0.17,0.46,15260
+"estados","Sao Paulo","3a","Masculino","Rural",-0.12,0.24,0.47,11997
+"estados","Sao Paulo","3a","Masculino","Urbana",-0.15,0.26,0.53,127079
+"estados","Sergipe","3a","Masculino","Rural",-0.05,0.14,0.25,11437
+"estados","Sergipe","3a","Masculino","Urbana",0.02,0.2,0.29,16166
+"estados","Tocantins","3a","Masculino","Rural",-0.46,-0.16,0.19,4357
+"estados","Tocantins","3a","Masculino","Urbana",-0.26,-0.07,0.14,13816
+"estados","Acre","4a","Feminino","Rural",-0.83,-0.54,-0.03,4320
+"estados","Acre","4a","Feminino","Urbana",-0.52,-0.31,0.01,5920
+"estados","Alagoas","4a","Feminino","Rural",-0.17,-0.05,0.09,16280
+"estados","Alagoas","4a","Feminino","Urbana",-0.15,0.01,0.16,25754
+"estados","Amapa","4a","Feminino","Rural",-0.94,-0.62,-0.05,1291
+"estados","Amapa","4a","Feminino","Urbana",-0.9,-0.55,0.01,4796
+"estados","Amazonas","4a","Feminino","Rural",-1.03,-0.7,-0.06,14151
+"estados","Amazonas","4a","Feminino","Urbana",-0.72,-0.43,0.03,39629
+"estados","Bahia","4a","Feminino","Rural",-0.1,-0.15,-0.12,75645
+"estados","Bahia","4a","Feminino","Urbana",-0.05,-0.03,0.01,105284
+"estados","Ceara","4a","Feminino","Rural",-0.21,0.01,0.22,52018
+"estados","Ceara","4a","Feminino","Urbana",-0.17,0.13,0.36,69000
+"estados","Distrito Federal","4a","Feminino","Rural",-0.2,-0.18,-0.09,882
+"estados","Distrito Federal","4a","Feminino","Urbana",-0.12,-0.05,0.05,5412
+"estados","Espirito Santo","4a","Feminino","Rural",0.07,0.09,0.08,7128
+"estados","Espirito Santo","4a","Feminino","Urbana",-0.03,0.07,0.14,18714
+"estados","Goias","4a","Feminino","Rural",0.09,0.01,-0.06,3836
+"estados","Goias","4a","Feminino","Urbana",0.01,0.05,0.07,34232
+"estados","Maranhao","4a","Feminino","Rural",-0.64,-0.54,-0.21,44872
+"estados","Maranhao","4a","Feminino","Urbana",-0.46,-0.39,-0.15,63348
+"estados","Mato Grosso","4a","Feminino","Rural",-0.17,-0.03,0.12,4179
+"estados","Mato Grosso","4a","Feminino","Urbana",-0.08,0.03,0.12,18072
+"estados","Mato Grosso do Sul","4a","Feminino","Rural",-0.54,-0.07,0.39,3607
+"estados","Mato Grosso do Sul","4a","Feminino","Urbana",-0.15,0.06,0.23,15836
+"estados","Minas Gerais","4a","Feminino","Rural",-0.01,-0.01,0,38161
+"estados","Minas Gerais","4a","Feminino","Urbana",0.03,0.11,0.14,118046
+"estados","Para","4a","Feminino","Rural",-0.88,-0.63,-0.13,41834
+"estados","Para","4a","Feminino","Urbana",-0.6,-0.39,-0.02,61998
+"estados","Paraiba","4a","Feminino","Rural",-0.07,0.04,0.13,20357
+"estados","Paraiba","4a","Feminino","Urbana",-0.05,0.11,0.22,39898
+"estados","Parana","4a","Feminino","Rural",-0.08,0.16,0.32,13908
+"estados","Parana","4a","Feminino","Urbana",-0.02,0.2,0.32,51261
+"estados","Pernambuco","4a","Feminino","Rural",-0.08,0.04,0.14,33101
+"estados","Pernambuco","4a","Feminino","Urbana",-0.01,0.14,0.24,59763
+"estados","Piaui","4a","Feminino","Rural",-0.36,-0.33,-0.16,20477
+"estados","Piaui","4a","Feminino","Urbana",-0.25,-0.19,-0.06,26287
+"estados","Rio Grande do Norte","4a","Feminino","Rural",-0.21,0.04,0.26,12321
+"estados","Rio Grande do Norte","4a","Feminino","Urbana",-0.22,0.09,0.34,24109
+"estados","Rio Grande do Sul","4a","Feminino","Rural",-0.09,0.27,0.5,10816
+"estados","Rio Grande do Sul","4a","Feminino","Urbana",-0.12,0.28,0.54,45273
+"estados","Rio de Janeiro","4a","Feminino","Rural",-0.03,0.12,0.21,7082
+"estados","Rio de Janeiro","4a","Feminino","Urbana",-0.19,0.06,0.28,62434
+"estados","Rondonia","4a","Feminino","Rural",0.04,0.01,-0.02,4364
+"estados","Rondonia","4a","Feminino","Urbana",-0.17,-0.1,0.01,7159
+"estados","Roraima","4a","Feminino","Rural",-0.92,-0.49,0.11,1680
+"estados","Roraima","4a","Feminino","Urbana",-0.58,-0.34,0.02,4957
+"estados","Santa Catarina","4a","Feminino","Rural",-0.15,0.11,0.3,5269
+"estados","Santa Catarina","4a","Feminino","Urbana",-0.22,0.07,0.31,15079
+"estados","Sao Paulo","4a","Feminino","Rural",-0.11,0.14,0.31,12368
+"estados","Sao Paulo","4a","Feminino","Urbana",-0.08,0.2,0.38,133849
+"estados","Sergipe","4a","Feminino","Rural",-0.07,-0.05,-0.01,11985
+"estados","Sergipe","4a","Feminino","Urbana",0.02,0.03,0.04,17874
+"estados","Tocantins","4a","Feminino","Rural",-0.39,-0.31,-0.11,4526
+"estados","Tocantins","4a","Feminino","Urbana",-0.21,-0.23,-0.14,14651
+"estados","Acre","4a","Masculino","Rural",-0.81,-0.37,0.25,4363
+"estados","Acre","4a","Masculino","Urbana",-0.48,-0.18,0.19,5855
+"estados","Alagoas","4a","Masculino","Rural",-0.16,0.07,0.27,16164
+"estados","Alagoas","4a","Masculino","Urbana",-0.1,0.15,0.34,24530
+"estados","Amapa","4a","Masculino","Rural",-0.94,-0.51,0.17,1324
+"estados","Amapa","4a","Masculino","Urbana",-0.83,-0.37,0.26,4738
+"estados","Amazonas","4a","Masculino","Rural",-1.03,-0.56,0.18,14271
+"estados","Amazonas","4a","Masculino","Urbana",-0.66,-0.27,0.24,38124
+"estados","Bahia","4a","Masculino","Rural",-0.08,-0.04,0.02,73162
+"estados","Bahia","4a","Masculino","Urbana",-0.03,0.08,0.15,100067
+"estados","Ceara","4a","Masculino","Rural",-0.17,0.15,0.4,50563
+"estados","Ceara","4a","Masculino","Urbana",-0.12,0.26,0.53,66053
+"estados","Distrito Federal","4a","Masculino","Rural",-0.08,0.01,0.1,902
+"estados","Distrito Federal","4a","Masculino","Urbana",-0.12,0.04,0.19,5505
+"estados","Espirito Santo","4a","Masculino","Rural",0.09,0.23,0.26,7275
+"estados","Espirito Santo","4a","Masculino","Urbana",0.02,0.19,0.27,18327
+"estados","Goias","4a","Masculino","Rural",0.08,0.15,0.16,3715
+"estados","Goias","4a","Masculino","Urbana",0.04,0.16,0.21,33465
+"estados","Maranhao","4a","Masculino","Rural",-0.65,-0.43,-0.01,44909
+"estados","Maranhao","4a","Masculino","Urbana",-0.46,-0.29,0.01,59978
+"estados","Mato Grosso","4a","Masculino","Rural",-0.14,0.09,0.29,4149
+"estados","Mato Grosso","4a","Masculino","Urbana",-0.08,0.12,0.28,17556
+"estados","Mato Grosso do Sul","4a","Masculino","Rural",-0.42,0.07,0.53,3465
+"estados","Mato Grosso do Sul","4a","Masculino","Urbana",-0.1,0.21,0.42,15371
+"estados","Minas Gerais","4a","Masculino","Rural",0.04,0.13,0.16,38824
+"estados","Minas Gerais","4a","Masculino","Urbana",0.06,0.22,0.29,116257
+"estados","Para","4a","Masculino","Rural",-0.87,-0.5,0.09,41827
+"estados","Para","4a","Masculino","Urbana",-0.58,-0.27,0.16,59272
+"estados","Paraiba","4a","Masculino","Rural",0,0.2,0.31,20534
+"estados","Paraiba","4a","Masculino","Urbana",0.02,0.27,0.39,39051
+"estados","Parana","4a","Masculino","Rural",-0.05,0.29,0.49,14188
+"estados","Parana","4a","Masculino","Urbana",0.03,0.31,0.46,50886
+"estados","Pernambuco","4a","Masculino","Rural",-0.05,0.16,0.3,32983
+"estados","Pernambuco","4a","Masculino","Urbana",0.04,0.27,0.39,55743
+"estados","Piaui","4a","Masculino","Rural",-0.34,-0.21,0.01,20628
+"estados","Piaui","4a","Masculino","Urbana",-0.21,-0.07,0.1,25543
+"estados","Rio Grande do Norte","4a","Masculino","Rural",-0.15,0.18,0.42,11802
+"estados","Rio Grande do Norte","4a","Masculino","Urbana",-0.18,0.21,0.49,22016
+"estados","Rio Grande do Sul","4a","Masculino","Rural",-0.04,0.41,0.68,10284
+"estados","Rio Grande do Sul","4a","Masculino","Urbana",-0.06,0.42,0.7,42987
+"estados","Rio de Janeiro","4a","Masculino","Rural",0,0.27,0.41,6745
+"estados","Rio de Janeiro","4a","Masculino","Urbana",-0.17,0.18,0.44,57876
+"estados","Rondonia","4a","Masculino","Rural",0.08,0.16,0.19,4120
+"estados","Rondonia","4a","Masculino","Urbana",-0.08,0.08,0.2,6819
+"estados","Roraima","4a","Masculino","Rural",-0.95,-0.42,0.3,1710
+"estados","Roraima","4a","Masculino","Urbana",-0.56,-0.24,0.19,4593
+"estados","Santa Catarina","4a","Masculino","Rural",-0.13,0.24,0.5,5277
+"estados","Santa Catarina","4a","Masculino","Urbana",-0.17,0.18,0.44,15028
+"estados","Sao Paulo","4a","Masculino","Rural",-0.07,0.25,0.46,12018
+"estados","Sao Paulo","4a","Masculino","Urbana",-0.03,0.3,0.5,128135
+"estados","Sergipe","4a","Masculino","Rural",-0.03,0.07,0.15,11475
+"estados","Sergipe","4a","Masculino","Urbana",0.06,0.17,0.21,16359
+"estados","Tocantins","4a","Masculino","Rural",-0.35,-0.2,0.05,4392
+"estados","Tocantins","4a","Masculino","Urbana",-0.2,-0.1,0.05,13831
+"estados","Acre","5a","Feminino","Rural",-0.73,-0.5,-0.08,3952
+"estados","Acre","5a","Feminino","Urbana",-0.41,-0.25,-0.01,5505
+"estados","Alagoas","5a","Feminino","Rural",-0.16,-0.06,0.04,15092
+"estados","Alagoas","5a","Feminino","Urbana",-0.07,0.04,0.11,24075
+"estados","Amapa","5a","Feminino","Rural",-0.84,-0.57,-0.07,1176
+"estados","Amapa","5a","Feminino","Urbana",-0.76,-0.48,-0.02,4641
+"estados","Amazonas","5a","Feminino","Rural",-0.94,-0.67,-0.12,12997
+"estados","Amazonas","5a","Feminino","Urbana",-0.65,-0.4,0,35876
+"estados","Bahia","5a","Feminino","Rural",-0.04,-0.13,-0.17,71640
+"estados","Bahia","5a","Feminino","Urbana",0.02,0.02,-0.01,99329
+"estados","Ceara","5a","Feminino","Rural",-0.17,0.02,0.17,49232
+"estados","Ceara","5a","Feminino","Urbana",-0.09,0.18,0.34,65042
+"estados","Distrito Federal","5a","Feminino","Rural",0,-0.08,-0.13,798
+"estados","Distrito Federal","5a","Feminino","Urbana",0.01,0.04,0.04,4870
+"estados","Espirito Santo","5a","Feminino","Rural",0.09,0.1,0.05,6787
+"estados","Espirito Santo","5a","Feminino","Urbana",0.06,0.14,0.13,17716
+"estados","Goias","5a","Feminino","Rural",0.15,0.07,-0.04,3567
+"estados","Goias","5a","Feminino","Urbana",0.08,0.09,0.05,32196
+"estados","Maranhao","5a","Feminino","Rural",-0.56,-0.52,-0.26,42244
+"estados","Maranhao","5a","Feminino","Urbana",-0.37,-0.36,-0.2,59602
+"estados","Mato Grosso","5a","Feminino","Rural",-0.13,-0.03,0.06,3866
+"estados","Mato Grosso","5a","Feminino","Urbana",-0.01,0.07,0.1,17057
+"estados","Mato Grosso do Sul","5a","Feminino","Rural",-0.36,0,0.31,3348
+"estados","Mato Grosso do Sul","5a","Feminino","Urbana",-0.03,0.1,0.17,14396
+"estados","Minas Gerais","5a","Feminino","Rural",0.03,0.01,-0.02,35302
+"estados","Minas Gerais","5a","Feminino","Urbana",0.08,0.15,0.13,105626
+"estados","Para","5a","Feminino","Rural",-0.78,-0.61,-0.19,39264
+"estados","Para","5a","Feminino","Urbana",-0.53,-0.36,-0.07,59441
+"estados","Paraiba","5a","Feminino","Rural",-0.03,0.03,0.06,19176
+"estados","Paraiba","5a","Feminino","Urbana",0,0.13,0.17,37290
+"estados","Parana","5a","Feminino","Rural",-0.03,0.15,0.23,13671
+"estados","Parana","5a","Feminino","Urbana",0.06,0.23,0.27,47171
+"estados","Pernambuco","5a","Feminino","Rural",-0.05,0.05,0.1,31428
+"estados","Pernambuco","5a","Feminino","Urbana",0.04,0.18,0.22,55833
+"estados","Piaui","5a","Feminino","Rural",-0.33,-0.34,-0.21,19249
+"estados","Piaui","5a","Feminino","Urbana",-0.17,-0.16,-0.1,24756
+"estados","Rio Grande do Norte","5a","Feminino","Rural",-0.16,0.07,0.23,11648
+"estados","Rio Grande do Norte","5a","Feminino","Urbana",-0.15,0.15,0.34,22660
+"estados","Rio Grande do Sul","5a","Feminino","Rural",0.01,0.32,0.44,10405
+"estados","Rio Grande do Sul","5a","Feminino","Urbana",-0.01,0.35,0.5,43253
+"estados","Rio de Janeiro","5a","Feminino","Rural",-0.02,0.15,0.21,6867
+"estados","Rio de Janeiro","5a","Feminino","Urbana",-0.06,0.16,0.27,59172
+"estados","Rondonia","5a","Feminino","Rural",0.1,0.02,-0.08,4086
+"estados","Rondonia","5a","Feminino","Urbana",-0.08,-0.06,-0.03,6752
+"estados","Roraima","5a","Feminino","Rural",-0.8,-0.49,-0.01,1509
+"estados","Roraima","5a","Feminino","Urbana",-0.38,-0.27,-0.08,4674
+"estados","Santa Catarina","5a","Feminino","Rural",-0.09,0.16,0.3,5105
+"estados","Santa Catarina","5a","Feminino","Urbana",-0.12,0.12,0.27,13712
+"estados","Sao Paulo","5a","Feminino","Rural",-0.04,0.18,0.28,11570
+"estados","Sao Paulo","5a","Feminino","Urbana",0.03,0.27,0.35,126335
+"estados","Sergipe","5a","Feminino","Rural",-0.04,-0.03,-0.03,11175
+"estados","Sergipe","5a","Feminino","Urbana",0.05,0.07,0.05,16538
+"estados","Tocantins","5a","Feminino","Rural",-0.29,-0.31,-0.21,4153
+"estados","Tocantins","5a","Feminino","Urbana",-0.13,-0.18,-0.17,13506
+"estados","Acre","5a","Masculino","Rural",-0.75,-0.4,0.11,3931
+"estados","Acre","5a","Masculino","Urbana",-0.46,-0.16,0.18,5291
+"estados","Alagoas","5a","Masculino","Rural",-0.18,0.03,0.18,14863
+"estados","Alagoas","5a","Masculino","Urbana",-0.08,0.15,0.26,22431
+"estados","Amapa","5a","Masculino","Rural",-0.91,-0.54,0.04,1221
+"estados","Amapa","5a","Masculino","Urbana",-0.82,-0.39,0.19,4560
+"estados","Amazonas","5a","Masculino","Rural",-1.01,-0.59,0.08,13074
+"estados","Amazonas","5a","Masculino","Urbana",-0.65,-0.28,0.18,34017
+"estados","Bahia","5a","Masculino","Rural",-0.08,-0.06,-0.05,69598
+"estados","Bahia","5a","Masculino","Urbana",-0.01,0.09,0.11,93590
+"estados","Ceara","5a","Masculino","Rural",-0.2,0.13,0.35,47748
+"estados","Ceara","5a","Masculino","Urbana",-0.1,0.3,0.51,61107
+"estados","Distrito Federal","5a","Masculino","Rural",-0.05,-0.03,-0.04,768
+"estados","Distrito Federal","5a","Masculino","Urbana",-0.03,0.07,0.1,4974
+"estados","Espirito Santo","5a","Masculino","Rural",0.11,0.23,0.21,6878
+"estados","Espirito Santo","5a","Masculino","Urbana",0.06,0.2,0.22,17180
+"estados","Goias","5a","Masculino","Rural",0.08,0.15,0.11,3564
+"estados","Goias","5a","Masculino","Urbana",0.07,0.19,0.18,31658
+"estados","Maranhao","5a","Masculino","Rural",-0.64,-0.46,-0.1,41918
+"estados","Maranhao","5a","Masculino","Urbana",-0.43,-0.28,-0.05,55886
+"estados","Mato Grosso","5a","Masculino","Rural",-0.11,0.09,0.21,3799
+"estados","Mato Grosso","5a","Masculino","Urbana",-0.06,0.13,0.23,16129
+"estados","Mato Grosso do Sul","5a","Masculino","Rural",-0.37,0.15,0.56,3313
+"estados","Mato Grosso do Sul","5a","Masculino","Urbana",-0.02,0.23,0.35,13880
+"estados","Minas Gerais","5a","Masculino","Rural",0.02,0.12,0.12,35185
+"estados","Minas Gerais","5a","Masculino","Urbana",0.07,0.23,0.25,103529
+"estados","Para","5a","Masculino","Rural",-0.85,-0.53,0.01,39142
+"estados","Para","5a","Masculino","Urbana",-0.57,-0.28,0.09,55262
+"estados","Paraiba","5a","Masculino","Rural",-0.02,0.18,0.26,19177
+"estados","Paraiba","5a","Masculino","Urbana",0.02,0.26,0.34,36248
+"estados","Parana","5a","Masculino","Rural",-0.03,0.27,0.41,13855
+"estados","Parana","5a","Masculino","Urbana",0.04,0.33,0.43,46394
+"estados","Pernambuco","5a","Masculino","Rural",-0.07,0.15,0.25,30846
+"estados","Pernambuco","5a","Masculino","Urbana",0.02,0.28,0.37,51264
+"estados","Piaui","5a","Masculino","Rural",-0.35,-0.25,-0.08,19517
+"estados","Piaui","5a","Masculino","Urbana",-0.2,-0.05,0.08,23549
+"estados","Rio Grande do Norte","5a","Masculino","Rural",-0.19,0.17,0.4,11051
+"estados","Rio Grande do Norte","5a","Masculino","Urbana",-0.15,0.26,0.49,20552
+"estados","Rio Grande do Sul","5a","Masculino","Rural",-0.01,0.43,0.63,10110
+"estados","Rio Grande do Sul","5a","Masculino","Urbana",-0.02,0.45,0.67,40458
+"estados","Rio de Janeiro","5a","Masculino","Rural",0.02,0.27,0.35,6457
+"estados","Rio de Janeiro","5a","Masculino","Urbana",-0.08,0.24,0.4,53764
+"estados","Rondonia","5a","Masculino","Rural",0.05,0.12,0.09,3817
+"estados","Rondonia","5a","Masculino","Urbana",-0.04,0.05,0.09,6312
+"estados","Roraima","5a","Masculino","Rural",-0.85,-0.36,0.25,1554
+"estados","Roraima","5a","Masculino","Urbana",-0.45,-0.23,0.05,4276
+"estados","Santa Catarina","5a","Masculino","Rural",-0.12,0.25,0.46,5099
+"estados","Santa Catarina","5a","Masculino","Urbana",-0.16,0.22,0.46,13415
+"estados","Sao Paulo","5a","Masculino","Rural",-0.06,0.28,0.45,11101
+"estados","Sao Paulo","5a","Masculino","Urbana",0.02,0.34,0.47,118457
+"estados","Sergipe","5a","Masculino","Rural",-0.08,0.04,0.09,10664
+"estados","Sergipe","5a","Masculino","Urbana",0.02,0.14,0.14,14879
+"estados","Tocantins","5a","Masculino","Rural",-0.36,-0.22,-0.02,4036
+"estados","Tocantins","5a","Masculino","Urbana",-0.18,-0.09,-0.01,12481
+"estados","Acre","6a","Feminino","Rural",-0.63,-0.41,-0.06,3309
+"estados","Acre","6a","Feminino","Urbana",-0.32,-0.16,0,4638
+"estados","Alagoas","6a","Feminino","Rural",-0.11,-0.01,0.05,12678
+"estados","Alagoas","6a","Feminino","Urbana",-0.02,0.1,0.13,19403
+"estados","Amapa","6a","Feminino","Rural",-0.72,-0.49,-0.1,920
+"estados","Amapa","6a","Feminino","Urbana",-0.66,-0.39,-0.03,3759
+"estados","Amazonas","6a","Feminino","Rural",-0.87,-0.57,-0.08,10272
+"estados","Amazonas","6a","Feminino","Urbana",-0.54,-0.28,0.03,29904
+"estados","Bahia","6a","Feminino","Rural",0.02,-0.07,-0.15,61949
+"estados","Bahia","6a","Feminino","Urbana",0.09,0.1,0.02,84177
+"estados","Ceara","6a","Feminino","Rural",-0.13,0.08,0.19,41963
+"estados","Ceara","6a","Feminino","Urbana",-0.05,0.24,0.34,53918
+"estados","Distrito Federal","6a","Feminino","Rural",0.07,0.04,-0.04,584
+"estados","Distrito Federal","6a","Feminino","Urbana",0.1,0.11,0.03,3818
+"estados","Espirito Santo","6a","Feminino","Rural",0.17,0.18,0.08,6121
+"estados","Espirito Santo","6a","Feminino","Urbana",0.14,0.2,0.14,15445
+"estados","Goias","6a","Feminino","Rural",0.19,0.14,-0.01,3056
+"estados","Goias","6a","Feminino","Urbana",0.17,0.18,0.08,27068
+"estados","Maranhao","6a","Feminino","Rural",-0.48,-0.43,-0.23,35589
+"estados","Maranhao","6a","Feminino","Urbana",-0.29,-0.26,-0.17,49723
+"estados","Mato Grosso","6a","Feminino","Rural",-0.01,0.07,0.08,3151
+"estados","Mato Grosso","6a","Feminino","Urbana",0.08,0.15,0.11,14061
+"estados","Mato Grosso do Sul","6a","Feminino","Rural",-0.3,0.1,0.36,2887
+"estados","Mato Grosso do Sul","6a","Feminino","Urbana",0.05,0.17,0.17,12046
+"estados","Minas Gerais","6a","Feminino","Rural",0.07,0.07,0,30419
+"estados","Minas Gerais","6a","Feminino","Urbana",0.15,0.22,0.16,87589
+"estados","Para","6a","Feminino","Rural",-0.7,-0.53,-0.18,33582
+"estados","Para","6a","Feminino","Urbana",-0.43,-0.27,-0.04,50119
+"estados","Paraiba","6a","Feminino","Rural",-0.01,0.08,0.08,17171
+"estados","Paraiba","6a","Feminino","Urbana",0.05,0.18,0.17,32357
+"estados","Parana","6a","Feminino","Rural",0.03,0.17,0.19,12468
+"estados","Parana","6a","Feminino","Urbana",0.12,0.28,0.26,40280
+"estados","Pernambuco","6a","Feminino","Rural",-0.03,0.09,0.1,26916
+"estados","Pernambuco","6a","Feminino","Urbana",0.06,0.24,0.25,46326
+"estados","Piaui","6a","Feminino","Rural",-0.27,-0.27,-0.2,16629
+"estados","Piaui","6a","Feminino","Urbana",-0.11,-0.09,-0.07,20591
+"estados","Rio Grande do Norte","6a","Feminino","Rural",-0.12,0.13,0.25,9563
+"estados","Rio Grande do Norte","6a","Feminino","Urbana",-0.1,0.22,0.35,18713
+"estados","Rio Grande do Sul","6a","Feminino","Rural",0.07,0.36,0.42,9270
+"estados","Rio Grande do Sul","6a","Feminino","Urbana",0.07,0.42,0.5,36384
+"estados","Rio de Janeiro","6a","Feminino","Rural",0.09,0.27,0.27,5886
+"estados","Rio de Janeiro","6a","Feminino","Urbana",0.04,0.26,0.31,48591
+"estados","Rondonia","6a","Feminino","Rural",0.12,0.04,-0.09,3542
+"estados","Rondonia","6a","Feminino","Urbana",0.02,0,-0.06,5737
+"estados","Roraima","6a","Feminino","Rural",-0.67,-0.33,0.06,1225
+"estados","Roraima","6a","Feminino","Urbana",-0.25,-0.16,-0.07,3803
+"estados","Santa Catarina","6a","Feminino","Rural",-0.03,0.2,0.28,4378
+"estados","Santa Catarina","6a","Feminino","Urbana",-0.06,0.22,0.32,11449
+"estados","Sao Paulo","6a","Feminino","Rural",0.03,0.24,0.29,9513
+"estados","Sao Paulo","6a","Feminino","Urbana",0.13,0.35,0.36,102320
+"estados","Sergipe","6a","Feminino","Rural",0.02,0.02,-0.04,9425
+"estados","Sergipe","6a","Feminino","Urbana",0.08,0.13,0.07,13506
+"estados","Tocantins","6a","Feminino","Rural",-0.23,-0.23,-0.17,3514
+"estados","Tocantins","6a","Feminino","Urbana",-0.06,-0.09,-0.13,11304
+"estados","Acre","6a","Masculino","Rural",-0.72,-0.43,0.03,3155
+"estados","Acre","6a","Masculino","Urbana",-0.4,-0.18,0.08,4270
+"estados","Alagoas","6a","Masculino","Rural",-0.19,-0.01,0.13,12504
+"estados","Alagoas","6a","Masculino","Urbana",-0.07,0.12,0.21,17793
+"estados","Amapa","6a","Masculino","Rural",-0.85,-0.52,0.02,939
+"estados","Amapa","6a","Masculino","Urbana",-0.72,-0.4,0.08,3566
+"estados","Amazonas","6a","Masculino","Rural",-0.96,-0.55,0.09,10253
+"estados","Amazonas","6a","Masculino","Urbana",-0.62,-0.27,0.16,26785
+"estados","Bahia","6a","Masculino","Rural",-0.07,-0.09,-0.1,59396
+"estados","Bahia","6a","Masculino","Urbana",0.02,0.08,0.06,77493
+"estados","Ceara","6a","Masculino","Rural",-0.2,0.1,0.31,40353
+"estados","Ceara","6a","Masculino","Urbana",-0.09,0.29,0.47,49375
+"estados","Distrito Federal","6a","Masculino","Rural",0.05,0.07,0.03,524
+"estados","Distrito Federal","6a","Masculino","Urbana",0.04,0.13,0.13,3654
+"estados","Espirito Santo","6a","Masculino","Rural",0.11,0.2,0.17,6222
+"estados","Espirito Santo","6a","Masculino","Urbana",0.07,0.19,0.18,14604
+"estados","Goias","6a","Masculino","Rural",0.1,0.17,0.11,2978
+"estados","Goias","6a","Masculino","Urbana",0.09,0.2,0.17,26226
+"estados","Maranhao","6a","Masculino","Rural",-0.61,-0.47,-0.15,34726
+"estados","Maranhao","6a","Masculino","Urbana",-0.39,-0.29,-0.09,45558
+"estados","Mato Grosso","6a","Masculino","Rural",-0.03,0.15,0.21,3155
+"estados","Mato Grosso","6a","Masculino","Urbana",0.01,0.14,0.17,12993
+"estados","Mato Grosso do Sul","6a","Masculino","Rural",-0.26,0.19,0.51,2797
+"estados","Mato Grosso do Sul","6a","Masculino","Urbana",0.01,0.24,0.31,11435
+"estados","Minas Gerais","6a","Masculino","Rural",0.01,0.09,0.09,30547
+"estados","Minas Gerais","6a","Masculino","Urbana",0.09,0.23,0.23,84286
+"estados","Para","6a","Masculino","Rural",-0.8,-0.53,-0.05,32139
+"estados","Para","6a","Masculino","Urbana",-0.54,-0.3,0.04,45075
+"estados","Paraiba","6a","Masculino","Rural",-0.06,0.11,0.19,17068
+"estados","Paraiba","6a","Masculino","Urbana",0.02,0.24,0.3,30854
+"estados","Parana","6a","Masculino","Rural",-0.01,0.25,0.35,12588
+"estados","Parana","6a","Masculino","Urbana",0.06,0.31,0.36,39036
+"estados","Pernambuco","6a","Masculino","Rural",-0.08,0.11,0.2,25839
+"estados","Pernambuco","6a","Masculino","Urbana",0.02,0.27,0.34,41586
+"estados","Piaui","6a","Masculino","Rural",-0.34,-0.27,-0.13,16733
+"estados","Piaui","6a","Masculino","Urbana",-0.17,-0.07,0.02,19164
+"estados","Rio Grande do Norte","6a","Masculino","Rural",-0.18,0.15,0.36,9311
+"estados","Rio Grande do Norte","6a","Masculino","Urbana",-0.13,0.27,0.49,16702
+"estados","Rio Grande do Sul","6a","Masculino","Rural",0.02,0.41,0.56,9097
+"estados","Rio Grande do Sul","6a","Masculino","Urbana",0.02,0.46,0.63,34267
+"estados","Rio de Janeiro","6a","Masculino","Rural",0.06,0.26,0.3,5528
+"estados","Rio de Janeiro","6a","Masculino","Urbana",-0.02,0.27,0.38,42890
+"estados","Rondonia","6a","Masculino","Rural",0.07,0.06,-0.01,3126
+"estados","Rondonia","6a","Masculino","Urbana",-0.01,0.04,0.04,5256
+"estados","Roraima","6a","Masculino","Rural",-0.8,-0.38,0.17,1174
+"estados","Roraima","6a","Masculino","Urbana",-0.36,-0.23,-0.05,3386
+"estados","Santa Catarina","6a","Masculino","Rural",-0.09,0.24,0.43,4322
+"estados","Santa Catarina","6a","Masculino","Urbana",-0.13,0.22,0.41,11033
+"estados","Sao Paulo","6a","Masculino","Rural",-0.02,0.27,0.38,9045
+"estados","Sao Paulo","6a","Masculino","Urbana",0.07,0.35,0.43,94571
+"estados","Sergipe","6a","Masculino","Rural",-0.07,0,0.02,8732
+"estados","Sergipe","6a","Masculino","Urbana",0.03,0.13,0.13,11714
+"estados","Tocantins","6a","Masculino","Rural",-0.34,-0.23,-0.06,3340
+"estados","Tocantins","6a","Masculino","Urbana",-0.16,-0.11,-0.05,10349
+"estados","Acre","7a","Feminino","Rural",-0.59,-0.36,-0.06,1777
+"estados","Acre","7a","Feminino","Urbana",-0.22,-0.05,0.07,2538
+"estados","Alagoas","7a","Feminino","Rural",0.01,0.1,0.08,6323
+"estados","Alagoas","7a","Feminino","Urbana",0.07,0.21,0.19,9404
+"estados","Amapa","7a","Feminino","Rural",-0.58,-0.43,-0.16,401
+"estados","Amapa","7a","Feminino","Urbana",-0.53,-0.27,0.01,1510
+"estados","Amazonas","7a","Feminino","Rural",-0.73,-0.44,-0.03,5394
+"estados","Amazonas","7a","Feminino","Urbana",-0.39,-0.16,0.06,15582
+"estados","Bahia","7a","Feminino","Rural",0.12,0.06,-0.07,28245
+"estados","Bahia","7a","Feminino","Urbana",0.19,0.2,0.07,39494
+"estados","Ceara","7a","Feminino","Rural",0.01,0.24,0.28,20253
+"estados","Ceara","7a","Feminino","Urbana",0.07,0.36,0.4,26390
+"estados","Distrito Federal","7a","Feminino","Rural",0.15,0.2,0.11,313
+"estados","Distrito Federal","7a","Feminino","Urbana",0.18,0.24,0.14,2121
+"estados","Espirito Santo","7a","Feminino","Rural",0.19,0.22,0.11,2769
+"estados","Espirito Santo","7a","Feminino","Urbana",0.17,0.26,0.18,7892
+"estados","Goias","7a","Feminino","Rural",0.21,0.21,0.08,1636
+"estados","Goias","7a","Feminino","Urbana",0.28,0.33,0.19,12927
+"estados","Maranhao","7a","Feminino","Rural",-0.35,-0.29,-0.17,19159
+"estados","Maranhao","7a","Feminino","Urbana",-0.17,-0.13,-0.08,27048
+"estados","Mato Grosso","7a","Feminino","Rural",0.11,0.23,0.19,1602
+"estados","Mato Grosso","7a","Feminino","Urbana",0.16,0.28,0.22,7677
+"estados","Mato Grosso do Sul","7a","Feminino","Rural",-0.17,0.19,0.37,1684
+"estados","Mato Grosso do Sul","7a","Feminino","Urbana",0.16,0.31,0.26,7201
+"estados","Minas Gerais","7a","Feminino","Rural",0.14,0.16,0.06,16261
+"estados","Minas Gerais","7a","Feminino","Urbana",0.24,0.32,0.21,45060
+"estados","Para","7a","Feminino","Rural",-0.56,-0.39,-0.12,18357
+"estados","Para","7a","Feminino","Urbana",-0.32,-0.15,0.02,27408
+"estados","Paraiba","7a","Feminino","Rural",0.04,0.18,0.17,7887
+"estados","Paraiba","7a","Feminino","Urbana",0.13,0.28,0.23,14220
+"estados","Parana","7a","Feminino","Rural",0.07,0.25,0.25,6847
+"estados","Parana","7a","Feminino","Urbana",0.18,0.36,0.32,21280
+"estados","Pernambuco","7a","Feminino","Rural",0.07,0.21,0.2,12869
+"estados","Pernambuco","7a","Feminino","Urbana",0.12,0.32,0.29,21490
+"estados","Piaui","7a","Feminino","Rural",-0.16,-0.15,-0.13,7863
+"estados","Piaui","7a","Feminino","Urbana",-0.01,0.03,0,9590
+"estados","Rio Grande do Norte","7a","Feminino","Rural",0,0.26,0.32,4098
+"estados","Rio Grande do Norte","7a","Feminino","Urbana",0.03,0.35,0.41,8518
+"estados","Rio Grande do Sul","7a","Feminino","Rural",0.12,0.43,0.46,4476
+"estados","Rio Grande do Sul","7a","Feminino","Urbana",0.12,0.51,0.57,17192
+"estados","Rio de Janeiro","7a","Feminino","Rural",0.16,0.33,0.29,2609
+"estados","Rio de Janeiro","7a","Feminino","Urbana",0.12,0.36,0.36,22476
+"estados","Rondonia","7a","Feminino","Rural",0.14,0.1,-0.04,1622
+"estados","Rondonia","7a","Feminino","Urbana",0.07,0.13,0.06,2530
+"estados","Roraima","7a","Feminino","Rural",-0.51,-0.22,0.07,547
+"estados","Roraima","7a","Feminino","Urbana",-0.08,-0.04,-0.05,1828
+"estados","Santa Catarina","7a","Feminino","Rural",0.07,0.33,0.36,2389
+"estados","Santa Catarina","7a","Feminino","Urbana",0.05,0.32,0.36,6439
+"estados","Sao Paulo","7a","Feminino","Rural",0.11,0.33,0.32,4628
+"estados","Sao Paulo","7a","Feminino","Urbana",0.22,0.46,0.42,47604
+"estados","Sergipe","7a","Feminino","Rural",0.08,0.11,0.04,4414
+"estados","Sergipe","7a","Feminino","Urbana",0.13,0.22,0.14,5633
+"estados","Tocantins","7a","Feminino","Rural",-0.11,-0.08,-0.07,1907
+"estados","Tocantins","7a","Feminino","Urbana",0.06,0.01,-0.08,5962
+"estados","Acre","7a","Masculino","Rural",-0.71,-0.42,0.03,1069
+"estados","Acre","7a","Masculino","Urbana",-0.3,-0.13,0.07,1258
+"estados","Alagoas","7a","Masculino","Rural",-0.09,0.02,0.06,4017
+"estados","Alagoas","7a","Masculino","Urbana",0,0.18,0.22,5570
+"estados","Amapa","7a","Masculino","Rural",-0.81,-0.6,-0.12,271
+"estados","Amapa","7a","Masculino","Urbana",-0.59,-0.29,0.1,941
+"estados","Amazonas","7a","Masculino","Rural",-0.79,-0.48,0.04,3397
+"estados","Amazonas","7a","Masculino","Urbana",-0.45,-0.16,0.16,8547
+"estados","Bahia","7a","Masculino","Rural",0.01,-0.04,-0.11,18943
+"estados","Bahia","7a","Masculino","Urbana",0.08,0.12,0.06,24381
+"estados","Ceara","7a","Masculino","Rural",-0.11,0.19,0.34,12557
+"estados","Ceara","7a","Masculino","Urbana",-0.03,0.34,0.47,15079
+"estados","Distrito Federal","7a","Masculino","Rural",0.24,0.24,0.11,155
+"estados","Distrito Federal","7a","Masculino","Urbana",0.14,0.2,0.13,1207
+"estados","Espirito Santo","7a","Masculino","Rural",0.14,0.2,0.13,2262
+"estados","Espirito Santo","7a","Masculino","Urbana",0.06,0.16,0.15,5182
+"estados","Goias","7a","Masculino","Rural",0.16,0.19,0.08,1092
+"estados","Goias","7a","Masculino","Urbana",0.18,0.25,0.16,9044
+"estados","Maranhao","7a","Masculino","Rural",-0.52,-0.44,-0.19,11689
+"estados","Maranhao","7a","Masculino","Urbana",-0.31,-0.22,-0.08,15646
+"estados","Mato Grosso","7a","Masculino","Rural",0.09,0.23,0.23,1084
+"estados","Mato Grosso","7a","Masculino","Urbana",0.09,0.23,0.21,4531
+"estados","Mato Grosso do Sul","7a","Masculino","Rural",-0.17,0.24,0.49,991
+"estados","Mato Grosso do Sul","7a","Masculino","Urbana",0.09,0.3,0.32,4426
+"estados","Minas Gerais","7a","Masculino","Rural",0.07,0.13,0.09,12587
+"estados","Minas Gerais","7a","Masculino","Urbana",0.16,0.28,0.23,33622
+"estados","Para","7a","Masculino","Rural",-0.7,-0.48,-0.07,10738
+"estados","Para","7a","Masculino","Urbana",-0.44,-0.23,0.05,14912
+"estados","Paraiba","7a","Masculino","Rural",-0.03,0.12,0.16,6268
+"estados","Paraiba","7a","Masculino","Urbana",0.05,0.26,0.28,9979
+"estados","Parana","7a","Masculino","Rural",-0.02,0.24,0.35,5894
+"estados","Parana","7a","Masculino","Urbana",0.12,0.36,0.39,16960
+"estados","Pernambuco","7a","Masculino","Rural",-0.05,0.13,0.19,7965
+"estados","Pernambuco","7a","Masculino","Urbana",0.07,0.31,0.34,12744
+"estados","Piaui","7a","Masculino","Rural",-0.29,-0.26,-0.15,5691
+"estados","Piaui","7a","Masculino","Urbana",-0.09,0,0.04,6019
+"estados","Rio Grande do Norte","7a","Masculino","Rural",-0.11,0.23,0.41,2834
+"estados","Rio Grande do Norte","7a","Masculino","Urbana",-0.05,0.31,0.45,5591
+"estados","Rio Grande do Sul","7a","Masculino","Rural",0.09,0.48,0.58,3705
+"estados","Rio Grande do Sul","7a","Masculino","Urbana",0.08,0.5,0.63,13157
+"estados","Rio de Janeiro","7a","Masculino","Rural",0.11,0.3,0.31,1838
+"estados","Rio de Janeiro","7a","Masculino","Urbana",0.06,0.32,0.38,12886
+"estados","Rondonia","7a","Masculino","Rural",0.13,0.11,0.01,924
+"estados","Rondonia","7a","Masculino","Urbana",0.06,0.1,0.05,1530
+"estados","Roraima","7a","Masculino","Rural",-0.65,-0.24,0.23,322
+"estados","Roraima","7a","Masculino","Urbana",-0.24,-0.29,-0.27,870
+"estados","Santa Catarina","7a","Masculino","Rural",-0.04,0.26,0.39,2106
+"estados","Santa Catarina","7a","Masculino","Urbana",-0.03,0.27,0.39,4926
+"estados","Sao Paulo","7a","Masculino","Rural",0.04,0.3,0.37,3163
+"estados","Sao Paulo","7a","Masculino","Urbana",0.16,0.43,0.44,30786
+"estados","Sergipe","7a","Masculino","Rural",0,0.07,0.06,2642
+"estados","Sergipe","7a","Masculino","Urbana",0.01,0.15,0.15,3118
+"estados","Tocantins","7a","Masculino","Rural",-0.28,-0.23,-0.11,1122
+"estados","Tocantins","7a","Masculino","Urbana",-0.06,-0.04,-0.04,3770
+"estados","Acre","8a","Feminino","Rural",-0.62,-0.31,0.04,1369
+"estados","Acre","8a","Feminino","Urbana",-0.25,-0.03,0.1,1905
+"estados","Alagoas","8a","Feminino","Rural",0.01,0.13,0.13,5004
+"estados","Alagoas","8a","Feminino","Urbana",0.06,0.23,0.23,6505
+"estados","Amapa","8a","Feminino","Rural",-0.52,-0.3,-0.04,238
+"estados","Amapa","8a","Feminino","Urbana",-0.4,-0.17,0.05,886
+"estados","Amazonas","8a","Feminino","Rural",-0.77,-0.48,-0.06,4200
+"estados","Amazonas","8a","Feminino","Urbana",-0.41,-0.15,0.08,11237
+"estados","Bahia","8a","Feminino","Rural",0.13,0.1,0,19926
+"estados","Bahia","8a","Feminino","Urbana",0.21,0.26,0.15,23432
+"estados","Ceara","8a","Feminino","Rural",0.02,0.28,0.33,15754
+"estados","Ceara","8a","Feminino","Urbana",0.05,0.38,0.44,17752
+"estados","Distrito Federal","8a","Feminino","Rural",-0.05,-0.06,-0.08,190
+"estados","Distrito Federal","8a","Feminino","Urbana",0.25,0.27,0.14,1291
+"estados","Espirito Santo","8a","Feminino","Rural",0.24,0.32,0.22,1858
+"estados","Espirito Santo","8a","Feminino","Urbana",0.19,0.31,0.24,5176
+"estados","Goias","8a","Feminino","Rural",0.24,0.29,0.18,1260
+"estados","Goias","8a","Feminino","Urbana",0.33,0.41,0.28,8804
+"estados","Maranhao","8a","Feminino","Rural",-0.35,-0.23,-0.07,15917
+"estados","Maranhao","8a","Feminino","Urbana",-0.17,-0.07,0.01,19985
+"estados","Mato Grosso","8a","Feminino","Rural",0.11,0.26,0.24,1254
+"estados","Mato Grosso","8a","Feminino","Urbana",0.16,0.35,0.32,5854
+"estados","Mato Grosso do Sul","8a","Feminino","Rural",-0.14,0.24,0.41,1402
+"estados","Mato Grosso do Sul","8a","Feminino","Urbana",0.13,0.31,0.29,5773
+"estados","Minas Gerais","8a","Feminino","Rural",0.12,0.19,0.13,12861
+"estados","Minas Gerais","8a","Feminino","Urbana",0.21,0.33,0.26,32175
+"estados","Para","8a","Feminino","Rural",-0.55,-0.35,-0.08,14285
+"estados","Para","8a","Feminino","Urbana",-0.25,-0.09,0.04,19843
+"estados","Paraiba","8a","Feminino","Rural",0.06,0.21,0.21,5373
+"estados","Paraiba","8a","Feminino","Urbana",0.09,0.28,0.27,9118
+"estados","Parana","8a","Feminino","Rural",0.05,0.28,0.31,4948
+"estados","Parana","8a","Feminino","Urbana",0.17,0.4,0.38,15028
+"estados","Pernambuco","8a","Feminino","Rural",0.06,0.22,0.22,9616
+"estados","Pernambuco","8a","Feminino","Urbana",0.11,0.33,0.32,14289
+"estados","Piaui","8a","Feminino","Rural",-0.14,-0.06,-0.02,5227
+"estados","Piaui","8a","Feminino","Urbana",0.01,0.13,0.13,5757
+"estados","Rio Grande do Norte","8a","Feminino","Rural",-0.01,0.32,0.4,2874
+"estados","Rio Grande do Norte","8a","Feminino","Urbana",0.04,0.4,0.47,5317
+"estados","Rio Grande do Sul","8a","Feminino","Rural",0.15,0.51,0.56,2916
+"estados","Rio Grande do Sul","8a","Feminino","Urbana",0.12,0.56,0.63,10307
+"estados","Rio de Janeiro","8a","Feminino","Rural",0.19,0.39,0.36,1603
+"estados","Rio de Janeiro","8a","Feminino","Urbana",0.18,0.43,0.42,13539
+"estados","Rondonia","8a","Feminino","Rural",0.1,0.07,-0.02,1176
+"estados","Rondonia","8a","Feminino","Urbana",0.05,0.12,0.07,1846
+"estados","Roraima","8a","Feminino","Rural",-0.56,-0.18,0.19,399
+"estados","Roraima","8a","Feminino","Urbana",-0.13,0.08,0.16,1370
+"estados","Santa Catarina","8a","Feminino","Rural",0.04,0.34,0.4,1779
+"estados","Santa Catarina","8a","Feminino","Urbana",0.06,0.38,0.44,4859
+"estados","Sao Paulo","8a","Feminino","Rural",0.08,0.34,0.36,3352
+"estados","Sao Paulo","8a","Feminino","Urbana",0.22,0.47,0.45,32556
+"estados","Sergipe","8a","Feminino","Rural",0.06,0.14,0.12,3374
+"estados","Sergipe","8a","Feminino","Urbana",0.16,0.32,0.28,3881
+"estados","Tocantins","8a","Feminino","Rural",-0.14,-0.1,-0.08,1570
+"estados","Tocantins","8a","Feminino","Urbana",0.07,0.09,0.04,4809
+"estados","Acre","8a","Masculino","Rural",-0.58,-0.41,-0.11,151
+"estados","Acre","8a","Masculino","Urbana",-0.31,-0.15,0.01,164
+"estados","Alagoas","8a","Masculino","Rural",-0.14,-0.01,0.06,1092
+"estados","Alagoas","8a","Masculino","Urbana",0.08,0.24,0.22,1492
+"estados","Amapa","8a","Masculino","Rural",-0.9,-0.59,-0.02,22
+"estados","Amapa","8a","Masculino","Urbana",-0.48,-0.2,0.1,146
+"estados","Amazonas","8a","Masculino","Rural",-0.76,-0.45,0,731
+"estados","Amazonas","8a","Masculino","Urbana",-0.4,-0.17,0.06,2217
+"estados","Bahia","8a","Masculino","Rural",0.01,-0.01,-0.08,3546
+"estados","Bahia","8a","Masculino","Urbana",0.11,0.17,0.09,3758
+"estados","Ceara","8a","Masculino","Rural",-0.14,0.19,0.35,2558
+"estados","Ceara","8a","Masculino","Urbana",0,0.44,0.56,3042
+"estados","Distrito Federal","8a","Masculino","Rural",-0.29,0.15,0.4,8
+"estados","Distrito Federal","8a","Masculino","Urbana",-0.02,0.16,0.22,67
+"estados","Espirito Santo","8a","Masculino","Rural",0.14,0.29,0.25,601
+"estados","Espirito Santo","8a","Masculino","Urbana",0.05,0.18,0.17,1551
+"estados","Goias","8a","Masculino","Rural",0.16,0.22,0.12,344
+"estados","Goias","8a","Masculino","Urbana",0.21,0.38,0.3,2654
+"estados","Maranhao","8a","Masculino","Rural",-0.49,-0.4,-0.18,2570
+"estados","Maranhao","8a","Masculino","Urbana",-0.3,-0.21,-0.07,3376
+"estados","Mato Grosso","8a","Masculino","Rural",0.24,0.45,0.39,305
+"estados","Mato Grosso","8a","Masculino","Urbana",0.19,0.33,0.26,1471
+"estados","Mato Grosso do Sul","8a","Masculino","Rural",0.12,0.36,0.35,240
+"estados","Mato Grosso do Sul","8a","Masculino","Urbana",0.11,0.37,0.4,1677
+"estados","Minas Gerais","8a","Masculino","Rural",0.03,0.13,0.1,6137
+"estados","Minas Gerais","8a","Masculino","Urbana",0.19,0.35,0.29,15679
+"estados","Para","8a","Masculino","Rural",-0.65,-0.41,-0.03,1986
+"estados","Para","8a","Masculino","Urbana",-0.37,-0.16,0.04,2727
+"estados","Paraiba","8a","Masculino","Rural",-0.07,0.08,0.14,1920
+"estados","Paraiba","8a","Masculino","Urbana",0.03,0.25,0.28,2308
+"estados","Parana","8a","Masculino","Rural",-0.01,0.3,0.38,3249
+"estados","Parana","8a","Masculino","Urbana",0.09,0.4,0.45,8639
+"estados","Pernambuco","8a","Masculino","Rural",0.01,0.23,0.26,1230
+"estados","Pernambuco","8a","Masculino","Urbana",0.03,0.26,0.29,2075
+"estados","Piaui","8a","Masculino","Rural",-0.2,-0.14,-0.09,931
+"estados","Piaui","8a","Masculino","Urbana",-0.07,0.05,0.08,1279
+"estados","Rio Grande do Norte","8a","Masculino","Rural",-0.07,0.33,0.48,575
+"estados","Rio Grande do Norte","8a","Masculino","Urbana",-0.01,0.38,0.5,1411
+"estados","Rio Grande do Sul","8a","Masculino","Rural",0.07,0.5,0.63,1456
+"estados","Rio Grande do Sul","8a","Masculino","Urbana",0.11,0.62,0.74,5640
+"estados","Rio de Janeiro","8a","Masculino","Rural",0.07,0.31,0.34,456
+"estados","Rio de Janeiro","8a","Masculino","Urbana",0.25,0.43,0.36,2239
+"estados","Rondonia","8a","Masculino","Rural",0.23,0.22,0.07,228
+"estados","Rondonia","8a","Masculino","Urbana",0.13,0.31,0.29,554
+"estados","Roraima","8a","Masculino","Rural",-0.17,0.21,0.39,19
+"estados","Roraima","8a","Masculino","Urbana",-0.36,0.07,0.35,113
+"estados","Santa Catarina","8a","Masculino","Rural",0.04,0.32,0.4,1153
+"estados","Santa Catarina","8a","Masculino","Urbana",0,0.37,0.49,2627
+"estados","Sao Paulo","8a","Masculino","Rural",0.05,0.37,0.44,1192
+"estados","Sao Paulo","8a","Masculino","Urbana",0.23,0.56,0.56,9319
+"estados","Sergipe","8a","Masculino","Rural",0.06,0.04,-0.05,488
+"estados","Sergipe","8a","Masculino","Urbana",0.05,0.07,0,420
+"estados","Tocantins","8a","Masculino","Rural",-0.19,-0.15,-0.08,417
+"estados","Tocantins","8a","Masculino","Urbana",0.04,0.1,0.06,1464
+"estados","Acre","9a","Feminino","Rural",-0.64,-0.36,-0.02,1218
+"estados","Acre","9a","Feminino","Urbana",-0.3,-0.02,0.16,1659
+"estados","Alagoas","9a","Feminino","Rural",-0.08,0.09,0.14,5035
+"estados","Alagoas","9a","Feminino","Urbana",0,0.19,0.22,5868
+"estados","Amapa","9a","Feminino","Rural",-0.48,-0.22,0,221
+"estados","Amapa","9a","Feminino","Urbana",-0.45,-0.17,0.07,765
+"estados","Amazonas","9a","Feminino","Rural",-0.83,-0.47,-0.02,4083
+"estados","Amazonas","9a","Feminino","Urbana",-0.45,-0.15,0.11,10025
+"estados","Bahia","9a","Feminino","Rural",0.06,0.07,0.01,19411
+"estados","Bahia","9a","Feminino","Urbana",0.15,0.22,0.14,21054
+"estados","Ceara","9a","Feminino","Rural",-0.12,0.19,0.31,15739
+"estados","Ceara","9a","Feminino","Urbana",-0.04,0.31,0.41,16481
+"estados","Distrito Federal","9a","Feminino","Rural",0.14,0.17,0.12,154
+"estados","Distrito Federal","9a","Feminino","Urbana",0.2,0.22,0.1,1094
+"estados","Espirito Santo","9a","Feminino","Rural",0.14,0.28,0.24,1811
+"estados","Espirito Santo","9a","Feminino","Urbana",0.15,0.29,0.24,4444
+"estados","Goias","9a","Feminino","Rural",0.2,0.26,0.16,1197
+"estados","Goias","9a","Feminino","Urbana",0.23,0.37,0.29,7913
+"estados","Maranhao","9a","Feminino","Rural",-0.42,-0.27,-0.07,15888
+"estados","Maranhao","9a","Feminino","Urbana",-0.24,-0.1,0.01,18632
+"estados","Mato Grosso","9a","Feminino","Rural",0.07,0.3,0.32,1241
+"estados","Mato Grosso","9a","Feminino","Urbana",0.08,0.29,0.29,5352
+"estados","Mato Grosso do Sul","9a","Feminino","Rural",-0.18,0.24,0.43,1270
+"estados","Mato Grosso do Sul","9a","Feminino","Urbana",0.1,0.31,0.31,5220
+"estados","Minas Gerais","9a","Feminino","Rural",0.03,0.14,0.14,12219
+"estados","Minas Gerais","9a","Feminino","Urbana",0.15,0.3,0.25,29428
+"estados","Para","9a","Feminino","Rural",-0.62,-0.39,-0.09,13712
+"estados","Para","9a","Feminino","Urbana",-0.32,-0.12,0.04,17707
+"estados","Paraiba","9a","Feminino","Rural",-0.07,0.15,0.21,5027
+"estados","Paraiba","9a","Feminino","Urbana",-0.01,0.21,0.25,8123
+"estados","Parana","9a","Feminino","Rural",-0.01,0.28,0.34,4461
+"estados","Parana","9a","Feminino","Urbana",0.09,0.38,0.4,13376
+"estados","Pernambuco","9a","Feminino","Rural",-0.07,0.15,0.21,9567
+"estados","Pernambuco","9a","Feminino","Urbana",0.04,0.28,0.31,13107
+"estados","Piaui","9a","Feminino","Rural",-0.26,-0.13,-0.01,5237
+"estados","Piaui","9a","Feminino","Urbana",-0.06,0.08,0.11,5315
+"estados","Rio Grande do Norte","9a","Feminino","Rural",-0.08,0.26,0.36,2854
+"estados","Rio Grande do Norte","9a","Feminino","Urbana",-0.02,0.35,0.44,5118
+"estados","Rio Grande do Sul","9a","Feminino","Rural",0.13,0.52,0.56,2708
+"estados","Rio Grande do Sul","9a","Feminino","Urbana",0.09,0.54,0.62,8867
+"estados","Rio de Janeiro","9a","Feminino","Rural",0.14,0.36,0.34,1419
+"estados","Rio de Janeiro","9a","Feminino","Urbana",0.13,0.4,0.41,11567
+"estados","Rondonia","9a","Feminino","Rural",0.04,0.05,-0.01,1219
+"estados","Rondonia","9a","Feminino","Urbana",-0.07,0.04,0.06,1773
+"estados","Roraima","9a","Feminino","Rural",-0.51,-0.13,0.2,365
+"estados","Roraima","9a","Feminino","Urbana",-0.08,0.15,0.23,1335
+"estados","Santa Catarina","9a","Feminino","Rural",-0.08,0.29,0.41,1615
+"estados","Santa Catarina","9a","Feminino","Urbana",-0.01,0.32,0.4,4229
+"estados","Sao Paulo","9a","Feminino","Rural",0.01,0.34,0.41,3193
+"estados","Sao Paulo","9a","Feminino","Urbana",0.17,0.46,0.45,29444
+"estados","Sergipe","9a","Feminino","Rural",-0.01,0.11,0.12,3403
+"estados","Sergipe","9a","Feminino","Urbana",0.08,0.26,0.24,3545
+"estados","Tocantins","9a","Feminino","Rural",-0.1,-0.04,-0.01,1550
+"estados","Tocantins","9a","Feminino","Urbana",0.02,0.04,0.01,4516
+"estados","Acre","9a","Masculino","Rural",-0.52,-0.14,0.21,132
+"estados","Acre","9a","Masculino","Urbana",-0.35,-0.2,-0.03,134
+"estados","Alagoas","9a","Masculino","Rural",-0.17,0.02,0.12,934
+"estados","Alagoas","9a","Masculino","Urbana",0.02,0.31,0.37,1242
+"estados","Amapa","9a","Masculino","Rural",-0.99,-0.72,-0.19,21
+"estados","Amapa","9a","Masculino","Urbana",-0.42,-0.3,-0.12,109
+"estados","Amazonas","9a","Masculino","Rural",-0.8,-0.41,0.08,678
+"estados","Amazonas","9a","Masculino","Urbana",-0.43,-0.08,0.21,1832
+"estados","Bahia","9a","Masculino","Rural",0.02,0.04,-0.01,2771
+"estados","Bahia","9a","Masculino","Urbana",0.11,0.2,0.14,2819
+"estados","Ceara","9a","Masculino","Rural",-0.2,0.22,0.42,2163
+"estados","Ceara","9a","Masculino","Urbana",-0.02,0.44,0.58,2540
+"estados","Distrito Federal","9a","Masculino","Rural",-0.46,-0.04,0.29,12
+"estados","Distrito Federal","9a","Masculino","Urbana",0.21,0.47,0.45,42
+"estados","Espirito Santo","9a","Masculino","Rural",0.18,0.28,0.2,466
+"estados","Espirito Santo","9a","Masculino","Urbana",0.11,0.29,0.28,996
+"estados","Goias","9a","Masculino","Rural",0.21,0.35,0.29,294
+"estados","Goias","9a","Masculino","Urbana",0.23,0.41,0.35,2038
+"estados","Maranhao","9a","Masculino","Rural",-0.56,-0.39,-0.13,2261
+"estados","Maranhao","9a","Masculino","Urbana",-0.35,-0.19,-0.02,2665
+"estados","Mato Grosso","9a","Masculino","Rural",0.21,0.28,0.16,314
+"estados","Mato Grosso","9a","Masculino","Urbana",0.16,0.33,0.29,1137
+"estados","Mato Grosso do Sul","9a","Masculino","Rural",0.19,0.44,0.43,223
+"estados","Mato Grosso do Sul","9a","Masculino","Urbana",0.06,0.36,0.43,1389
+"estados","Minas Gerais","9a","Masculino","Rural",0.01,0.18,0.2,5434
+"estados","Minas Gerais","9a","Masculino","Urbana",0.18,0.36,0.33,13124
+"estados","Para","9a","Masculino","Rural",-0.66,-0.37,0,1707
+"estados","Para","9a","Masculino","Urbana",-0.38,-0.13,0.09,2246
+"estados","Paraiba","9a","Masculino","Rural",-0.11,0.07,0.15,1554
+"estados","Paraiba","9a","Masculino","Urbana",0.03,0.29,0.34,1743
+"estados","Parana","9a","Masculino","Rural",-0.01,0.31,0.42,2612
+"estados","Parana","9a","Masculino","Urbana",0.09,0.45,0.53,6979
+"estados","Pernambuco","9a","Masculino","Rural",-0.08,0.17,0.25,1053
+"estados","Pernambuco","9a","Masculino","Urbana",0,0.29,0.35,1506
+"estados","Piaui","9a","Masculino","Rural",-0.33,-0.16,-0.01,799
+"estados","Piaui","9a","Masculino","Urbana",-0.11,0.16,0.25,991
+"estados","Rio Grande do Norte","9a","Masculino","Rural",-0.12,0.27,0.45,505
+"estados","Rio Grande do Norte","9a","Masculino","Urbana",-0.04,0.41,0.57,1133
+"estados","Rio Grande do Sul","9a","Masculino","Rural",0.08,0.57,0.7,1218
+"estados","Rio Grande do Sul","9a","Masculino","Urbana",0.12,0.67,0.81,4597
+"estados","Rio de Janeiro","9a","Masculino","Rural",0.07,0.22,0.22,328
+"estados","Rio de Janeiro","9a","Masculino","Urbana",0.18,0.43,0.42,1725
+"estados","Rondonia","9a","Masculino","Rural",0.03,0.15,0.13,182
+"estados","Rondonia","9a","Masculino","Urbana",0.07,0.24,0.22,476
+"estados","Roraima","9a","Masculino","Rural",-0.38,-0.58,-0.6,19
+"estados","Roraima","9a","Masculino","Urbana",-0.29,0.24,0.5,99
+"estados","Santa Catarina","9a","Masculino","Rural",0.05,0.45,0.56,975
+"estados","Santa Catarina","9a","Masculino","Urbana",0.03,0.43,0.54,2231
+"estados","Sao Paulo","9a","Masculino","Rural",0.05,0.39,0.47,959
+"estados","Sao Paulo","9a","Masculino","Urbana",0.22,0.58,0.6,7360
+"estados","Sergipe","9a","Masculino","Rural",0.06,0.06,-0.02,426
+"estados","Sergipe","9a","Masculino","Urbana",0.11,0.19,0.12,401
+"estados","Tocantins","9a","Masculino","Rural",-0.11,-0.07,-0.05,382
+"estados","Tocantins","9a","Masculino","Urbana",-0.06,0.03,0.03,1199
+"raca","Amarela","0 - 5m","Feminino","Rural",-0.42,-0.06,0.26,67
+"raca","Amarela","0 - 5m","Feminino","Urbana",-0.67,-0.17,0.29,182
+"raca","Branca","0 - 5m","Feminino","Rural",-0.65,-0.28,0.11,8540
+"raca","Branca","0 - 5m","Feminino","Urbana",-0.72,-0.37,0.03,36567
+"raca","Indígena","0 - 5m","Feminino","Rural",-0.77,0.09,0.75,137
+"raca","Indígena","0 - 5m","Feminino","Urbana",-0.67,-0.03,0.48,144
+"raca","Parda","0 - 5m","Feminino","Rural",-0.42,-0.02,0.32,14988
+"raca","Parda","0 - 5m","Feminino","Urbana",-0.49,-0.13,0.21,41068
+"raca","Preta","0 - 5m","Feminino","Rural",-0.57,-0.17,0.22,1055
+"raca","Preta","0 - 5m","Feminino","Urbana",-0.75,-0.32,0.15,4266
+"raca","Amarela","0 - 5m","Masculino","Rural",-0.71,-0.31,0.15,55
+"raca","Amarela","0 - 5m","Masculino","Urbana",-0.62,-0.27,0.11,177
+"raca","Branca","0 - 5m","Masculino","Rural",-0.75,-0.34,0.11,8568
+"raca","Branca","0 - 5m","Masculino","Urbana",-0.83,-0.43,0.04,37083
+"raca","Indígena","0 - 5m","Masculino","Rural",-0.84,-0.1,0.55,153
+"raca","Indígena","0 - 5m","Masculino","Urbana",-0.68,-0.03,0.49,154
+"raca","Parda","0 - 5m","Masculino","Rural",-0.64,-0.09,0.38,15652
+"raca","Parda","0 - 5m","Masculino","Urbana",-0.67,-0.18,0.27,42310
+"raca","Preta","0 - 5m","Masculino","Rural",-0.67,-0.23,0.21,1014
+"raca","Preta","0 - 5m","Masculino","Urbana",-0.84,-0.36,0.16,4641
+"raca","Amarela","06 - 11m","Feminino","Rural",-0.22,0.28,0.56,243
+"raca","Amarela","06 - 11m","Feminino","Urbana",-0.36,0.23,0.61,536
+"raca","Branca","06 - 11m","Feminino","Rural",-0.29,0.24,0.56,20936
+"raca","Branca","06 - 11m","Feminino","Urbana",-0.27,0.19,0.49,74700
+"raca","Indígena","06 - 11m","Feminino","Rural",-0.85,-0.03,0.65,1416
+"raca","Indígena","06 - 11m","Feminino","Urbana",-0.71,0.07,0.67,741
+"raca","Parda","06 - 11m","Feminino","Rural",-0.37,0.31,0.74,66646
+"raca","Parda","06 - 11m","Feminino","Urbana",-0.31,0.29,0.65,140959
+"raca","Preta","06 - 11m","Feminino","Rural",-0.36,0.29,0.69,3665
+"raca","Preta","06 - 11m","Feminino","Urbana",-0.38,0.18,0.56,12652
+"raca","Amarela","06 - 11m","Masculino","Rural",-0.53,0.14,0.61,212
+"raca","Amarela","06 - 11m","Masculino","Urbana",-0.48,0.17,0.62,519
+"raca","Branca","06 - 11m","Masculino","Rural",-0.43,0.19,0.59,20313
+"raca","Branca","06 - 11m","Masculino","Urbana",-0.43,0.14,0.52,72450
+"raca","Indígena","06 - 11m","Masculino","Rural",-1.21,-0.18,0.72,1454
+"raca","Indígena","06 - 11m","Masculino","Urbana",-0.93,0.01,0.75,769
+"raca","Parda","06 - 11m","Masculino","Rural",-0.6,0.22,0.77,66898
+"raca","Parda","06 - 11m","Masculino","Urbana",-0.5,0.21,0.68,138511
+"raca","Preta","06 - 11m","Masculino","Rural",-0.6,0.13,0.65,3811
+"raca","Preta","06 - 11m","Masculino","Urbana",-0.56,0.13,0.61,12621
+"raca","Amarela","12 - 17m","Feminino","Rural",-0.45,0.28,0.76,389
+"raca","Amarela","12 - 17m","Feminino","Urbana",-0.37,0.35,0.8,910
+"raca","Branca","12 - 17m","Feminino","Rural",-0.34,0.34,0.77,32035
+"raca","Branca","12 - 17m","Feminino","Urbana",-0.34,0.32,0.73,110718
+"raca","Indígena","12 - 17m","Feminino","Rural",-1.25,-0.21,0.76,3045
+"raca","Indígena","12 - 17m","Feminino","Urbana",-0.91,0,0.76,1468
+"raca","Parda","12 - 17m","Feminino","Rural",-0.51,0.28,0.82,110169
+"raca","Parda","12 - 17m","Feminino","Urbana",-0.44,0.3,0.78,230601
+"raca","Preta","12 - 17m","Feminino","Rural",-0.5,0.25,0.77,6126
+"raca","Preta","12 - 17m","Feminino","Urbana",-0.46,0.26,0.74,19577
+"raca","Amarela","12 - 17m","Masculino","Rural",-0.74,0.22,0.91,381
+"raca","Amarela","12 - 17m","Masculino","Urbana",-0.64,0.15,0.72,801
+"raca","Branca","12 - 17m","Masculino","Rural",-0.5,0.26,0.76,31197
+"raca","Branca","12 - 17m","Masculino","Urbana",-0.49,0.25,0.74,105384
+"raca","Indígena","12 - 17m","Masculino","Rural",-1.53,-0.44,0.65,3065
+"raca","Indígena","12 - 17m","Masculino","Urbana",-1.19,-0.14,0.78,1407
+"raca","Parda","12 - 17m","Masculino","Rural",-0.73,0.15,0.81,111014
+"raca","Parda","12 - 17m","Masculino","Urbana",-0.64,0.19,0.78,224360
+"raca","Preta","12 - 17m","Masculino","Rural",-0.75,0.06,0.7,6069
+"raca","Preta","12 - 17m","Masculino","Urbana",-0.68,0.15,0.76,19788
+"raca","Amarela","18 - 23m","Feminino","Rural",-0.56,0.09,0.61,514
+"raca","Amarela","18 - 23m","Feminino","Urbana",-0.31,0.24,0.62,1165
+"raca","Branca","18 - 23m","Feminino","Rural",-0.32,0.31,0.71,41652
+"raca","Branca","18 - 23m","Feminino","Urbana",-0.33,0.32,0.73,141141
+"raca","Indígena","18 - 23m","Feminino","Rural",-1.39,-0.32,0.76,4548
+"raca","Indígena","18 - 23m","Feminino","Urbana",-1.09,-0.17,0.7,2023
+"raca","Parda","18 - 23m","Feminino","Rural",-0.52,0.17,0.69,146191
+"raca","Parda","18 - 23m","Feminino","Urbana",-0.44,0.23,0.71,303777
+"raca","Preta","18 - 23m","Feminino","Rural",-0.48,0.14,0.61,7871
+"raca","Preta","18 - 23m","Feminino","Urbana",-0.42,0.24,0.7,24973
+"raca","Amarela","18 - 23m","Masculino","Rural",-0.48,0.06,0.51,546
+"raca","Amarela","18 - 23m","Masculino","Urbana",-0.52,0.12,0.62,1124
+"raca","Branca","18 - 23m","Masculino","Rural",-0.45,0.23,0.72,39874
+"raca","Branca","18 - 23m","Masculino","Urbana",-0.44,0.25,0.74,133583
+"raca","Indígena","18 - 23m","Masculino","Rural",-1.62,-0.49,0.74,4650
+"raca","Indígena","18 - 23m","Masculino","Urbana",-1.3,-0.31,0.71,1864
+"raca","Parda","18 - 23m","Masculino","Rural",-0.69,0.06,0.68,146962
+"raca","Parda","18 - 23m","Masculino","Urbana",-0.61,0.13,0.71,296325
+"raca","Preta","18 - 23m","Masculino","Rural",-0.71,0,0.61,7819
+"raca","Preta","18 - 23m","Masculino","Urbana",-0.62,0.12,0.71,25281
+"raca","Amarela","2a","Feminino","Rural",-0.26,0,0.21,990
+"raca","Amarela","2a","Feminino","Urbana",-0.22,0.15,0.39,2192
+"raca","Branca","2a","Feminino","Rural",-0.14,0.2,0.4,78596
+"raca","Branca","2a","Feminino","Urbana",-0.15,0.25,0.49,268281
+"raca","Indígena","2a","Feminino","Rural",-1.28,-0.42,0.56,9495
+"raca","Indígena","2a","Feminino","Urbana",-0.96,-0.27,0.47,3840
+"raca","Parda","2a","Feminino","Rural",-0.35,0,0.31,275177
+"raca","Parda","2a","Feminino","Urbana",-0.27,0.1,0.38,582965
+"raca","Preta","2a","Feminino","Rural",-0.31,-0.01,0.25,14003
+"raca","Preta","2a","Feminino","Urbana",-0.24,0.15,0.41,45904
+"raca","Amarela","2a","Masculino","Rural",-0.39,-0.03,0.29,996
+"raca","Amarela","2a","Masculino","Urbana",-0.31,0.1,0.42,2181
+"raca","Branca","2a","Masculino","Rural",-0.21,0.18,0.44,76626
+"raca","Branca","2a","Masculino","Urbana",-0.22,0.23,0.51,254246
+"raca","Indígena","2a","Masculino","Rural",-1.41,-0.49,0.59,9678
+"raca","Indígena","2a","Masculino","Urbana",-1.04,-0.31,0.51,3542
+"raca","Parda","2a","Masculino","Rural",-0.46,-0.04,0.35,277287
+"raca","Parda","2a","Masculino","Urbana",-0.38,0.06,0.42,572247
+"raca","Preta","2a","Masculino","Rural",-0.44,-0.08,0.27,14292
+"raca","Preta","2a","Masculino","Urbana",-0.35,0.1,0.44,46818
+"raca","Amarela","3a","Feminino","Rural",-0.26,-0.06,0.16,1183
+"raca","Amarela","3a","Feminino","Urbana",-0.14,0.07,0.24,2491
+"raca","Branca","3a","Feminino","Rural",-0.13,0.11,0.28,95732
+"raca","Branca","3a","Feminino","Urbana",-0.12,0.19,0.39,309022
+"raca","Indígena","3a","Feminino","Rural",-1.25,-0.5,0.45,10924
+"raca","Indígena","3a","Feminino","Urbana",-0.96,-0.38,0.34,4271
+"raca","Parda","3a","Feminino","Rural",-0.33,-0.12,0.12,314896
+"raca","Parda","3a","Feminino","Urbana",-0.24,0,0.22,655249
+"raca","Preta","3a","Feminino","Rural",-0.24,-0.1,0.07,15373
+"raca","Preta","3a","Feminino","Urbana",-0.13,0.1,0.27,49088
+"raca","Amarela","3a","Masculino","Rural",-0.27,-0.01,0.24,1188
+"raca","Amarela","3a","Masculino","Urbana",-0.19,0.08,0.3,2524
+"raca","Branca","3a","Masculino","Rural",-0.12,0.19,0.39,92901
+"raca","Branca","3a","Masculino","Urbana",-0.1,0.26,0.48,292689
+"raca","Indígena","3a","Masculino","Rural",-1.3,-0.46,0.59,11192
+"raca","Indígena","3a","Masculino","Urbana",-0.93,-0.3,0.47,3956
+"raca","Parda","3a","Masculino","Rural",-0.35,-0.06,0.24,317617
+"raca","Parda","3a","Masculino","Urbana",-0.24,0.06,0.33,645406
+"raca","Preta","3a","Masculino","Rural",-0.29,-0.06,0.19,15563
+"raca","Preta","3a","Masculino","Urbana",-0.18,0.14,0.37,50191
+"raca","Amarela","4a","Feminino","Rural",-0.38,-0.2,0.05,1330
+"raca","Amarela","4a","Feminino","Urbana",-0.2,-0.06,0.1,2461
+"raca","Branca","4a","Feminino","Rural",-0.13,0.04,0.18,105649
+"raca","Branca","4a","Feminino","Urbana",-0.09,0.15,0.31,332475
+"raca","Indígena","4a","Feminino","Rural",-1.18,-0.55,0.29,10668
+"raca","Indígena","4a","Feminino","Urbana",-0.9,-0.43,0.2,4347
+"raca","Parda","4a","Feminino","Rural",-0.31,-0.21,-0.03,316120
+"raca","Parda","4a","Feminino","Urbana",-0.21,-0.06,0.11,654778
+"raca","Preta","4a","Feminino","Rural",-0.22,-0.17,-0.05,14162
+"raca","Preta","4a","Feminino","Urbana",-0.06,0.06,0.17,43456
+"raca","Amarela","4a","Masculino","Rural",-0.24,-0.05,0.17,1350
+"raca","Amarela","4a","Masculino","Urbana",-0.09,0.08,0.22,2557
+"raca","Branca","4a","Masculino","Rural",-0.08,0.17,0.35,102102
+"raca","Branca","4a","Masculino","Urbana",-0.03,0.27,0.45,311038
+"raca","Indígena","4a","Masculino","Rural",-1.18,-0.45,0.5,10659
+"raca","Indígena","4a","Masculino","Urbana",-0.81,-0.3,0.36,3751
+"raca","Parda","4a","Masculino","Rural",-0.29,-0.09,0.15,314204
+"raca","Parda","4a","Masculino","Urbana",-0.17,0.06,0.27,633186
+"raca","Preta","4a","Masculino","Rural",-0.22,-0.07,0.12,14370
+"raca","Preta","4a","Masculino","Urbana",-0.07,0.16,0.32,43798
+"raca","Amarela","5a","Feminino","Rural",-0.41,-0.33,-0.13,1445
+"raca","Amarela","5a","Feminino","Urbana",-0.18,-0.07,0.05,2404
+"raca","Branca","5a","Feminino","Rural",-0.09,0.04,0.13,107673
+"raca","Branca","5a","Feminino","Urbana",-0.01,0.2,0.28,328629
+"raca","Indígena","5a","Feminino","Rural",-1.03,-0.51,0.2,9146
+"raca","Indígena","5a","Feminino","Urbana",-0.76,-0.38,0.13,3993
+"raca","Parda","5a","Feminino","Rural",-0.26,-0.2,-0.07,291879
+"raca","Parda","5a","Feminino","Urbana",-0.13,-0.02,0.08,596994
+"raca","Preta","5a","Feminino","Rural",-0.14,-0.14,-0.09,11836
+"raca","Preta","5a","Feminino","Urbana",0.04,0.13,0.15,33932
+"raca","Amarela","5a","Masculino","Rural",-0.36,-0.12,0.14,1501
+"raca","Amarela","5a","Masculino","Urbana",-0.11,0.1,0.22,2401
+"raca","Branca","5a","Masculino","Rural",-0.1,0.16,0.3,103542
+"raca","Branca","5a","Masculino","Urbana",-0.01,0.29,0.42,303903
+"raca","Indígena","5a","Masculino","Rural",-1.11,-0.45,0.4,9323
+"raca","Indígena","5a","Masculino","Urbana",-0.79,-0.3,0.3,3410
+"raca","Parda","5a","Masculino","Rural",-0.3,-0.11,0.09,288866
+"raca","Parda","5a","Masculino","Urbana",-0.15,0.07,0.22,568755
+"raca","Preta","5a","Masculino","Rural",-0.19,-0.07,0.05,11902
+"raca","Preta","5a","Masculino","Urbana",-0.02,0.19,0.28,33997
+"raca","Amarela","6a","Feminino","Rural",-0.31,-0.26,-0.14,1368
+"raca","Amarela","6a","Feminino","Urbana",-0.09,0,0.04,1993
+"raca","Branca","6a","Feminino","Rural",-0.03,0.09,0.12,98362
+"raca","Branca","6a","Feminino","Urbana",0.07,0.26,0.28,287066
+"raca","Indígena","6a","Feminino","Rural",-0.92,-0.38,0.24,7309
+"raca","Indígena","6a","Feminino","Urbana",-0.71,-0.31,0.15,3188
+"raca","Parda","6a","Feminino","Rural",-0.21,-0.13,-0.05,245771
+"raca","Parda","6a","Feminino","Urbana",-0.06,0.06,0.1,487959
+"raca","Preta","6a","Feminino","Rural",-0.09,-0.09,-0.08,8280
+"raca","Preta","6a","Feminino","Urbana",0.11,0.22,0.19,22070
+"raca","Amarela","6a","Masculino","Rural",-0.3,-0.17,0,1350
+"raca","Amarela","6a","Masculino","Urbana",-0.21,-0.04,0.11,1983
+"raca","Branca","6a","Masculino","Rural",-0.08,0.13,0.24,94221
+"raca","Branca","6a","Masculino","Urbana",0.02,0.29,0.37,261500
+"raca","Indígena","6a","Masculino","Rural",-1.03,-0.39,0.4,6967
+"raca","Indígena","6a","Masculino","Urbana",-0.72,-0.25,0.29,2612
+"raca","Parda","6a","Masculino","Rural",-0.29,-0.14,0.03,240233
+"raca","Parda","6a","Masculino","Urbana",-0.13,0.07,0.18,453656
+"raca","Preta","6a","Masculino","Rural",-0.22,-0.1,0.02,8455
+"raca","Preta","6a","Masculino","Urbana",0.01,0.2,0.26,22044
+"raca","Amarela","7a","Feminino","Rural",-0.16,-0.04,0.01,512
+"raca","Amarela","7a","Feminino","Urbana",0.04,0.11,0.06,872
+"raca","Branca","7a","Feminino","Rural",0.06,0.2,0.2,48284
+"raca","Branca","7a","Feminino","Urbana",0.15,0.36,0.34,141879
+"raca","Indígena","7a","Feminino","Rural",-0.81,-0.28,0.26,3532
+"raca","Indígena","7a","Feminino","Urbana",-0.63,-0.24,0.17,1569
+"raca","Parda","7a","Feminino","Rural",-0.11,-0.02,0.01,124268
+"raca","Parda","7a","Feminino","Urbana",0.03,0.16,0.15,244500
+"raca","Preta","7a","Feminino","Rural",-0.03,-0.01,-0.03,3003
+"raca","Preta","7a","Feminino","Urbana",0.18,0.32,0.26,8601
+"raca","Amarela","7a","Masculino","Rural",-0.32,-0.12,0.08,400
+"raca","Amarela","7a","Masculino","Urbana",-0.13,0.03,0.13,588
+"raca","Branca","7a","Masculino","Rural",-0.01,0.19,0.25,35191
+"raca","Branca","7a","Masculino","Urbana",0.1,0.35,0.38,96153
+"raca","Indígena","7a","Masculino","Rural",-0.92,-0.35,0.35,2127
+"raca","Indígena","7a","Masculino","Urbana",-0.64,-0.24,0.24,830
+"raca","Parda","7a","Masculino","Rural",-0.21,-0.1,0.02,80659
+"raca","Parda","7a","Masculino","Urbana",-0.05,0.11,0.18,149737
+"raca","Preta","7a","Masculino","Rural",-0.14,-0.07,0,2372
+"raca","Preta","7a","Masculino","Urbana",0.07,0.27,0.29,6449
+"raca","Amarela","8a","Feminino","Rural",-0.22,0.05,0.2,369
+"raca","Amarela","8a","Feminino","Urbana",0.09,0.18,0.15,594
+"raca","Branca","8a","Feminino","Rural",0.05,0.23,0.24,36306
+"raca","Branca","8a","Feminino","Urbana",0.15,0.39,0.38,98911
+"raca","Indígena","8a","Feminino","Rural",-0.81,-0.23,0.32,2453
+"raca","Indígena","8a","Feminino","Urbana",-0.62,-0.19,0.2,1001
+"raca","Parda","8a","Feminino","Rural",-0.12,0.01,0.07,93345
+"raca","Parda","8a","Feminino","Urbana",0.03,0.19,0.2,164635
+"raca","Preta","8a","Feminino","Rural",-0.06,0.02,0.03,2275
+"raca","Preta","8a","Feminino","Urbana",0.21,0.39,0.35,5680
+"raca","Amarela","8a","Masculino","Rural",-0.07,-0.01,0.01,123
+"raca","Amarela","8a","Masculino","Urbana",-0.1,-0.08,-0.07,187
+"raca","Branca","8a","Masculino","Rural",0,0.25,0.31,13368
+"raca","Branca","8a","Masculino","Urbana",0.13,0.44,0.47,36584
+"raca","Indígena","8a","Masculino","Rural",-0.8,-0.3,0.27,119
+"raca","Indígena","8a","Masculino","Urbana",-0.53,-0.18,0.17,136
+"raca","Parda","8a","Masculino","Rural",-0.17,-0.04,0.04,18126
+"raca","Parda","8a","Masculino","Urbana",0.01,0.19,0.22,35578
+"raca","Preta","8a","Masculino","Rural",-0.15,0.08,0.19,658
+"raca","Preta","8a","Masculino","Urbana",0.21,0.39,0.34,2076
+"raca","Amarela","9a","Feminino","Rural",-0.23,-0.01,0.14,485
+"raca","Amarela","9a","Feminino","Urbana",-0.02,0.18,0.23,578
+"raca","Branca","9a","Feminino","Rural",-0.05,0.18,0.24,36172
+"raca","Branca","9a","Feminino","Urbana",0.09,0.35,0.37,90613
+"raca","Indígena","9a","Feminino","Rural",-0.82,-0.23,0.3,2179
+"raca","Indígena","9a","Feminino","Urbana",-0.62,-0.12,0.29,876
+"raca","Parda","9a","Feminino","Rural",-0.21,-0.04,0.07,89605
+"raca","Parda","9a","Feminino","Urbana",-0.04,0.15,0.2,146701
+"raca","Preta","9a","Feminino","Rural",-0.12,0.04,0.1,2405
+"raca","Preta","9a","Feminino","Urbana",0.14,0.32,0.29,5370
+"raca","Amarela","9a","Masculino","Rural",-0.25,0.01,0.18,97
+"raca","Amarela","9a","Masculino","Urbana",-0.06,0.12,0.16,155
+"raca","Branca","9a","Masculino","Rural",-0.01,0.27,0.35,11424
+"raca","Branca","9a","Masculino","Urbana",0.13,0.47,0.52,29937
+"raca","Indígena","9a","Masculino","Rural",-0.5,-0.1,0.23,120
+"raca","Indígena","9a","Masculino","Urbana",-0.41,-0.11,0.16,153
+"raca","Parda","9a","Masculino","Rural",-0.22,-0.02,0.1,15180
+"raca","Parda","9a","Masculino","Urbana",-0.02,0.21,0.27,27952
+"raca","Preta","9a","Masculino","Rural",-0.08,0.05,0.09,548
+"raca","Preta","9a","Masculino","Urbana",0.16,0.45,0.47,1669
