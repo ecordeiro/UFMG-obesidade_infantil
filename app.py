@@ -6,10 +6,19 @@ from dataset import (
     df_categ_raca, 
     df_categ_regiao, 
     df_categ_estados, 
-    #df_categorias_prevalencia,
-    df_categ_estados_prev
+    df_categ_estados_prev,
+    df_categ_geral_prev,
+    df_categ_regiao_prev,
+    df_categ_raca_prev,
 )
-from graficos import plot_zscore_brasil, plot_zscore_por_regiao, plot_zscore_por_estado, gerar_grafico_imc_altura, gerar_grafico_radial_obesidade
+
+from graficos import (
+    plot_zscore_brasil, 
+    plot_zscore_por_regiao, 
+    plot_zscore_por_estado,     
+    gerar_grafico_radial_obesidade,    
+    gerar_pizza_composicao_peso
+)
 
 # ----------------- CONFIGURAÇÕES INICIAIS ----------------- #
 st.set_page_config(page_title="Gráficos de Saúde Infantil", layout="wide")
@@ -25,9 +34,49 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("📊 Indicadores de Saúde Infantil")
+st.markdown(
+    "<h4 style='text-align: left; color: white;'>📊 Indicadores Antropométricos de Crescimento Infantil</h4>",
+    unsafe_allow_html=True
+)
 
-# ----------------- MAPEAMENTO E AJUSTES ----------------- #
+st.markdown("""
+    <style>
+    /* Reduz tudo dentro da sidebar */
+    [data-testid="stSidebar"] * {
+        font-size: 0.75rem !important;
+        font-weight: 300 !important;
+    }
+
+    [data-testid="stSidebar"] .block-container {
+        padding: 1rem;
+    }
+
+    [data-testid="stSidebar"] .stRadio, 
+    [data-testid="stSidebar"] .stSelectbox, 
+    [data-testid="stSidebar"] .stMultiSelect {
+        margin-bottom: 0.5rem;
+    }
+
+    /* Reduz fontes do menu dropdown (fora da sidebar) */
+    div[role="listbox"] > div {
+        font-size: 0.75rem !important;
+    }
+
+    /* Também reduz o texto selecionado dentro do select */
+    .css-1pahdxg-control, .css-1dimb5e-singleValue {
+        font-size: 0.75rem !important;
+    }
+
+    /* Reduz o botão de seta e outras partes internas */
+    .css-319lph-ValueContainer, .css-tlfecz-indicatorContainer {
+        font-size: 0.75rem !important;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+
+
+# ----------------- MAPEAMENTO ----------------- #
 estados_para_regiao = {
     "Acre": "norte", "Alagoas": "nordeste", "Amapa": "norte", "Amazonas": "norte",
     "Bahia": "nordeste", "Ceara": "nordeste", "Distrito Federal": "centro_oeste",
@@ -39,62 +88,74 @@ estados_para_regiao = {
     "Sao Paulo": "sudeste", "Sergipe": "nordeste", "Tocantins": "norte", "Rio Grande do Norte": "nordeste",
 }
 df_categ_estados["regiao"] = df_categ_estados["categoria"].map(estados_para_regiao)
+df_categ_estados_prev["regiao"] = df_categ_estados_prev["categoria"].map(estados_para_regiao)
 
 # ----------------- FUNÇÃO: TÍTULO COM ESTILO ----------------- #
 def styled_title(text, level=5):
     return f"<h{level} style='margin-bottom: 5px; color:#2c3e50'>{text}</h{level}>"
 
-# ----------------- SIDEBAR - FILTROS ----------------- #
-with st.sidebar.expander("🎛️ Filtros", expanded=True):
-    sexo_opcao = st.radio("Sexo:", ["Masculino", "Feminino"])
-    reg_cadunico_opcao = st.radio("Região Cadastral:", ["Rural", "Urbana"])
-    categoria_opcao = st.selectbox("Raça:", df_categ_raca["categoria"].unique())
-    regiao_opcao = st.multiselect("Região:", df_categ_regiao["categoria"].unique())
-    estados_opcao = st.multiselect("Estados:", df_categ_estados["categoria"].unique())
-    idade_opcao = st.selectbox("Idade:", df_categ_estados_prev["idade_cat"].unique())
-    
-
-# ----------------- TABS ----------------- #
-aba_geral, aba_raca, aba_regiao, aba_estado, aba_radial = st.tabs([
-    "📊 Brasil Geral", "🎯 Por Raça", "🌍 Por Região", "🏙️ Por Estado", "📌 Prevalência de Obesidade"
+# ----------------- CONTROLE DE ABA ATIVA ----------------- #
+aba_ativa = st.sidebar.radio("Navegação", [
+    "📊 Brasil Geral", 
+    "🎯 Por Raça", 
+    "🌍 Por Região", 
+    "🏙️ Por Estado", 
+    "📌 Prevalência de Obesidade"
 ])
 
-# ----------------- ABA 1: GERAL ----------------- #
-with aba_geral:
+# ----------------- FILTROS COMUNS ----------------- #
+sexo_opcao = st.sidebar.radio("Sexo:", ["Masculino", "Feminino"])
+reg_cadunico_opcao = st.sidebar.radio("Região Cadastral:", ["Rural", "Urbana"])
+
+# ----------------- FILTROS ESPECÍFICOS ----------------- #
+categoria_opcao = None
+regiao_opcao = []
+estados_opcao = []
+
+if aba_ativa == "🎯 Por Raça":
+    categoria_opcao = st.sidebar.selectbox("Raça:", df_categ_raca["categoria"].unique())
+
+if aba_ativa in ["🌍 Por Região", "🏙️ Por Estado"]:
+    regiao_opcao = st.sidebar.multiselect("Região:", df_categ_regiao["categoria"].unique())
+
+if aba_ativa in ["🏙️ Por Estado"]:
+    estados_opcao = st.sidebar.multiselect("Estados:", df_categ_estados["categoria"].unique())    
+
+if aba_ativa in ["📌 Prevalência de Obesidade"]:
+    idade_opcao = st.sidebar.selectbox("Idade:", df_categ_estados_prev["idade_cat"].unique())
+    regiao_opcao = st.sidebar.multiselect("Região:", df_categ_regiao["categoria"].unique())    
+    estados_opcao = st.sidebar.multiselect("Estados:", df_categ_estados["categoria"].unique())
+    
+
+# ----------------- CONTEÚDO DE CADA ABA ----------------- #
+
+# 📊 Brasil Geral
+if aba_ativa == "📊 Brasil Geral":
     df_kpi = df_categ_geral.query("sexo == @sexo_opcao and region_cadunico == @reg_cadunico_opcao")
     st.markdown(styled_title(f"Brasil - Sexo: {sexo_opcao} | Região: {reg_cadunico_opcao}"), unsafe_allow_html=True)
     plot_zscore_brasil(df_kpi)
 
-# ----------------- ABA 2: RAÇA ----------------- #
-with aba_raca:
+# 🎯 Por Raça
+elif aba_ativa == "🎯 Por Raça":
     df_raca = df_categ_raca.query("sexo == @sexo_opcao and region_cadunico == @reg_cadunico_opcao and categoria == @categoria_opcao")
     st.markdown(styled_title(f"Raça: {categoria_opcao} | Sexo: {sexo_opcao} | Região: {reg_cadunico_opcao}"), unsafe_allow_html=True)
     plot_zscore_brasil(df_raca)
 
-# ----------------- ABA 3: REGIÃO ----------------- #
-with aba_regiao:
+# 🌍 Por Região
+elif aba_ativa == "🌍 Por Região":
     df_regiao = df_categ_regiao.query("sexo == @sexo_opcao and region_cadunico == @reg_cadunico_opcao")
     if regiao_opcao:
         df_regiao = df_regiao[df_regiao["categoria"].isin(regiao_opcao)]
+
     regioes_str = ", ".join(regiao_opcao) if regiao_opcao else "Todas"
-
-    st.markdown(styled_title(f"Z-Score por Região - Sexo: {sexo_opcao} | Região Cadastral: {reg_cadunico_opcao} | Regiões: {regioes_str}"), unsafe_allow_html=True)
-
-    #st.markdown("<h6 style='text-align:center;'>IMC</h6>", unsafe_allow_html=True)
+    st.markdown(styled_title(f"Z-Score por Região - Sexo: {sexo_opcao} | {reg_cadunico_opcao} | Regiões: {regioes_str}"), unsafe_allow_html=True)
     plot_zscore_por_regiao(df_regiao, 'med_imc')
-
     st.divider()
-
-    #col1, col2 = st.columns(2)
-    #with col1:
-    #st.markdown("<h6 style='text-align:center;'>Peso</h6>", unsafe_allow_html=True)
     plot_zscore_por_regiao(df_regiao, 'med_peso')
-    #with col2:
-    #st.markdown("<h6 style='text-align:center;'>Altura</h6>", unsafe_allow_html=True)
     plot_zscore_por_regiao(df_regiao, 'med_altura')
 
-# ----------------- ABA 4: ESTADOS ----------------- #
-with aba_estado:
+# 🏙️ Por Estado
+elif aba_ativa == "🏙️ Por Estado":
     df_estados = df_categ_estados.query("sexo == @sexo_opcao and region_cadunico == @reg_cadunico_opcao")
     if regiao_opcao:
         df_estados = df_estados[df_estados["regiao"].isin(regiao_opcao)]
@@ -103,31 +164,75 @@ with aba_estado:
 
     regioes_str = ", ".join(regiao_opcao) if regiao_opcao else "Todas"
     estados_str = ", ".join(estados_opcao) if estados_opcao else "Todos"
-
-    st.markdown(styled_title(f"Z-Score por Estado - Sexo: {sexo_opcao} | Região Cadastral: {reg_cadunico_opcao} | Regiões: {regioes_str} | Estados: {estados_str}"), unsafe_allow_html=True)
-
-    #st.markdown("<h6 style='text-align:center;'>IMC</h6>", unsafe_allow_html=True)
+    st.markdown(styled_title(f"Z-Score por Estado - Sexo: {sexo_opcao} | {reg_cadunico_opcao} | Regiões: {regioes_str} | Estados: {estados_str}"), unsafe_allow_html=True)
     plot_zscore_por_estado(df_estados, 'med_imc')
-
     st.divider()
-
-    #col1, col2 = st.columns(2)
-    #with col1:
-    #st.markdown("<h6 style='text-align:center;'>Peso</h6>", unsafe_allow_html=True)
     plot_zscore_por_estado(df_estados, 'med_peso')
-    #with col2:
-    #st.markdown("<h6 style='text-align:center;'>Altura</h6>", unsafe_allow_html=True)
     plot_zscore_por_estado(df_estados, 'med_altura')
+    
 
-# ----------------- ABA 5: GRÁFICO RADIAL ----------------- #
-with aba_radial:
-    df_categ_estados_prev["regiao"] = df_categ_estados_prev["categoria"].map(estados_para_regiao)
+# 📌 Prevalência de Obesidade
+elif aba_ativa == "📌 Prevalência de Obesidade":
 
-    df_estados_prev = df_categ_estados_prev.query("idade_cat == @idade_opcao and sexo == @sexo_opcao and region_cadunico == @reg_cadunico_opcao")
-    if regiao_opcao:
-        df_estados_prev = df_estados_prev[df_estados_prev["regiao"].isin(regiao_opcao)]
-    if estados_opcao:
-        df_estados_prev = df_estados_prev[df_estados_prev["categoria"].isin(estados_opcao)]
+    abas = st.tabs(["📊 Composição Geral", "📍 Por Região", "🗺️ Por Estado", "🌎 Por Raça"])
 
-    st.markdown(styled_title(f"Prevalência de Obesidade (Idade: {idade_opcao}, {sexo_opcao}, {reg_cadunico_opcao})"), unsafe_allow_html=True)
-    gerar_grafico_radial_obesidade(df_estados_prev)    
+    #Dados Gerais    
+    with abas[0]:
+
+        df_categ_geral_prev = df_categ_geral_prev.query(
+            "idade_cat == @idade_opcao and sexo == @sexo_opcao and region_cadunico == @reg_cadunico_opcao"
+        )
+
+        st.markdown(styled_title(f"Filtros (Idade: {idade_opcao}, {sexo_opcao}, {reg_cadunico_opcao})"), unsafe_allow_html=True)
+
+        gerar_pizza_composicao_peso(df_categ_geral_prev)
+
+    #Dados por Regiao
+    with abas[1]:
+    
+
+        if regiao_opcao:
+            df_categ_regiao_prev = df_categ_regiao_prev[df_categ_regiao_prev["categoria"].isin(regiao_opcao)]
+            regiao=regiao_opcao
+        else:
+            regiao="Todas"
+
+        df_categ_regiao_prev = df_categ_regiao_prev.query(
+            "idade_cat == @idade_opcao and sexo == @sexo_opcao and region_cadunico == @reg_cadunico_opcao"
+        )
+
+        st.markdown(styled_title(f"Filtros (Idade: {idade_opcao}, {sexo_opcao}, {reg_cadunico_opcao}| {regiao})"), unsafe_allow_html=True)    
+        gerar_grafico_radial_obesidade(df_categ_regiao_prev, modo='regiao')
+
+    #Dados por Estado
+    with abas[2]:        
+
+        df_estados_prev = df_categ_estados_prev.query(
+            "idade_cat == @idade_opcao and sexo == @sexo_opcao and region_cadunico == @reg_cadunico_opcao"
+        )
+        if regiao_opcao:
+            df_estados_prev = df_estados_prev[df_estados_prev["regiao"].isin(regiao_opcao)]
+            regiao=regiao_opcao
+        else:
+            regiao="Todas"
+
+        if estados_opcao:
+            df_estados_prev = df_estados_prev[df_estados_prev["categoria"].isin(estados_opcao)]
+            estado = estados_opcao
+        else:
+            estado = "Todos"    
+
+        st.markdown(styled_title(f"Filtros (Idade: {idade_opcao}, {sexo_opcao}, {reg_cadunico_opcao}| {regiao} | {estado})"), unsafe_allow_html=True)    
+        gerar_grafico_radial_obesidade(df_estados_prev, modo='estado')
+
+    #Dados por Raça    
+    with abas[3]:        
+
+        df_categ_raca_prev = df_categ_raca_prev.query(
+            "idade_cat == @idade_opcao and sexo == @sexo_opcao and region_cadunico == @reg_cadunico_opcao"
+        )
+
+        st.markdown(styled_title(f"Filtros (Idade: {idade_opcao}, {sexo_opcao}, {reg_cadunico_opcao})"), unsafe_allow_html=True)    
+        gerar_grafico_radial_obesidade(df_categ_raca_prev, modo='raca')
+
+    

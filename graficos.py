@@ -17,13 +17,12 @@ def plot_zscore_brasil(df):
     df = df.sort_values('Idade')
 
     fig = go.Figure()
-
-    # Linhas com setas para frente
+        
     fig.add_trace(go.Scatter(
         x=df['Idade'], y=df['med_altura'],
         mode='lines+markers',
         name='Altura para Idade',
-        marker=dict(symbol='arrow-right', color='red', size=8),
+        marker=dict(symbol='circle', color='red', size=8),
         line=dict(color='red')
     ))
 
@@ -31,7 +30,7 @@ def plot_zscore_brasil(df):
         x=df['Idade'], y=df['med_imc'],
         mode='lines+markers',
         name='IMC para Idade',
-        marker=dict(symbol='arrow-right', color='deepskyblue', size=8),
+        marker=dict(symbol='circle', color='deepskyblue', size=8),
         line=dict(color='deepskyblue')
     ))
 
@@ -39,7 +38,7 @@ def plot_zscore_brasil(df):
         x=df['Idade'], y=df['med_peso'],
         mode='lines+markers',
         name='Peso para Idade',
-        marker=dict(symbol='arrow-right', color='limegreen', size=8),
+        marker=dict(symbol='circle', color='limegreen', size=8),
         line=dict(color='limegreen')
     ))
 
@@ -99,6 +98,16 @@ def plot_zscore_por_regiao(df, medida='med_peso'):
         "sul": "yellow"
     }
 
+    # Nome formatado das regiões
+    nomes_formatados = {
+        "Brasil": "Brasil",
+        "centro_oeste": "Centro Oeste",
+        "nordeste": "Nordeste",
+        "norte": "Norte",
+        "sudeste": "Sudeste",
+        "sul": "Sul"
+    }
+
     # Inicia figura
     fig = go.Figure()
 
@@ -109,8 +118,8 @@ def plot_zscore_por_regiao(df, medida='med_peso'):
             x=dados_regiao['Idade'],
             y=dados_regiao[medida],
             mode='lines+markers',
-            name=regiao,
-            marker=dict(symbol='arrow-right', size=8, color=cores.get(regiao, 'white')),
+            name=nomes_formatados.get(regiao, regiao),
+            marker=dict(symbol='circle', size=8, color=cores.get(regiao, 'white')),
             line=dict(color=cores.get(regiao, 'white'))
         ))
 
@@ -142,10 +151,7 @@ def plot_zscore_por_regiao(df, medida='med_peso'):
         height=400,        
         title=f"Z-Score Médio de {label_y} para Idade por Região",
         xaxis_title="Idade",
-        yaxis_title=f"Z-Score Médio de {label_y}",
-        #plot_bgcolor='black',
-        #paper_bgcolor='black',
-        #font=dict(color='white'),
+        yaxis_title=f"Z-Score Médio de {label_y}",        
         xaxis=dict(
             tickangle=45,
             showgrid=True,
@@ -180,7 +186,7 @@ def plot_zscore_por_estado(df, medida='med_peso'):
             y=dados_estado[medida],
             mode='lines+markers',
             name=estado,
-            marker=dict(symbol='arrow-right', size=8),
+            marker=dict(symbol='circle', size=8),
             line=dict()
         ))
 
@@ -260,7 +266,92 @@ def gerar_grafico_imc_altura(dados: pd.DataFrame, altura_col='Altura', imc_col='
     
     st.plotly_chart(fig)
 
-def gerar_grafico_radial_obesidade(df):
+def gerar_comparacao_obesidade_excesso(df):
+    # Corrigir valores
+    for col in ['prev_obesidade', 'prev_excesso']:
+        df[col] = df[col].astype(str).str.replace(',', '.').astype(float)
+
+    # Usar a média (ou único valor, se só tiver uma linha)
+    obesidade = df['prev_obesidade'].mean()
+    excesso = df['prev_excesso'].mean()
+
+    # Criar DataFrame para gráfico
+    dados = pd.DataFrame({
+        'Indicador': ['Obesidade', 'Excesso de Peso'],
+        'Prevalência': [obesidade, excesso]
+    })
+
+    # Gráfico de barras horizontal
+    fig = px.bar(
+        dados,
+        x='Prevalência',
+        y='Indicador',
+        orientation='h',
+        text='Prevalência',
+        title='Comparação entre Obesidade e Excesso de Peso'
+    )
+
+    fig.update_traces(texttemplate='%{text:.1f}%', textposition='outside')
+    fig.update_layout(
+        xaxis_title='Prevalência (%)',
+        yaxis_title='',
+        height=300
+    )
+
+    st.plotly_chart(fig, use_container_width=True)
+
+def gerar_pizza_composicao_peso(df):
+    # Corrigir e converter valores
+    for col in ['prev_obesidade', 'prev_excesso']:
+        df[col] = df[col].astype(str).str.replace(',', '.').astype(float)
+
+    obesidade = df['prev_obesidade'].mean()
+    excesso = df['prev_excesso'].mean()
+    saudavel = max(0, 100 - (obesidade + excesso))
+
+    labels = ['Obesidade', 'Excesso de Peso', 'Peso Saudável']
+    values = [obesidade, excesso, saudavel]
+    colors = ['#e74c3c', '#3498db', '#2ecc71']  # Vermelho, Azul, Verde
+
+    fig = go.Figure(data=[go.Pie(
+        labels=labels,
+        values=values,
+        marker=dict(colors=colors),  # ❌ sem borda branca
+        textinfo='percent+label',
+        textfont_size=16,
+        insidetextfont=dict(color='white', size=14),
+        hoverinfo='label+percent',  # ✅ remove duplicidade
+        sort=False
+    )])
+
+    fig.update_layout(
+        title_text='Dados Gerais de Obesidade e Excesso de Peso',
+        showlegend=False,
+        height=360,
+        margin=dict(t=60, b=20, l=20, r=20)
+    )
+
+    st.plotly_chart(fig, use_container_width=True)
+
+import numpy as np
+import plotly.graph_objects as go
+import streamlit as st
+
+import numpy as np
+import plotly.graph_objects as go
+import streamlit as st
+
+def gerar_grafico_radial_obesidade(df, modo='estado'):
+    """
+    Gera gráfico radial de obesidade e excesso de peso.
+
+    Parâmetros:
+        df (DataFrame): Dados com colunas apropriadas.
+        modo (str): 'estado' para dados por estado e região,
+                    'regiao' para dados agregados por região,
+                    'raca' para dados agrupados por raça/cor.
+    """
+
     # Cores por região
     cores_regiao = {
         'norte': '#1f77b4',
@@ -270,7 +361,7 @@ def gerar_grafico_radial_obesidade(df):
         'centro_oeste': '#9467bd',
     }
 
-    nomes_legenda = {
+    nomes_legenda_regiao = {
         'norte': 'Norte',
         'nordeste': 'Nordeste',
         'sudeste': 'Sudeste',
@@ -278,66 +369,114 @@ def gerar_grafico_radial_obesidade(df):
         'centro_oeste': 'Centro Oeste'
     }
 
-    # Ordenar os dados
-    df = df.sort_values(by=['regiao', 'categoria'])
+    # Cores por raça
+    cores_raca = {
+        'branca': '#1f77b4',
+        'preta': '#ff7f0e',
+        'parda': '#2ca02c',
+        'amarela': '#d62728',
+        'indígena': '#9467bd',
+        'ni': '#8c564b',
+    }
+
+    nomes_legenda_raca = {
+        'branca': 'Branca',
+        'preta': 'Preta',
+        'parda': 'Parda',
+        'amarela': 'Amarela',
+        'indígena': 'Indígena',
+        'ni': 'Não Informada',
+    }
+
+    # Validação
+    if modo not in ['estado', 'regiao', 'raca']:
+        raise ValueError("O parâmetro 'modo' deve ser 'estado', 'regiao' ou 'raca'.")
+
+    if modo == 'estado':
+        df = df.sort_values(by=['regiao', 'categoria'])
+        grupos = df['regiao'].unique()
+        cores = cores_regiao
+        nomes_legenda = nomes_legenda_regiao
+    elif modo == 'regiao':
+        df = df.sort_values(by='categoria')
+        grupos = df['categoria'].unique()
+        cores = cores_regiao
+        nomes_legenda = nomes_legenda_regiao
+    elif modo == 'raca':
+        df = df.sort_values(by='categoria')
+        grupos = df['categoria'].unique()
+        cores = cores_raca
+        nomes_legenda = nomes_legenda_raca
+
+    # Ângulos para posicionamento
     df['Angulo'] = np.linspace(0, 360, len(df), endpoint=False)
 
     fig = go.Figure()
 
-    # Loop por região para adicionar traços individualmente
-    for regiao, cor in cores_regiao.items():
-        dados_regiao = df[df['regiao'] == regiao]
+    for grupo in grupos:
+        if modo == 'estado':
+            dados = df[df['regiao'] == grupo]
+            chave = grupo.lower()
+            nome_legenda = nomes_legenda.get(chave, grupo.capitalize())
+        else:
+            dados = df[df['categoria'] == grupo]
+            chave = grupo.lower()
+            nome_legenda = nomes_legenda.get(chave, grupo)
 
-        # Obesidade (barra interna)
+        cor = cores.get(chave, '#888')
+
+        # Obesidade
         fig.add_trace(go.Barpolar(
-            r=dados_regiao['prev_obesidade'],
-            theta=dados_regiao['Angulo'],
-            #name=regiao.capitalize(),  # Nome da legenda
-            name=nomes_legenda.get(regiao, regiao.capitalize()),
+            r=dados['prev_obesidade'],
+            theta=dados['Angulo'],
+            name=nome_legenda,
             marker_color=cor,
             marker_line_color="black",
             marker_line_width=0.5,
             opacity=1.0,
-            hovertext=dados_regiao['categoria'] + ' - Obesidade',
-            hoverinfo='text+r',
+            hovertext=dados['categoria'] + ' - Obesidade: ' + dados['prev_obesidade'].round(1).astype(str) + '%',
+            hoverinfo='text',
         ))
 
-        # Excesso de peso (barra externa, mais clara)
+        # Excesso de peso
         fig.add_trace(go.Barpolar(
-            r=dados_regiao['prev_excesso'],
-            theta=dados_regiao['Angulo'],
-            name=None,  # Evita duplicar legenda
+            r=dados['prev_excesso'],
+            theta=dados['Angulo'],
+            name=None,
             marker_color=cor,
             marker_line_color="black",
             marker_line_width=0.4,
             opacity=0.5,
-            hovertext=dados_regiao['categoria'] + ' - Excesso de peso',
-            hoverinfo='text+r',
-            showlegend=False  # Oculta da legenda
+            hovertext=dados['categoria'] + ' - Excesso de peso: ' + dados['prev_excesso'].round(1).astype(str) + '%',
+            hoverinfo='text',
+            showlegend=False
         ))
 
-    fig.update_layout(        
-        height=400,        
-        title='Obesidade e Excesso de Peso por Estado e Região',
+    # Títulos dinâmicos
+    titulo = {
+        'estado': 'Obesidade e Excesso de Peso por Estado e Região',
+        'regiao': 'Obesidade e Excesso de Peso por Região',
+        'raca': 'Obesidade e Excesso de Peso por Raça'
+    }[modo]
+
+    fig.update_layout(
+        height=400,
+        title=titulo,
         template='plotly_white',
         polar=dict(
             radialaxis=dict(
                 showticklabels=True,
                 ticks='',
-                tickfont=dict(color='black', size=10),  # Cor e tamanho dos valores
-                angle=0,  # Define a orientação do eixo radial
-                #gridcolor='gray',       # <- cor das linhas do radar
-                #gridwidth=1,          # <- espessura da linha
-                #linecolor='black',      # <- borda do eixo radial
-                #linewidth=1
+                tickfont=dict(color='black', size=10),
+                angle=0,
             ),
             angularaxis=dict(
                 tickmode='array',
                 tickvals=df['Angulo'],
-                ticktext=df['categoria']                
+                ticktext=df['categoria']
             )
         ),
-        legend=dict(orientation='v', yanchor='top')        
+        legend=dict(orientation='v', yanchor='top')
     )
 
     st.plotly_chart(fig, use_container_width=True)

@@ -1,0 +1,4 @@
+venv_ufmg/  
+__pycache__/  
+*.log  
+.env
