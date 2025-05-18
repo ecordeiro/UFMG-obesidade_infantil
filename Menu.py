@@ -22,9 +22,9 @@ st.markdown(
 st.markdown("""
 Bem-vindo ao painel de indicadores antropométricos. Use o menu lateral para acessar as diferentes visualizações:
 
-- 📊 Categoria Geral
+- 📊 Dados Gerais
+- 🌍 Dados por Região
 - 🎯 Categoria por Raça
-- 🌍 Categoria por Região
 - 🏙️ Categoria por Estado
 - 📌 Prevalência por Categoria
 """)

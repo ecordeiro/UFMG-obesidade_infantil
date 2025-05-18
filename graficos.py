@@ -333,14 +333,6 @@ def gerar_pizza_composicao_peso(df):
 
     st.plotly_chart(fig, use_container_width=True)
 
-import numpy as np
-import plotly.graph_objects as go
-import streamlit as st
-
-import numpy as np
-import plotly.graph_objects as go
-import streamlit as st
-
 def gerar_grafico_radial_obesidade(df, modo='estado'):
     """
     Gera gráfico radial de obesidade e excesso de peso.
@@ -480,3 +472,110 @@ def gerar_grafico_radial_obesidade(df, modo='estado'):
     )
 
     st.plotly_chart(fig, use_container_width=True)
+
+def plot_grafico_geral(df, colunas, titulo="Dados Gerais - IMC, Peso e Altura"):
+    import plotly.graph_objects as go
+
+    nome_legivel = {
+        "med_altura": "Altura",
+        "med_peso": "Peso",
+        "med_imc": "IMC"
+    }
+
+    cor_mapeada = {
+        "med_altura": "#FF0000",
+        "med_imc": "#00BFFF",
+        "med_peso": "#00FF00"
+    }
+
+    valores = df[colunas].iloc[0]
+    variaveis_legiveis = [nome_legivel.get(var, var) for var in colunas]
+    cores = [cor_mapeada.get(var, "#CCCCCC") for var in colunas]
+
+    fig = go.Figure(go.Bar(
+        x=variaveis_legiveis,
+        y=valores,
+        marker_color=cores,
+        text=[f"{v:.2f}" for v in valores],
+        textposition='inside',  # dentro da barra evita corte
+        width=0.3
+    ))
+
+    fig.update_layout(
+        title=titulo,
+        yaxis=dict(
+            zeroline=True,
+            zerolinewidth=2,
+            zerolinecolor='white',
+            showgrid=False,
+            showticklabels=False
+        ),
+        xaxis=dict(
+            showgrid=False,
+            showticklabels=True
+        ),
+        plot_bgcolor='black',
+        paper_bgcolor='black',
+        font=dict(color='white', size=12),
+        height=300,
+        width=400,  # largura realmente menor
+        margin=dict(t=40, b=60, l=20, r=20),
+        uniformtext_minsize=10,
+        uniformtext_mode='hide'
+    )
+
+    return fig
+
+def plot_grafico_geral_por_regiao(df_geral_regiao):
+    """
+    Exibe um gráfico de barras agrupadas com IMC, altura e peso médios por região no Streamlit.
+
+    Parâmetros:
+    - df_geral_regiao (pd.DataFrame): deve conter as colunas:
+        - 'categoria': nome da região (ex: 'norte', 'sul', etc.)
+        - 'med_imc': valor médio de IMC
+        - 'med_altura': valor médio de altura
+        - 'med_peso': valor médio de peso
+    """
+
+    # Cores fixas para cada variável
+    cor_mapeada = {
+        "med_altura": "#FF0000",  # vermelho
+        "med_imc": "#00BFFF",     # azul claro
+        "med_peso": "#00FF00"     # verde
+    }
+
+    # Criar figura
+    fig = go.Figure()
+
+    # Adicionar barras com cores fixas por variável
+    fig.add_trace(go.Bar(
+        x=df_geral_regiao['categoria'],
+        y=df_geral_regiao['med_imc'],
+        name='IMC',
+        marker_color=cor_mapeada['med_imc']
+    ))
+    fig.add_trace(go.Bar(
+        x=df_geral_regiao['categoria'],
+        y=df_geral_regiao['med_altura'],
+        name='Altura',
+        marker_color=cor_mapeada['med_altura']
+    ))
+    fig.add_trace(go.Bar(
+        x=df_geral_regiao['categoria'],
+        y=df_geral_regiao['med_peso'],
+        name='Peso',
+        marker_color=cor_mapeada['med_peso']
+    ))
+
+    # Layout do gráfico
+    fig.update_layout(
+        barmode='group',
+        title='IMC, Altura e Peso Médios por Região',
+        xaxis_title='',  # Remove label do eixo x
+        yaxis_title='',  # Remove label do eixo y
+        legend_title=''  # Remove título da legenda
+    )
+
+    # Mostrar no Streamlit
+    st.plotly_chart(fig)
