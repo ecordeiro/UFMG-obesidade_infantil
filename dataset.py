@@ -33,7 +33,7 @@ caminho = Path("dados") / "originais" / "dados_gerais_sexo_region_cadunico.csv"
 
 # Carregar os dados de Categorias e Sexo, separando por tabela
 df_gerais = pd.read_csv(caminho,sep=',', decimal='.')
-df_geral_geral =  df_gerais.query("tabela == 'geral'")
+df_geral_cadunico =  df_gerais.query("tabela == 'geral'")
 df_geral_regiao =  df_gerais.query("tabela == 'regiao'")
 df_geral_estados =  df_gerais.query("tabela == 'estados'")
 df_geral_raca =  df_gerais.query("tabela == 'raca'")
