@@ -21,7 +21,7 @@ def plot_zscore_brasil(df):
     fig.add_trace(go.Scatter(
         x=df['Idade'], y=df['med_altura'],
         mode='lines+markers',
-        name='Altura para Idade',
+        name='Altura',
         marker=dict(symbol='circle', color='red', size=8),
         line=dict(color='red')
     ))
@@ -29,7 +29,7 @@ def plot_zscore_brasil(df):
     fig.add_trace(go.Scatter(
         x=df['Idade'], y=df['med_imc'],
         mode='lines+markers',
-        name='IMC para Idade',
+        name='IMC',
         marker=dict(symbol='circle', color='deepskyblue', size=8),
         line=dict(color='deepskyblue')
     ))
@@ -37,7 +37,7 @@ def plot_zscore_brasil(df):
     fig.add_trace(go.Scatter(
         x=df['Idade'], y=df['med_peso'],
         mode='lines+markers',
-        name='Peso para Idade',
+        name='Peso',
         marker=dict(symbol='circle', color='limegreen', size=8),
         line=dict(color='limegreen')
     ))
@@ -72,10 +72,18 @@ def plot_zscore_brasil(df):
         yaxis=dict(
             showgrid=True,
             gridcolor='rgba(255,255,255,0.2)'
+        ),
+        legend=dict(
+            orientation="v",
+            yanchor="top",
+            y=0.98,
+            xanchor="right",
+            x=0.98
         )        
     )
 
-    st.plotly_chart(fig, use_container_width=True)
+    #st.plotly_chart(fig, use_container_width=True)
+    return fig
 
 def plot_zscore_por_regiao(df, medida='med_peso'):
     """
@@ -148,7 +156,7 @@ def plot_zscore_por_regiao(df, medida='med_peso'):
         label_y = 'Altura'
 
     fig.update_layout(
-        height=400,        
+        height=300,        
         title=f"Z-Score Médio de {label_y} para Idade por Região",
         xaxis_title="Idade",
         yaxis_title=f"Z-Score Médio de {label_y}",        
@@ -215,7 +223,7 @@ def plot_zscore_por_estado(df, medida='med_peso'):
         label_y = 'Altura'
 
     fig.update_layout(
-        height=400,        
+        height=300,        
         title=f"Z-Score Médio de {label_y} para Idade por Estado",
         xaxis_title="Idade",
         yaxis_title=f"Z-Score Médio de {label_y}",
@@ -327,7 +335,7 @@ def gerar_pizza_composicao_peso(df):
     fig.update_layout(
         title_text='Dados Gerais de Obesidade e Excesso de Peso',
         showlegend=False,
-        height=360,
+        height=300,
         margin=dict(t=60, b=20, l=20, r=20)
     )
 
@@ -570,6 +578,7 @@ def plot_grafico_geral_por_regiao(df_geral_regiao):
 
     # Layout do gráfico
     fig.update_layout(
+        height=300,
         barmode='group',
         title='IMC, Altura e Peso Médios por Região',
         xaxis_title='',  # Remove label do eixo x

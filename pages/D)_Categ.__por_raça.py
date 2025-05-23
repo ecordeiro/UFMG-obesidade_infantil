@@ -13,4 +13,7 @@ df_raca = df_categ_raca.query(
 )
 
 st.caption(f"Filtros: Raça: {categoria_opcao} | Sexo: {sexo_opcao} | Região: {reg_cadunico_opcao}")
-plot_zscore_brasil(df_raca)
+#plot_zscore_brasil(df_raca)
+fig = plot_zscore_brasil(df_raca)
+fig.update_layout(margin=dict(t=20, b=20, l=20, r=20), height=300)
+st.plotly_chart(fig, use_container_width=True)
