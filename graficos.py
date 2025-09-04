@@ -21,7 +21,7 @@ def plot_zscore_brasil(df):
     fig.add_trace(go.Scatter(
         x=df['Idade'], y=df['med_altura'],
         mode='lines+markers',
-        name='Altura',
+        name='Altura/Idade',
         marker=dict(symbol='circle', color='red', size=8),
         line=dict(color='red')
     ))
@@ -29,7 +29,7 @@ def plot_zscore_brasil(df):
     fig.add_trace(go.Scatter(
         x=df['Idade'], y=df['med_imc'],
         mode='lines+markers',
-        name='IMC',
+        name='IMC/Idade',
         marker=dict(symbol='circle', color='deepskyblue', size=8),
         line=dict(color='deepskyblue')
     ))
@@ -37,7 +37,7 @@ def plot_zscore_brasil(df):
     fig.add_trace(go.Scatter(
         x=df['Idade'], y=df['med_peso'],
         mode='lines+markers',
-        name='Peso',
+        name='Peso/Idade',
         marker=dict(symbol='circle', color='limegreen', size=8),
         line=dict(color='limegreen')
     ))
@@ -61,9 +61,9 @@ def plot_zscore_brasil(df):
 
     fig.update_layout(
         height=400,        
-        title="Z-Score Médio por Idade",
+        title="escore Z Médio/Idade",
         xaxis_title="Idade",
-        yaxis_title="Z-Score Médio",        
+        yaxis_title="escore Z Médio",        
         xaxis=dict(
             tickangle=45,
             showgrid=True,
@@ -157,9 +157,9 @@ def plot_zscore_por_regiao(df, medida='med_peso'):
 
     fig.update_layout(
         height=300,        
-        title=f"Z-Score Médio de {label_y} para Idade por Região",
+        title=f"escore Z Médio de {label_y}/Idade por Região",
         xaxis_title="Idade",
-        yaxis_title=f"Z-Score Médio de {label_y}",        
+        yaxis_title=f"escore Z Médio de {label_y}",        
         xaxis=dict(
             tickangle=45,
             showgrid=True,
@@ -224,9 +224,9 @@ def plot_zscore_por_estado(df, medida='med_peso'):
 
     fig.update_layout(
         height=300,        
-        title=f"Z-Score Médio de {label_y} para Idade por Estado",
+        title=f"escore Z Médio de {label_y}/Idade por Estado",
         xaxis_title="Idade",
-        yaxis_title=f"Z-Score Médio de {label_y}",
+        yaxis_title=f"escore Z Médio de {label_y}",
         #plot_bgcolor='black',
         #paper_bgcolor='black',
         #font=dict(color='white'),
@@ -481,13 +481,13 @@ def gerar_grafico_radial_obesidade(df, modo='estado'):
 
     st.plotly_chart(fig, use_container_width=True)
 
-def plot_grafico_geral(df, colunas, titulo="Dados Gerais - IMC, Peso e Altura"):
+def plot_grafico_geral(df, colunas, titulo="Dados Geais - IMC/Idade, peso/Idade e altura/Idade"):
     import plotly.graph_objects as go
 
     nome_legivel = {
-        "med_altura": "Altura",
-        "med_peso": "Peso",
-        "med_imc": "IMC"
+        "med_altura": "Altura/Idade",
+        "med_peso": "Peso/Idade",
+        "med_imc": "IMC/Idade"
     }
 
     cor_mapeada = {
@@ -556,23 +556,30 @@ def plot_grafico_geral_por_regiao(df_geral_regiao):
     # Criar figura
     fig = go.Figure()
 
+    # Substituir underscore por espaço e colocar em formato título
+    df_geral_regiao['categoria'] = (
+        df_geral_regiao['categoria']
+        .str.replace('_', ' ', regex=False)   # troca "_" por espaço
+        .str.title()                          # deixa as palavras com iniciais maiúsculas
+    )
+
     # Adicionar barras com cores fixas por variável
     fig.add_trace(go.Bar(
         x=df_geral_regiao['categoria'],
-        y=df_geral_regiao['med_imc'],
-        name='IMC',
-        marker_color=cor_mapeada['med_imc']
-    ))
-    fig.add_trace(go.Bar(
-        x=df_geral_regiao['categoria'],
         y=df_geral_regiao['med_altura'],
-        name='Altura',
+        name='Altura/Idade',
         marker_color=cor_mapeada['med_altura']
     ))
     fig.add_trace(go.Bar(
         x=df_geral_regiao['categoria'],
+        y=df_geral_regiao['med_imc'],
+        name='IMC/Idade',
+        marker_color=cor_mapeada['med_imc']
+    ))
+    fig.add_trace(go.Bar(
+        x=df_geral_regiao['categoria'],
         y=df_geral_regiao['med_peso'],
-        name='Peso',
+        name='Peso/Idade',
         marker_color=cor_mapeada['med_peso']
     ))
 
@@ -580,7 +587,7 @@ def plot_grafico_geral_por_regiao(df_geral_regiao):
     fig.update_layout(
         height=300,
         barmode='group',
-        title='IMC, Altura e Peso Médios por Região',
+        title='escore Z médios por região',
         xaxis_title='',  # Remove label do eixo x
         yaxis_title='',  # Remove label do eixo y
         legend_title=''  # Remove título da legenda

@@ -15,7 +15,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown(
-    "<h4 style='text-align: left; color: white;'>📊 Indicadores Antropométricos de Crescimento Infantil</h4>",
+    "<h4 style='text-align: center; color: white;'>📊 Indicadores Antropométricos de Crescimento Infantil em crianças de 0 a 9 anos provenientes de famílias candidatas ou receptoras do Programa Bolsa Família do governo federal.</h4>",
     unsafe_allow_html=True
 )
 

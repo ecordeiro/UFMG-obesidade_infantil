@@ -19,7 +19,30 @@ df_categ_estados["regiao"] = df_categ_estados["categoria"].map(estados_para_regi
 
 sexo_opcao = st.sidebar.radio("Sexo:", ["Masculino", "Feminino"])
 reg_cadunico_opcao = st.sidebar.radio("Região Cadastral:", ["Rural", "Urbana"])
-regiao_opcao = st.sidebar.multiselect("Região:", df_categ_estados["regiao"].dropna().unique())
+
+# INICIO: Código incluido para mostrar labels amigáveis na sidebar
+# Mapeamento: original -> label
+mapa_labels = {
+    "centro_oeste": "Centro Oeste",
+    "sudeste": "Sudeste",
+    "nordeste": "Nordeste",
+    "norte": "Norte",
+    "sul": "Sul"
+}
+
+# Criar lista de labels na mesma ordem do dataframe
+labels = [mapa_labels[val] for val in df_categ_estados["regiao"].unique()]
+
+# Mostra os labels, mas seleciona retorna em labels
+labels_escolhidos = st.sidebar.multiselect("Região:", labels)
+
+# Traduz de volta para os valores originais
+regiao_opcao = [orig for orig, label in mapa_labels.items() if label in labels_escolhidos]
+
+#regiao_opcao = st.sidebar.multiselect("Região:", df_categ_estados["regiao"].dropna().unique())
+
+# FIM: Código incluido para mostrar labels amigáveis na sidebar
+
 estados_opcao = st.sidebar.multiselect("Estados:", df_categ_estados["categoria"].unique())
 
 df_estados = df_categ_estados.query(
