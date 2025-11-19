@@ -164,9 +164,9 @@ with col3:
     st.image("images/ufcg.jpg", width=100)
 
 with col4:
-    st.image("images/ufrb.jpg", width=100)
+    st.image("images/UFRB.jpg", width=100)
 
 with col5:
-    st.image("images/ufba.jpg", width=100)
+    st.image("images/UFBA.jpg", width=100)
 
 st.markdown("---")
