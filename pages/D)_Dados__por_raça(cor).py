@@ -2,7 +2,7 @@ import streamlit as st
 from dataset import df_categ_raca
 from graficos import plot_zscore_brasil
 
-st.set_page_config(page_title="🎯 Por Raça", layout="wide")
+st.set_page_config(page_title="Dados por raça/cor", layout="wide")
 
 sexo_opcao = st.sidebar.radio("Sexo:", ["Masculino", "Feminino"])
 reg_cadunico_opcao = st.sidebar.radio("Região Cadastral:", ["Rural", "Urbana"])

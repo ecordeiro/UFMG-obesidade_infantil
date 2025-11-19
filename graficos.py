@@ -481,7 +481,7 @@ def gerar_grafico_radial_obesidade(df, modo='estado'):
 
     st.plotly_chart(fig, use_container_width=True)
 
-def plot_grafico_geral(df, colunas, titulo="Dados Geais - IMC/Idade, peso/Idade e altura/Idade"):
+def plot_grafico_geral(df, colunas, titulo="Dados Gerais - IMC/Idade, peso/Idade e altura/Idade"):
     import plotly.graph_objects as go
 
     nome_legivel = {
@@ -505,7 +505,7 @@ def plot_grafico_geral(df, colunas, titulo="Dados Geais - IMC/Idade, peso/Idade 
         y=valores,
         marker_color=cores,
         text=[f"{v:.2f}" for v in valores],
-        textposition='inside',  # dentro da barra evita corte
+        textposition='inside',
         width=0.3
     ))
 
@@ -514,7 +514,7 @@ def plot_grafico_geral(df, colunas, titulo="Dados Geais - IMC/Idade, peso/Idade 
         yaxis=dict(
             zeroline=True,
             zerolinewidth=2,
-            zerolinecolor='white',
+            zerolinecolor='gray',
             showgrid=False,
             showticklabels=False
         ),
@@ -522,11 +522,11 @@ def plot_grafico_geral(df, colunas, titulo="Dados Geais - IMC/Idade, peso/Idade 
             showgrid=False,
             showticklabels=True
         ),
-        plot_bgcolor='black',
-        paper_bgcolor='black',
-        font=dict(color='white', size=12),
+        plot_bgcolor='rgba(0,0,0,0)',  # Transparente
+        paper_bgcolor='rgba(0,0,0,0)',  # Transparente
+        font=dict(size=12),
         height=300,
-        width=400,  # largura realmente menor
+        width=400,
         margin=dict(t=40, b=60, l=20, r=20),
         uniformtext_minsize=10,
         uniformtext_mode='hide'
