@@ -20,7 +20,12 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown(
-    "<h4 style='text-align: center; color: #2c3e50;'>📊 Indicadores Antropométricos de Crescimento Infantil em crianças de 0 a 9 anos provenientes de famílias candidatas ou receptoras do Programa Bolsa Família do governo federal.</h4>",
+    """
+    <h4 style='text-align: center; color: var(--text-color);'>
+        📊 Indicadores Antropométricos de Crescimento Infantil em crianças de 0 a 9 anos 
+        provenientes de famílias candidatas ou receptoras do Programa Bolsa Família do governo federal.
+    </h4>
+    """,
     unsafe_allow_html=True
 )
 
@@ -71,7 +76,7 @@ Data were obtained through the integration of three national information systems
 
 st.subheader("Indicadores Calculados (Calculated Indicators)")
 st.markdown("""
-Com base nesses sistemas, foram calculados os seguintes indicadores segundo as referências da OMS:
+Com base nesses sistemas, foram calculados os seguintes indicadores em escores Z, seguindo a referência da OMS:
 
 - **Peso para idade (WAZ)** / *Weight-for-age*
 - **Altura para idade (HAZ)** / *Height-for-age*
@@ -92,6 +97,18 @@ These indicators allow assessment of growth adequacy and estimation of overweigh
 </div>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+O sobrepeso e a obesidade em crianças menores de cinco anos foram definidos usando o z escore de IMC para a idade acima de dois e três 
+desvios-padrão, respectivamente; para crianças de cinco a nove anos, foram definidos a um e dois desvios-padrão de escore z de IMC, 
+respectivamente.
+""")
+
+st.markdown("""
+<div class="english-text">
+Overweight and obesity for children under five years of age were defined as BMI for age z-score above two and three standard deviations, children aged five to nine years were one and two standard deviations.
+</div>
+""", unsafe_allow_html=True)
+
 st.subheader("Principais Achados (Key Findings)")
 st.markdown("""
 A análise evidencia importantes **desigualdades regionais e étnico-raciais**: enquanto parte das regiões brasileiras 
@@ -108,9 +125,7 @@ overweight and obesity in the South and Southeast regions.
 
 st.subheader("Objetivo (Objective)")
 st.markdown("""
-O objetivo do painel é oferecer uma **ferramenta interativa de visualização e análise** que apoie pesquisadores, 
-gestores e profissionais de saúde na formulação de políticas e estratégias voltadas à promoção do crescimento 
-saudável e da alimentação adequada na infância.
+O objetivo do painel é oferecer uma ferramenta interativa de visualização e análise que apoie pesquisadores, gestores e profissionais de saúde na formulação de políticas e estratégias voltadas à promoção do crescimento saudável e da alimentação adequada na infância.
 """)
 st.markdown("""
 <div class="english-text">
