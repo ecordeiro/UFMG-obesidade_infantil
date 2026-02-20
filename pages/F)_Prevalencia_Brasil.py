@@ -18,12 +18,36 @@ def carregar_dados():
 
 df = carregar_dados()
 
+mapa_idades = {
+    "0 - 5m": "0-5 meses",
+    "06 - 11m": "6-11 meses",
+    "12 - 17m": "12-17 meses",
+    "18 - 23m": "18-23 meses",
+    "2a": "2 anos",
+    "3a": "3 anos",
+    "4a": "4 anos",
+    "5a": "5 anos",
+    "6a": "6 anos",
+    "7a": "7 anos",
+    "8a": "8 anos",
+    "9a": "9 anos",
+}
+
+
 # --- Filtros interativos
 sexo_opcao = st.sidebar.selectbox("Sexo:", sorted(df["sexo"].unique()))
 regiao_opcao = st.sidebar.selectbox("Região (CadÚnico):", sorted(df["region_cadunico"].unique()))
 
+opcoes_idade = df["idade_cat"].unique().tolist()
+idade_opcao = st.sidebar.selectbox(
+    "Idade:",
+    opcoes_idade,
+    format_func=lambda v: mapa_idades.get(v, v),
+    key="idade"
+)
+
 # --- Filtrar dados
-df_filtrado = df[(df["sexo"] == sexo_opcao) & (df["region_cadunico"] == regiao_opcao)]
+df_filtrado = df[(df["sexo"] == sexo_opcao) & (df["region_cadunico"] == regiao_opcao) & (df["idade_cat"] == idade_opcao)]
 
 # --- Renomear coluna 'categoria' para 'estado'
 df_filtrado = df_filtrado.rename(columns={"categoria": "estado"})
@@ -69,7 +93,7 @@ fig = px.choropleth(
         "prev_obesidade": "Obesidade (%)",
         "prev_excesso": "Excesso de Peso (%)"
     },
-    title=f"{'Obesidade' if coluna_valor == 'prev_obesidade' else 'Excesso de Peso'} por Estado | {sexo_opcao} |{regiao_opcao}",
+    title=f"{'Obesidade' if coluna_valor == 'prev_obesidade' else 'Excesso de Peso'} por Estado | {sexo_opcao} |{regiao_opcao} | {mapa_idades.get(idade_opcao, idade_opcao)}",
     hover_name="estado"
 )
 

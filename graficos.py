@@ -60,26 +60,45 @@ def plot_zscore_brasil(df):
     )
 
     fig.update_layout(
-        height=400,        
-        title="escore Z Médio/Idade",
-        xaxis_title="Idade",
-        yaxis_title="escore Z Médio",        
+        height=400,
+        title=dict(
+            text="<b>escore Z Médio/Idade</b>",
+            font=dict(color='black', size=16)
+        ),
+        # Força a cor preta para qualquer texto que não tenha cor específica
+        font=dict(color='black'),
+        
+        # Ajuste do Eixo X
         xaxis=dict(
+            title=dict(
+                text="<b>Idade</b>",
+                font=dict(color='black', size=14) # Cor preta explícita no label
+            ),
+            tickfont=dict(color='black', family='Arial Black', size=12), # Cor preta nos nomes das idades
             tickangle=45,
             showgrid=True,
             gridcolor='rgba(255,255,255,0.2)'
         ),
+        
+        # Ajuste do Eixo Y
         yaxis=dict(
+            title=dict(
+                text="<b>escore Z Médio</b>",
+                font=dict(color='black', size=14) # Cor preta explícita no label
+            ),
+            tickfont=dict(color='black', family='Arial Black', size=12), # Cor preta nos números (-0.5, 0, 0.5)
             showgrid=True,
             gridcolor='rgba(255,255,255,0.2)'
         ),
+        
         legend=dict(
+            font=dict(color='black'),
             orientation="v",
             yanchor="top",
             y=0.98,
             xanchor="right",
             x=0.98
-        )        
+        )
     )
 
     #st.plotly_chart(fig, use_container_width=True)
@@ -106,7 +125,6 @@ def plot_zscore_por_regiao(df, medida='med_peso'):
         "sul": "yellow"
     }
 
-    # Nome formatado das regiões
     nomes_formatados = {
         "Brasil": "Brasil",
         "centro_oeste": "Centro Oeste",
@@ -116,10 +134,8 @@ def plot_zscore_por_regiao(df, medida='med_peso'):
         "sul": "Sul"
     }
 
-    # Inicia figura
     fig = go.Figure()
 
-    # Plota cada região
     for regiao in df['categoria'].unique():
         dados_regiao = df[df['categoria'] == regiao]
         fig.add_trace(go.Scatter(
@@ -131,7 +147,7 @@ def plot_zscore_por_regiao(df, medida='med_peso'):
             line=dict(color=cores.get(regiao, 'white'))
         ))
 
-    # Linha Z-Score = 0 destacada
+    # Linha Z-Score = 0 (mantida em branco para contraste com as linhas coloridas)
     fig.add_shape(
         type="line",
         x0=-0.5, x1=len(ordem_idades)-0.5,
@@ -147,7 +163,6 @@ def plot_zscore_por_regiao(df, medida='med_peso'):
         font=dict(color='white', size=12)
     )
 
-    # Label do eixo y adaptável
     if medida == 'med_peso':
         label_y = 'Peso'
     elif medida == 'med_imc':
@@ -156,19 +171,39 @@ def plot_zscore_por_regiao(df, medida='med_peso'):
         label_y = 'Altura'
 
     fig.update_layout(
-        height=300,        
-        title=f"escore Z Médio de {label_y}/Idade por Região",
-        xaxis_title="Idade",
-        yaxis_title=f"escore Z Médio de {label_y}",        
+        height=350, # Aumentei um pouco para acomodar a legenda
+        # 1. Título principal
+        title=dict(
+            text=f"<b>escore Z Médio de {label_y}/Idade por Região</b>",
+            font=dict(color='black', size=16)
+        ),
+        # 2. Eixo X
         xaxis=dict(
+            title=dict(text="<b>Idade</b>", font=dict(color='black')),
+            tickfont=dict(color='black', family='Arial Black', size=11),
             tickangle=45,
             showgrid=True,
             gridcolor='rgba(255,255,255,0.2)'
         ),
+        # 3. Eixo Y
         yaxis=dict(
+            title=dict(text=f"<b>escore Z Médio de {label_y}</b>", font=dict(color='black')),
+            tickfont=dict(color='black', family='Arial Black', size=11),
             showgrid=True,
             gridcolor='rgba(255,255,255,0.2)'
-        ),        
+        ),
+        # 4. Legenda e Fonte Geral
+        font=dict(color='black'),
+        legend=dict(
+            font=dict(color='black', size=10),
+            orientation="v",
+            yanchor="top",
+            y=0.98,
+            xanchor="right",
+            x=0.98,
+            bgcolor='rgba(255,255,255,0.3)' # Fundo leve na legenda para leitura
+        ),
+        margin=dict(t=60, b=40, l=50, r=20)
     )
 
     st.plotly_chart(fig, use_container_width=True)
@@ -176,7 +211,7 @@ def plot_zscore_por_regiao(df, medida='med_peso'):
 def plot_zscore_por_estado(df, medida='med_peso'):
     """
     Plota gráfico interativo de Z-Score médio por idade, por estado.
-    Requer colunas: 'idade_cat', 'categoria' (estado), e a medida escolhida.
+    Mantém a legenda original mas destaca os eixos e títulos.
     """
 
     ordem_idades = [
@@ -192,13 +227,13 @@ def plot_zscore_por_estado(df, medida='med_peso'):
         fig.add_trace(go.Scatter(
             x=dados_estado['Idade'],
             y=dados_estado[medida],
+            # Voltando para os tamanhos originais
             mode='lines+markers',
             name=estado,
-            marker=dict(symbol='circle', size=8),
-            line=dict()
+            marker=dict(symbol='circle', size=8)
         ))
 
-    # Linha Z-Score = 0 destacada
+    # Linha Z-Score = 0
     fig.add_shape(
         type="line",
         x0=-0.5, x1=len(ordem_idades)-0.5,
@@ -214,7 +249,6 @@ def plot_zscore_por_estado(df, medida='med_peso'):
         font=dict(color='white', size=12)
     )
 
-    # Label do eixo y
     if medida == 'med_peso':
         label_y = 'Peso'
     elif medida == 'med_imc':
@@ -223,22 +257,31 @@ def plot_zscore_por_estado(df, medida='med_peso'):
         label_y = 'Altura'
 
     fig.update_layout(
-        height=300,        
-        title=f"escore Z Médio de {label_y}/Idade por Estado",
-        xaxis_title="Idade",
-        yaxis_title=f"escore Z Médio de {label_y}",
-        #plot_bgcolor='black',
-        #paper_bgcolor='black',
-        #font=dict(color='white'),
+        height=400,        
+        # Título em preto e negrito
+        title=dict(
+            text=f"<b>escore Z Médio de {label_y}/Idade por Estado</b>",
+            font=dict(color='black', size=16)
+        ),
+        # Eixo X: Label e Números em preto/negrito
         xaxis=dict(
+            title=dict(text="<b>Idade</b>", font=dict(color='black')),
+            tickfont=dict(color='black', family='Arial Black', size=11),
             tickangle=45,
             showgrid=True,
             gridcolor='rgba(255,255,255,0.2)'
         ),
+        # Eixo Y: Label e Números em preto/negrito
         yaxis=dict(
+            title=dict(text=f"<b>escore Z Médio de {label_y}</b>", font=dict(color='black')),
+            tickfont=dict(color='black', family='Arial Black', size=11),
             showgrid=True,
             gridcolor='rgba(255,255,255,0.2)'
-        ),        
+        ),
+        # Fonte global preta
+        font=dict(color='black'),
+        # Restaurando a legenda para o padrão original (vê-se à direita)
+        showlegend=True
     )
 
     st.plotly_chart(fig, use_container_width=True)
@@ -317,23 +360,29 @@ def gerar_pizza_composicao_peso(df):
     excesso = df['prev_excesso'].mean()
     saudavel = max(0, 100 - (obesidade + excesso))
 
-    labels = ['Obesidade', 'Excesso de Peso', 'Peso Saudável']
+    labels = ['Obesidade', 'Excesso de Peso', 'Sem Sobrepeso']
     values = [obesidade, excesso, saudavel]
     colors = ['#e74c3c', '#3498db', '#2ecc71']  # Vermelho, Azul, Verde
 
     fig = go.Figure(data=[go.Pie(
         labels=labels,
         values=values,
-        marker=dict(colors=colors),  # ❌ sem borda branca
+        marker=dict(colors=colors),
         textinfo='percent+label',
-        textfont_size=16,
-        insidetextfont=dict(color='white', size=14),
-        hoverinfo='label+percent',  # ✅ remove duplicidade
+        # Texto dentro das fatias em negrito para destacar no fundo colorido
+        insidetextfont=dict(color='white', size=14, family='Arial Black'),
+        hoverinfo='label+percent',
         sort=False
     )])
 
     fig.update_layout(
-        title_text='Dados Gerais de Obesidade e Excesso de Peso',
+        # 1. Título em preto e negrito
+        title=dict(
+            text='<b>Dados Gerais de Obesidade e Excesso de Peso</b>',
+            font=dict(color='black', size=16)
+        ),
+        # 2. Cor global preta (afeta hover e textos secundários)
+        font=dict(color='black'),
         showlegend=False,
         height=300,
         margin=dict(t=60, b=20, l=20, r=20)
@@ -452,31 +501,48 @@ def gerar_grafico_radial_obesidade(df, modo='estado'):
             showlegend=False
         ))
 
-    # Títulos dinâmicos
-    titulo = {
-        'estado': 'Obesidade e Excesso de Peso por Estado e Região',
-        'regiao': 'Obesidade e Excesso de Peso por Região',
-        'raca': 'Obesidade e Excesso de Peso por Raça'
+    # Títulos dinâmicos com a tag de negrito
+    titulo_texto = {
+        'estado': '<b>Obesidade e Excesso de Peso por Estado e Região</b>',
+        'regiao': '<b>Obesidade e Excesso de Peso por Região</b>',
+        'raca': '<b>Obesidade e Excesso de Peso por Raça</b>'
     }[modo]
 
     fig.update_layout(
-        height=400,
-        title=titulo,
+        height=450, # Aumentado levemente para não cortar os nomes externos
+        # 1. Título em preto e negrito
+        title=dict(
+            text=titulo_texto,
+            font=dict(color='black', size=16)
+        ),
+        # 2. Cor global preta
+        font=dict(color='black'),
         template='plotly_white',
         polar=dict(
+            # Cores das linhas radiais (as "teias")
             radialaxis=dict(
                 showticklabels=True,
                 ticks='',
-                tickfont=dict(color='black', size=10),
+                # Números da escala (ex: 10%, 20%) em preto
+                tickfont=dict(color='black', family='Arial Black', size=10),
                 angle=0,
+                gridcolor='rgba(0,0,0,0.1)'
             ),
+            # Rótulos externos (Nomes dos Estados/Regiões ao redor do gráfico)
             angularaxis=dict(
                 tickmode='array',
                 tickvals=df['Angulo'],
-                ticktext=df['categoria']
+                ticktext=df['categoria'],
+                # Força os nomes ao redor do círculo em preto e negrito
+                tickfont=dict(color='black', family='Arial Black', size=11)
             )
         ),
-        legend=dict(orientation='v', yanchor='top')
+        # 3. Legenda em preto
+        legend=dict(
+            font=dict(color='black', size=11),
+            orientation='v', 
+            yanchor='top'
+        )
     )
 
     st.plotly_chart(fig, use_container_width=True)
@@ -504,13 +570,19 @@ def plot_grafico_geral(df, colunas, titulo="Dados Gerais - IMC/Idade, peso/Idade
         x=variaveis_legiveis,
         y=valores,
         marker_color=cores,
-        text=[f"{v:.2f}" for v in valores],
+        # Adicionei <b> no texto dentro das barras para também ficar em negrito
+        text=[f"<b>{v:.2f}</b>" for v in valores],
         textposition='inside',
-        width=0.3
+        width=0.3,
+        textfont=dict(color='black') # Garante cor preta no texto interno
     ))
 
     fig.update_layout(
-        title=titulo,
+        # 1. Título em preto e negrito
+        title=dict(
+            text=f"<b>{titulo}</b>",
+            font=dict(color='black', size=14)
+        ),
         yaxis=dict(
             zeroline=True,
             zerolinewidth=2,
@@ -518,16 +590,19 @@ def plot_grafico_geral(df, colunas, titulo="Dados Gerais - IMC/Idade, peso/Idade
             showgrid=False,
             showticklabels=False
         ),
+        # 2. Eixo X com labels pretos e em negrito
         xaxis=dict(
             showgrid=False,
-            showticklabels=True
+            showticklabels=True,
+            tickfont=dict(color='black', family='Arial Black', size=11)
         ),
-        plot_bgcolor='rgba(0,0,0,0)',  # Transparente
-        paper_bgcolor='rgba(0,0,0,0)',  # Transparente
-        font=dict(size=12),
+        plot_bgcolor='rgba(0,0,0,0)',
+        paper_bgcolor='rgba(0,0,0,0)',
+        # 3. Cor global da fonte como fallback
+        font=dict(color='black', size=12),
         height=300,
         width=400,
-        margin=dict(t=40, b=60, l=20, r=20),
+        margin=dict(t=50, b=40, l=20, r=20),
         uniformtext_minsize=10,
         uniformtext_mode='hide'
     )
@@ -537,13 +612,6 @@ def plot_grafico_geral(df, colunas, titulo="Dados Gerais - IMC/Idade, peso/Idade
 def plot_grafico_geral_por_regiao(df_geral_regiao):
     """
     Exibe um gráfico de barras agrupadas com IMC, altura e peso médios por região no Streamlit.
-
-    Parâmetros:
-    - df_geral_regiao (pd.DataFrame): deve conter as colunas:
-        - 'categoria': nome da região (ex: 'norte', 'sul', etc.)
-        - 'med_imc': valor médio de IMC
-        - 'med_altura': valor médio de altura
-        - 'med_peso': valor médio de peso
     """
 
     # Cores fixas para cada variável
@@ -556,14 +624,14 @@ def plot_grafico_geral_por_regiao(df_geral_regiao):
     # Criar figura
     fig = go.Figure()
 
-    # Substituir underscore por espaço e colocar em formato título
+    # Tratamento das categorias
     df_geral_regiao['categoria'] = (
         df_geral_regiao['categoria']
-        .str.replace('_', ' ', regex=False)   # troca "_" por espaço
-        .str.title()                          # deixa as palavras com iniciais maiúsculas
+        .str.replace('_', ' ', regex=False)
+        .str.title()
     )
 
-    # Adicionar barras com cores fixas por variável
+    # Adicionar barras
     fig.add_trace(go.Bar(
         x=df_geral_regiao['categoria'],
         y=df_geral_regiao['med_altura'],
@@ -583,15 +651,38 @@ def plot_grafico_geral_por_regiao(df_geral_regiao):
         marker_color=cor_mapeada['med_peso']
     ))
 
-    # Layout do gráfico
+    # Layout do gráfico com ajustes de cor e negrito
     fig.update_layout(
         height=300,
         barmode='group',
-        title='escore Z médios por região',
-        xaxis_title='',  # Remove label do eixo x
-        yaxis_title='',  # Remove label do eixo y
-        legend_title=''  # Remove título da legenda
+        # 1. Título em preto e negrito
+        title=dict(
+            text='<b>escore Z médios por região</b>',
+            font=dict(color='black', size=16)
+        ),
+        # 2. Eixo X (Nomes das Regiões)
+        xaxis=dict(
+            tickfont=dict(color='black', family='Arial Black', size=12),
+            showgrid=False
+        ),
+        # 3. Eixo Y (Valores da escala)
+        yaxis=dict(
+            tickfont=dict(color='black', family='Arial Black', size=12),
+            showgrid=True,
+            gridcolor='rgba(0,0,0,0.1)' # Grid bem suave para não poluir
+        ),
+        # 4. Legenda e Fonte Geral
+        font=dict(color='black'),
+        legend=dict(
+            font=dict(color='black', size=10),
+            orientation="h", # Legenda horizontal costuma ficar melhor em gráficos de região
+            yanchor="bottom",
+            y=1.02,
+            xanchor="right",
+            x=1
+        ),
+        margin=dict(t=80, b=40, l=40, r=20) # Espaço extra para o título e legenda
     )
 
     # Mostrar no Streamlit
-    st.plotly_chart(fig)
+    st.plotly_chart(fig, use_container_width=True)
