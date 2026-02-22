@@ -139,8 +139,7 @@ st.subheader("🙏 Agradecimentos (Acknowledgments)")
 st.markdown("""
 **Instituições / Institutions:**
 - Universidade Federal de Minas Gerais, Escola de Enfermagem (EEUFMG)
-- FIOCRUZ
-- Centro de Integração de Dados e Conhecimento em Saúde (CIDACS)
+- FIOCRUZ, Centro de Integração de Dados e Conhecimento em Saúde (CIDACS)
 - Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG)
 
 **Financiamento / Funding:**
