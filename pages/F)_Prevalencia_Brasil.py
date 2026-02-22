@@ -107,6 +107,12 @@ fig.update_layout(
     paper_bgcolor='rgba(0,0,0,0)',
     plot_bgcolor='rgba(0,0,0,0)',
     geo=dict(bgcolor='rgba(0,0,0,0)'),
+    hoverlabel=dict(
+        bgcolor="white",          # Fundo da caixinha branco
+        font_size=14,             # Tamanho da fonte
+        font_color="black",       # Texto em PRETO para contraste total
+        font_family="Arial"
+    ),
     font_color="white",  # só se você quiser manter contraste no dark mode
     margin=dict(t=25, l=0, r=0, b=0)
 )

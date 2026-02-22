@@ -197,13 +197,14 @@ def plot_zscore_por_regiao(df, medida='med_peso'):
         legend=dict(
             font=dict(color='black', size=10),
             orientation="v",
-            yanchor="top",
-            y=0.98,
-            xanchor="right",
-            x=0.98,
-            bgcolor='rgba(255,255,255,0.3)' # Fundo leve na legenda para leitura
+            yanchor="middle",  # Centraliza verticalmente
+            y=0.5,             # No meio do eixo Y
+            xanchor="left",    # Alinha a esquerda da legenda...
+            x=1.02,            # ...com o lado de fora (1.0) do gráfico
+            bgcolor='rgba(255,255,255,0.3)'
         ),
-        margin=dict(t=60, b=40, l=50, r=20)
+        # Aumente a margem direita para a legenda caber
+        margin=dict(t=60, b=40, l=50, r=100)
     )
 
     st.plotly_chart(fig, use_container_width=True)
