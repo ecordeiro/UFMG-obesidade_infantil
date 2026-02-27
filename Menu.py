@@ -15,7 +15,7 @@ st.markdown("""
         color: #5a6c7d;
         font-style: italic;
         margin-top: 0.5rem;
-    }
+    }    
     </style>
 """, unsafe_allow_html=True)
 

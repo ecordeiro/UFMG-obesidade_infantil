@@ -11,6 +11,45 @@ from graficos import (
 # ====================== CONFIGURAÇÃO PÁGINA ================== #
 st.set_page_config(page_title="📌 Prevalência de Obesidade", layout="wide")
 
+st.markdown("""
+<style>
+    /* SELECTBOX - VALOR SELECIONADO VISÍVEL */
+    div[data-baseweb="select"] > div > div {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+        border: 1px solid #d0d5dd !important;
+    }
+    
+    /* Texto do valor selecionado FORÇADO preto */
+    div[data-baseweb="select"] span[title] {
+        color: #000000 !important;
+        background-color: #ffffff !important;
+    }
+    
+    /* Dropdown aberto - opções pretas */
+    div[role="listbox"] div {
+        background-color: #ffffff !important;
+        color: #000000 !important;
+    }
+    
+    /* Opção hover */
+    div[role="option"]:hover {
+        background-color: #f3f4f6 !important;
+        color: #111827 !important;
+    }
+    
+    /* TABS (mantém) */
+    div.stTabs [data-baseweb="tab"] {
+        background-color: #fafbfc !important;
+        color: #262730 !important;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+
+
+
+
 # ======================= MAPEAMENTOS BASE ===================== #
 estados_para_regiao = {
     "Acre": "norte", "Alagoas": "nordeste", "Amapa": "norte", "Amazonas": "norte",
