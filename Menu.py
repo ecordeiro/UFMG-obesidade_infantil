@@ -167,21 +167,21 @@ Secretariat of the Ministry of Health, and the Science and Technology Secretaria
 st.markdown("### Instituições Parceiras")
 
 # Cria mais colunas para adicionar espaçamento nas laterais
-col_space1, col1, col2, col3, col4, col5, col_space2 = st.columns([1, 2, 2, 2, 2, 2, 1])
+col_space1, col1, col2, col3, col4, col5, col_space2 = st.columns([1, 2, 2, 2, 2, 2, 1], vertical_alignment="center")
 
-with col1:
-    st.image("images/cidacs.jpg", width=100)
+with col1:    
+    st.image("images/UFBA.jpg")
 
 with col2:
-    st.image("images/ufmg.jpg", width=100)
+    st.image("images/ufmg.jpg")
 
 with col3:
-    st.image("images/ufcg.jpg", width=100)
+    st.image("images/ufcg.jpg")
 
 with col4:
-    st.image("images/UFRB.jpg", width=100)
+    st.image("images/UFRB.jpg")
 
-with col5:
-    st.image("images/UFBA.jpg", width=100)
+with col5:    
+    st.image("images/cidacs.jpg")
 
 st.markdown("---")
