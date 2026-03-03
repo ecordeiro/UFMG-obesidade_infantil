@@ -47,7 +47,7 @@ def plot_zscore_brasil(df):
         type="line",
         x0=-0.5, x1=len(df['Idade']) - 0.5,
         y0=0, y1=0,
-        line=dict(color="white", width=3, dash="dot")
+        line=dict(color="black", width=3, dash="dot")
     )
 
     # Texto explicativo
@@ -152,7 +152,7 @@ def plot_zscore_por_regiao(df, medida='med_peso'):
         type="line",
         x0=-0.5, x1=len(ordem_idades)-0.5,
         y0=0, y1=0,
-        line=dict(color="white", width=3, dash="dot")
+        line=dict(color="black", width=3, dash="dot")
     )
 
     fig.add_annotation(
@@ -239,7 +239,7 @@ def plot_zscore_por_estado(df, medida='med_peso'):
         type="line",
         x0=-0.5, x1=len(ordem_idades)-0.5,
         y0=0, y1=0,
-        line=dict(color="white", width=3, dash="dot")
+        line=dict(color="black", width=3, dash="dot")
     )
 
     fig.add_annotation(
@@ -549,7 +549,7 @@ def gerar_grafico_radial_obesidade(df, modo='estado'):
     st.plotly_chart(fig, use_container_width=True)
 
 def plot_grafico_geral(df, colunas, titulo="Dados Gerais - IMC/Idade, peso/Idade e altura/Idade"):
-    import plotly.graph_objects as go
+    import plotly.graph_objects as go        
 
     nome_legivel = {
         "med_altura": "Altura/Idade",
@@ -576,9 +576,9 @@ def plot_grafico_geral(df, colunas, titulo="Dados Gerais - IMC/Idade, peso/Idade
         textposition='inside',
         width=0.3,
         textfont=dict(color='black') # Garante cor preta no texto interno
-    ))
+    ))    
 
-    fig.update_layout(
+    fig.update_layout(        
         # 1. Título em preto e negrito
         title=dict(
             text=f"<b>{titulo}</b>",
@@ -586,8 +586,8 @@ def plot_grafico_geral(df, colunas, titulo="Dados Gerais - IMC/Idade, peso/Idade
         ),
         yaxis=dict(
             zeroline=True,
-            zerolinewidth=2,
-            zerolinecolor='gray',
+            zerolinewidth=4,
+            zerolinecolor='black',            
             showgrid=False,
             showticklabels=False
         ),
@@ -595,7 +595,7 @@ def plot_grafico_geral(df, colunas, titulo="Dados Gerais - IMC/Idade, peso/Idade
         xaxis=dict(
             showgrid=False,
             showticklabels=True,
-            tickfont=dict(color='black', family='Arial Black', size=11)
+            tickfont=dict(color='black', family='Arial Black', size=11),            
         ),
         plot_bgcolor='rgba(0,0,0,0)',
         paper_bgcolor='rgba(0,0,0,0)',
@@ -606,7 +606,8 @@ def plot_grafico_geral(df, colunas, titulo="Dados Gerais - IMC/Idade, peso/Idade
         margin=dict(t=50, b=40, l=20, r=20),
         uniformtext_minsize=10,
         uniformtext_mode='hide'
-    )
+    )       
+
 
     return fig
 
